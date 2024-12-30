@@ -1,0 +1,5 @@
+File Operations
+os.Create(): The os.Create() method is used to create a file with the desired name. If a file with the same name already exists, the Create function truncates the file.
+os.ReadFile(): The os.ReadFile() method takes the path to the file to be read as its only parameter. This method returns either the data of the file or an error.os.WriteFile(): The os.WriteFile() method is used to write data to a file. The WriteFile() method takes three parameters: the first is the location of the file we wish to write to, the second is the data object, and the third is the FileMode, which represents the file’s mode and permission bits.
+
+Mehran Mehrdad
