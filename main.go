@@ -1,14 +1,20 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
+	"log"
 	"os"
 	"strings"
 )
 
+const dockPath string = "./test/sampleFile.txt"
+const stopWordFilePath string = "./configs/stopWords.txt"
+
 func main() {
 	fmt.Println("Hello from TF-IDF project.")
-	DocReader("./test/sampleFile.txt")
+	DocReader(dockPath)
+	DocCleanUp(stopWordFilePath)
 }
 
 func DocReader(fileName string) string {
@@ -18,8 +24,41 @@ func DocReader(fileName string) string {
 	}
 
 	fmt.Println("File size: ", len(file))
-	WordCount(string(file))
 	return string(file)
+}
+
+func DocCleanUp(stopWordFilePath string) string {
+	var cleanContent string
+	// stopWordFile, err := os.ReadFile(stopWordFilePath)
+	stopWordFile2, _ := os.Open(stopWordFilePath)
+	// stopWords := string(stopWordFile)
+	uncleanContent := DocReader(dockPath)
+	uncleanContentLowerCase := strings.ToLower(uncleanContent)
+
+	Lines := bufio.NewScanner(stopWordFile2)
+	// optionally, resize scanner's capacity for lines over 64K, see next example
+	for Lines.Scan() {
+		fmt.Println(Lines.Text())
+		cleanContent = strings.Replace(uncleanContentLowerCase, string(Lines.Text()), " ", -1)
+		uncleanContentLowerCase = cleanContent
+	}
+
+	fmt.Println("Debug from scanner: ", uncleanContentLowerCase)
+
+	if err := Lines.Err(); err != nil {
+		log.Fatal(err)
+	}
+	// stopWordFile, err := os.ReadFile(stopWordFilePath)
+	// stopWords := string(stopWordFile)
+	// for _, stopWord := range stopWords {
+	// 	fmt.Println(string(stopWord))
+	// 	cleanContent = strings.Replace(uncleanContentLowerCase, string(stopWord), " ", -1)
+	// 	uncleanContentLowerCase = cleanContent
+	// }
+
+	fmt.Println(uncleanContentLowerCase)
+	WordCount(string(uncleanContentLowerCase))
+	return cleanContent
 }
 
 func WordCount(fileText string) {
