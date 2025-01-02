@@ -9,7 +9,7 @@ import (
 	"strings"
 )
 
-const dockPath string = "./test/sampleFile.txt"
+const dockPath string = "./test/sampleFileTrim.txt"
 const stopWordFilePath string = "./configs/stopWords.txt"
 
 func main() {
@@ -42,15 +42,15 @@ func DocCleanUp(stopWordFilePath string) string {
 		cleanContent = stopWordRegex.ReplaceAllString(uncleanContentLowerCase, " ")
 		uncleanContentLowerCase = cleanContent
 	}
-	// fmt.Println("Debug from scanner: ", uncleanContentLowerCase)
-
 	if err := Lines.Err(); err != nil {
 		log.Fatal(err)
 	}
 
+	cleanData := regexp.MustCompile(`\.\s*`).ReplaceAllString(uncleanContentLowerCase, "\n")
 	fmt.Println(uncleanContentLowerCase)
 	WordCount(string(uncleanContentLowerCase))
-	return cleanContent
+	fmt.Println(cleanData)
+	return cleanData
 }
 
 func WordCount(fileText string) {
