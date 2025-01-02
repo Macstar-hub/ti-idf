@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"regexp"
 	"strings"
 )
 
@@ -29,9 +30,7 @@ func DocReader(fileName string) string {
 
 func DocCleanUp(stopWordFilePath string) string {
 	var cleanContent string
-	// stopWordFile, err := os.ReadFile(stopWordFilePath)
 	stopWordFile2, _ := os.Open(stopWordFilePath)
-	// stopWords := string(stopWordFile)
 	uncleanContent := DocReader(dockPath)
 	uncleanContentLowerCase := strings.ToLower(uncleanContent)
 
@@ -39,22 +38,18 @@ func DocCleanUp(stopWordFilePath string) string {
 	// optionally, resize scanner's capacity for lines over 64K, see next example
 	for Lines.Scan() {
 		fmt.Println(Lines.Text())
-		cleanContent = strings.Replace(uncleanContentLowerCase, string(Lines.Text()), " ", -1)
+		// Define regex:
+		stopWordRegex := regexp.MustCompile(Lines.Text())
+		fmt.Println(stopWordRegex)
+		// cleanContent = strings.Replace(uncleanContentLowerCase, string(Lines.Text()), "", -1)
+		cleanContent = stopWordRegex.ReplaceAllString(uncleanContentLowerCase, " ")
 		uncleanContentLowerCase = cleanContent
 	}
-
 	fmt.Println("Debug from scanner: ", uncleanContentLowerCase)
 
 	if err := Lines.Err(); err != nil {
 		log.Fatal(err)
 	}
-	// stopWordFile, err := os.ReadFile(stopWordFilePath)
-	// stopWords := string(stopWordFile)
-	// for _, stopWord := range stopWords {
-	// 	fmt.Println(string(stopWord))
-	// 	cleanContent = strings.Replace(uncleanContentLowerCase, string(stopWord), " ", -1)
-	// 	uncleanContentLowerCase = cleanContent
-	// }
 
 	fmt.Println(uncleanContentLowerCase)
 	WordCount(string(uncleanContentLowerCase))
