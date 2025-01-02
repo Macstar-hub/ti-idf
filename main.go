@@ -35,17 +35,14 @@ func DocCleanUp(stopWordFilePath string) string {
 	uncleanContentLowerCase := strings.ToLower(uncleanContent)
 
 	Lines := bufio.NewScanner(stopWordFile2)
-	// optionally, resize scanner's capacity for lines over 64K, see next example
 	for Lines.Scan() {
 		fmt.Println(Lines.Text())
-		// Define regex:
 		stopWordRegex := regexp.MustCompile(Lines.Text())
 		fmt.Println(stopWordRegex)
-		// cleanContent = strings.Replace(uncleanContentLowerCase, string(Lines.Text()), "", -1)
 		cleanContent = stopWordRegex.ReplaceAllString(uncleanContentLowerCase, " ")
 		uncleanContentLowerCase = cleanContent
 	}
-	fmt.Println("Debug from scanner: ", uncleanContentLowerCase)
+	// fmt.Println("Debug from scanner: ", uncleanContentLowerCase)
 
 	if err := Lines.Err(); err != nil {
 		log.Fatal(err)
