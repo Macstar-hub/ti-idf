@@ -1,4 +1,4 @@
-# Personal daily assignment tool
+# Personal daily assessment tool
 
 ### Links storage
 - Auto labeling .
