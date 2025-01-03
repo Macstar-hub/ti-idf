@@ -1,1 +1,1 @@
-os.ReadFile(): The os.ReadFile() method takes the path to the file to be read as its only parameter.IDF can be calculated by taking the total number of documents, dividing it by the number of documents that contain a word, and calculating the logarithm. If the word is very common and appears in many documents, this number will approach 0
+Mehran and mehrdad goes to home. and they make happy thier family :)

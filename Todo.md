@@ -6,4 +6,5 @@
                 - [x] make pre check stopwords baaed on regexp lib.
         - [] develop idf function.  
             - [x] Make new lines from all strings with sepecifc delimator.
+            - [] Fix IDF word count per document.  
 

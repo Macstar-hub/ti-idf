@@ -48,12 +48,13 @@ func DocCleanUp(stopWordFilePath string) string {
 
 	cleanData := regexp.MustCompile(`\.\s*`).ReplaceAllString(uncleanContentLowerCase, "\n")
 	fmt.Println(uncleanContentLowerCase)
-	WordCount(string(uncleanContentLowerCase))
-	fmt.Println(cleanData)
+	TFcount(string(uncleanContentLowerCase))
+	IDFcount(cleanData)
+	fmt.Println("all sentences: \n", cleanData)
 	return cleanData
 }
 
-func WordCount(fileText string) {
+func TFcount(fileText string) {
 	words := strings.Fields(fileText)
 	fmt.Println("All words count: ", len(words))
 	for _, word := range words {
@@ -67,4 +68,33 @@ func WordCount(fileText string) {
 		ratio = float64(count) / float64(len(words))
 		fmt.Printf("Word '%v': repeat with %v, and with ratio %v \n", word, count, ratio*100)
 	}
+}
+
+func IDFcount(cleanContent string) {
+	var documentNumber int
+	documentLines := strings.Split(string(cleanContent), "\n")
+
+	// Find total document numbers:
+	for index, _ := range documentLines {
+		documentNumber = index
+	}
+
+	// Iterate over document:
+	for _, documentLine := range documentLines {
+		documentLineNew := strings.Fields(documentLine)
+		// fmt.Printf("All words in document %v are %v \n", index, documentLineNew)
+		var wordSlices []string
+
+		for _, word := range documentLineNew {
+			fmt.Println("Debug each word in document line: ", word)
+			wordSlices = append(wordSlices, word)
+			fmt.Println("Debug word slices: ", wordSlices)
+		}
+
+		for index := range len(wordSlices) {
+			fmt.Println("$$$$$$", wordSlices[index])
+		}
+	}
+
+	fmt.Println("Debug from IDF count: ", documentNumber)
 }
