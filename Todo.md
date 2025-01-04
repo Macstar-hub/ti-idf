@@ -7,4 +7,5 @@
         - [] develop idf function.  
             - [x] Make new lines from all strings with sepecifc delimator.
             - [] Fix IDF word count per document.  
+                - [] Fix document count has word and count them to make idf. 
 
