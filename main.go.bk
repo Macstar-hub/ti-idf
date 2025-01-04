@@ -7,8 +7,6 @@ import (
 	"math"
 	"os"
 	"regexp"
-	"slices"
-	"strconv"
 	"strings"
 )
 
@@ -75,29 +73,16 @@ func TFcount(fileText string) {
 
 func IDFcount(cleanContent string) {
 	var documentNumber int
-	var uncleanBagOfWord []string
 	documentLines := strings.Split(string(cleanContent), "\n")
 	wordRepeatedInDocumnt := make(map[string]int)
-	// counter := 0
-
-	// To Make unclean bag of words.
-	wordCleanContent := strings.Fields(cleanContent)
-	for _, word := range wordCleanContent {
-		uncleanBagOfWord = append(uncleanBagOfWord, word)
-	}
-
-	// To remove dulplication words in bag of word:
-	slices.Sort(uncleanBagOfWord)
-	cleanBagOfWord := slices.Compact(uncleanBagOfWord)
-	// fmt.Println("=========", cleanBagOfWord)
-
+	count := 0
 	// Find total document numbers:
 	for index, _ := range documentLines {
 		documentNumber = index
 	}
 
 	// Iterate over document:
-	for wordCounter, documentLine := range documentLines {
+	for _, documentLine := range documentLines {
 		documentLineNew := strings.Fields(documentLine)
 		var wordSlices []string
 
@@ -107,21 +92,18 @@ func IDFcount(cleanContent string) {
 			wordSlices = append(wordSlices, word)
 		}
 
-		// counter = 0
-		fmt.Println("Documnt: +++++++++++++++")
-		// Find bag of word per document:
-		for index := range len(wordSlices) {
-			for _, word := range cleanBagOfWord {
-				if word == wordSlices[index] {
-					// counter = 1
-					fmt.Println("-------------", "Word: ", word, "Find in document"+strconv.Itoa(wordCounter))
-					// wordRepeatedInDocumnt[wordSlices[index]] = counter
-				}
+		// Determine all repeated word in any sentences slices.
+		for index := range len(wordSlices) - 1 {
+			fmt.Println("Word: ", wordSlices[index], index)
+			if wordSlices[index] == wordSlices[index+1] {
+				count++
+				fmt.Println("***************", wordSlices[index]+": repeat with word: "+wordSlices[index+1]+" with counts: ", count)
+
+				// Make a map with document that contain this wordSlices[index]
+				wordRepeatedInDocumnt[wordSlices[index]] = count
 			}
 		}
 	}
-
-	// fmt.Println("-------------", wordRepeatedInDocumnt)
 
 	// Make IDF calculation with map elements:
 	var ratio float64
