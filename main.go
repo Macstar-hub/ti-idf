@@ -109,16 +109,22 @@ func IDFcount(cleanContent string) {
 
 		// counter = 0
 		fmt.Println("Documnt: +++++++++++++++")
+		var wordInDocument []string
 		// Find bag of word per document:
 		for index := range len(wordSlices) {
 			for _, word := range cleanBagOfWord {
 				if word == wordSlices[index] {
 					// counter = 1
-					fmt.Println("-------------", "Word: ", word, "Find in document"+strconv.Itoa(wordCounter))
+					wordInDocument = append(wordInDocument, word)
+					fmt.Println("Word: ", word, "Find in document"+strconv.Itoa(wordCounter))
 					// wordRepeatedInDocumnt[wordSlices[index]] = counter
 				}
 			}
 		}
+		// Make clean word of documents :
+		slices.Sort(wordInDocument)
+		cleanWordOfDocumnet := slices.Compact(wordInDocument)
+		fmt.Println("-------------", cleanWordOfDocumnet)
 	}
 
 	// fmt.Println("-------------", wordRepeatedInDocumnt)
