@@ -8,7 +8,6 @@ import (
 	"os"
 	"regexp"
 	"slices"
-	"strconv"
 	"strings"
 )
 
@@ -53,7 +52,7 @@ func DocCleanUp(stopWordFilePath string) string {
 	fmt.Println(uncleanContentLowerCase)
 	TFcount(string(uncleanContentLowerCase))
 	IDFcount(cleanData)
-	fmt.Println("all sentences: \n", cleanData)
+	// fmt.Println("all sentences: \n", cleanData)
 	return cleanData
 }
 
@@ -77,8 +76,7 @@ func IDFcount(cleanContent string) {
 	var documentNumber int
 	var uncleanBagOfWord []string
 	documentLines := strings.Split(string(cleanContent), "\n")
-	wordRepeatedInDocumnt := make(map[string]int)
-	// counter := 0
+	bagOfWordMap := make(map[string]int)
 
 	// To Make unclean bag of words.
 	wordCleanContent := strings.Fields(cleanContent)
@@ -89,7 +87,11 @@ func IDFcount(cleanContent string) {
 	// To remove dulplication words in bag of word:
 	slices.Sort(uncleanBagOfWord)
 	cleanBagOfWord := slices.Compact(uncleanBagOfWord)
-	// fmt.Println("=========", cleanBagOfWord)
+
+	// make init map of clean bags of word.
+	for _, word := range cleanBagOfWord {
+		bagOfWordMap[word] = 0
+	}
 
 	// Find total document numbers:
 	for index, _ := range documentLines {
@@ -97,48 +99,47 @@ func IDFcount(cleanContent string) {
 	}
 
 	// Iterate over document:
-	for wordCounter, documentLine := range documentLines {
+	for _, documentLine := range documentLines {
 		documentLineNew := strings.Fields(documentLine)
 		var wordSlices []string
 
 		// Make document to slice format.
 		for _, word := range documentLineNew {
-			// fmt.Println("Debug each word in document line: ", word)
 			wordSlices = append(wordSlices, word)
 		}
 
 		// counter = 0
-		fmt.Println("Documnt: +++++++++++++++")
 		var wordInDocument []string
+
 		// Find bag of word per document:
 		for index := range len(wordSlices) {
 			for _, word := range cleanBagOfWord {
 				if word == wordSlices[index] {
-					// counter = 1
 					wordInDocument = append(wordInDocument, word)
-					fmt.Println("Word: ", word, "Find in document"+strconv.Itoa(wordCounter))
-					// wordRepeatedInDocumnt[wordSlices[index]] = counter
 				}
 			}
 		}
+
 		// Make clean word of documents :
 		slices.Sort(wordInDocument)
 		cleanWordOfDocumnet := slices.Compact(wordInDocument)
-		fmt.Println("-------------", cleanWordOfDocumnet)
+		for _, wordInSlice := range cleanWordOfDocumnet {
+			for wordInBag, value := range bagOfWordMap {
+				if wordInSlice == wordInBag {
+					counter := 0
+					counter++
+					bagOfWordMap[wordInBag] = counter + value
+				}
+			}
+		}
 	}
-
-	// fmt.Println("-------------", wordRepeatedInDocumnt)
 
 	// Make IDF calculation with map elements:
 	var ratio float64
-	for word, count := range wordRepeatedInDocumnt {
+	for word, count := range bagOfWordMap {
 		ratio = 0
-		fmt.Println("==========", word, count)
 		ratio = float64(documentNumber) / float64(count)
 
-		fmt.Println("=========", math.Log10(ratio))
+		fmt.Println("IDF Word: ", word, "Is :", math.Log10(ratio))
 	}
-	// This section for debug purpose.
-	// fmt.Println("***************", wordRepeatedInDocumnt)
-	fmt.Println("Debug from IDF count: ", documentNumber)
 }
