@@ -6,6 +6,7 @@
 [’]
 [{]
 [}]
+[,]
 \sthe\s
 \swhich\s
 \sare\s

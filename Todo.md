@@ -9,4 +9,8 @@
             - [x] Fix IDF word count per document.  
                 - [x] Fix document count has word and count them to make idf. 
         - [] Make Multiple TF And IDF.
-
+            - [x] Make database connection with mysql sample.
+                - [x] Make Insert And Duplication values.
+---
+# Issues : 
+- [] Find duplication values inserted in database.

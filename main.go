@@ -9,6 +9,7 @@ import (
 	"regexp"
 	"slices"
 	"strings"
+	mysqlconnector "tf-idf/cmd/mysql"
 )
 
 // const dockPath string = "./test/sampleFileTrim.txt"
@@ -58,6 +59,7 @@ func DocCleanUp(stopWordFilePath string) string {
 }
 
 func TFcount(fileText string) {
+	bagOfWordMapTF := make(map[string]float64)
 	words := strings.Fields(fileText)
 	fmt.Println("All words count: ", len(words))
 	for _, word := range words {
@@ -69,8 +71,13 @@ func TFcount(fileText string) {
 			}
 		}
 		ratio = float64(count) / float64(len(words))
-		fmt.Printf("Word '%v': repeat with %v, and with ratio %v \n", word, count, ratio*100)
+		bagOfWordMapTF[word] = ratio
+		mysqlconnector.Insert(word, count, ratio, 0)
+
+		// For debug make uncomment below line.
+		// fmt.Printf("Word '%v': repeat with %v, and with ratio %v \n", word, count, ratio*100)
 	}
+	fmt.Println("All TF Output: ", bagOfWordMapTF)
 }
 
 func IDFcount(cleanContent string) {
@@ -141,7 +148,7 @@ func IDFcount(cleanContent string) {
 	for word, count := range bagOfWordMap {
 		ratio = 0
 		ratio = float64(documentNumber) / float64(count)
-
+		mysqlconnector.Update(word, math.Log10(ratio))
 		fmt.Println("IDF Word: ", word, "Is :", math.Log10(ratio))
 	}
 }
