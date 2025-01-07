@@ -12,8 +12,9 @@ import (
 	mysqlconnector "tf-idf/cmd/mysql"
 )
 
-// const dockPath string = "./test/sampleFileTrim.txt"
-const dockPath string = "./test/sampleFile.txt"
+const dockPath string = "./test/sampleFileTrim.txt"
+
+// const dockPath string = "./test/sampleFile.txt"
 const stopWordFilePath string = "./configs/stopWords.txt"
 
 func main() {

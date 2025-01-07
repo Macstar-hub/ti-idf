@@ -13,4 +13,5 @@
                 - [x] Make Insert And Duplication values.
 ---
 # Issues : 
-- [x] Find duplication values inserted in database.
+- [] Find duplication values inserted in database.
+    - [] Find and fix TF function duplication words.
