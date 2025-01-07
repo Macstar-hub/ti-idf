@@ -11,7 +11,8 @@ import (
 	"strings"
 )
 
-const dockPath string = "./test/sampleFileTrim.txt"
+// const dockPath string = "./test/sampleFileTrim.txt"
+const dockPath string = "./test/sampleFile.txt"
 const stopWordFilePath string = "./configs/stopWords.txt"
 
 func main() {
@@ -50,9 +51,9 @@ func DocCleanUp(stopWordFilePath string) string {
 
 	cleanData := regexp.MustCompile(`\.\s*`).ReplaceAllString(uncleanContentLowerCase, "\n")
 	fmt.Println(uncleanContentLowerCase)
-	TFcount(string(uncleanContentLowerCase))
+	// TFcount(string(uncleanContentLowerCase))
+	TFcount(string(cleanData))
 	IDFcount(cleanData)
-	// fmt.Println("all sentences: \n", cleanData)
 	return cleanData
 }
 
@@ -108,7 +109,6 @@ func IDFcount(cleanContent string) {
 			wordSlices = append(wordSlices, word)
 		}
 
-		// counter = 0
 		var wordInDocument []string
 
 		// Find bag of word per document:
@@ -123,6 +123,8 @@ func IDFcount(cleanContent string) {
 		// Make clean word of documents :
 		slices.Sort(wordInDocument)
 		cleanWordOfDocumnet := slices.Compact(wordInDocument)
+
+		// Compare all word bag with word current sentence.
 		for _, wordInSlice := range cleanWordOfDocumnet {
 			for wordInBag, value := range bagOfWordMap {
 				if wordInSlice == wordInBag {
