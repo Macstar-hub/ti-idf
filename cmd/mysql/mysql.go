@@ -83,8 +83,7 @@ func Update(word string, idf float64) {
 		TableName: TableName,
 	}
 	db := MakeConnectionToDB()
-	// defer db.Close()
-	fmt.Printf("Debug from mysql connector: update %v set idf = %v where word = '%v' \n", tableInfo.TableName, idf, word)
+	defer db.Close()
 	var uodateQuery = fmt.Sprintf("update %v set idf = %v where word = '%v'", tableInfo.TableName, idf, word)
 	update, err := db.Query(uodateQuery)
 

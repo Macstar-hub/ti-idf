@@ -13,4 +13,4 @@
                 - [x] Make Insert And Duplication values.
 ---
 # Issues : 
-- [] Find duplication values inserted in database.
+- [x] Find duplication values inserted in database.
