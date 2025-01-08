@@ -15,4 +15,4 @@
 # Issues : 
 - [] Find duplication values inserted in database.
     - [] Find and fix TF function duplication words.
-- [] Fix too many connection to databases error.
+- [x] Fix too many connection to databases error.
