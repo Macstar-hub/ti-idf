@@ -16,6 +16,7 @@ type Tabelinfo struct {
 	Count     int     `json:"count"`
 	TF        float64 `json:"tf"`
 	IDF       float64 `json:"idf"`
+	TFDIDF    float64 `json:"tfidf"`
 	TableName string
 }
 
@@ -86,19 +87,31 @@ func Update(word string, idf float64) {
 	defer db.Close()
 	var uodateQuery = fmt.Sprintf("update %v set idf = %v where word = '%v'", tableInfo.TableName, idf, word)
 	update, err := db.Query(uodateQuery)
-
 	if err != nil {
 		panic(err.Error())
 
 	}
 	defer update.Close()
 
+	var updateTFIDF = fmt.Sprintf("update %v set tfidf = %v", tableInfo.TableName, 0)
+	updatetfidf, err := db.Query(updateTFIDF)
+	if err != nil {
+		panic(err.Error())
+
+	}
+	defer updatetfidf.Close()
+
 }
 
-func SelectQury() UsersInfoTable {
+// func SelectQury() UsersInfoTable {
+func SelectQury() {
 	var word []string
 	var tf []float64
 	var idf []float64
+	tableInfo := Tabelinfo{
+		Word:      `json:"word"`,
+		TableName: TableName,
+	}
 	// var usersInfosTable Tabelinfo
 	var usersTable Tabelinfo
 
@@ -110,7 +123,7 @@ func SelectQury() UsersInfoTable {
 	defer db.Close()
 
 	for selectQuery.Next() {
-		err = selectQuery.Scan(&usersTable.Word, &usersTable.TF, &usersTable.IDF)
+		err = selectQuery.Scan(&usersTable.Word, &usersTable.Count, &usersTable.TF, &usersTable.IDF, &usersTable.TFDIDF)
 		if err != nil {
 			panic(err.Error())
 		}
@@ -118,14 +131,18 @@ func SelectQury() UsersInfoTable {
 		word = append(word, usersTable.Word)
 		tf = append(tf, usersTable.TF)
 		idf = append(idf, usersTable.IDF)
+
+		// Add TF-IDF each word:
+		var updateQuery = fmt.Sprintf("update %v set tfidf = %v where word = '%v'", tableInfo.TableName, usersTable.TF*usersTable.IDF, usersTable.Word)
+		update, err := db.Query(updateQuery)
+		update.Close()
+		if err != nil {
+			panic(err.Error())
+
+		}
+		defer update.Close()
+
+		fmt.Println("Word: ", usersTable.Word, "And TF * IDF is: ", usersTable.TF*usersTable.IDF)
 		defer db.Close()
 	}
-	UsersInfoTable := UsersInfoTable{
-		Firstnames:   firstNameList,
-		LastName:     lastNameList,
-		Email:        emailNameList,
-		TicketNumber: ticketNumberList,
-	}
-	fmt.Println("Len count is: ", len(UsersInfoTable.Firstnames))
-	return UsersInfoTable
 }

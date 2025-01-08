@@ -21,4 +21,7 @@
 \san\s
 \sa\s
 \sbe\s
+\sas\s
+\sby\s
+\sthe\s
 \swill\s

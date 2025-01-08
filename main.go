@@ -12,9 +12,10 @@ import (
 	mysqlconnector "tf-idf/cmd/mysql"
 )
 
-const dockPath string = "./test/sampleFileTrim.txt"
-
+// const dockPath string = "./test/sampleFileTrim.txt"
 // const dockPath string = "./test/sampleFile.txt"
+
+const dockPath string = "./test/sampleFile-2.txt"
 const stopWordFilePath string = "./configs/stopWords.txt"
 
 func main() {
@@ -78,7 +79,7 @@ func TFcount(fileText string) {
 		// For debug make uncomment below line.
 		// fmt.Printf("Word '%v': repeat with %v, and with ratio %v \n", word, count, ratio*100)
 	}
-	fmt.Println("All TF Output: ", bagOfWordMapTF)
+	// fmt.Println("All TF Output: ", bagOfWordMapTF)
 }
 
 func IDFcount(cleanContent string) {
@@ -152,4 +153,5 @@ func IDFcount(cleanContent string) {
 		mysqlconnector.Update(word, math.Log10(ratio))
 		fmt.Println("IDF Word: ", word, "Is :", math.Log10(ratio))
 	}
+	mysqlconnector.SelectQury()
 }

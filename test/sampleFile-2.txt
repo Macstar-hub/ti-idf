@@ -1,0 +1,5 @@
+Code lines to explain from the example above:
+First, we set up the SQL query that selects the id, firstname and lastname columns from the MyGuests table. The records will be ordered by the lastname column. The next line of code runs the query and puts the resulting data into a variable called $result.
+Then, the function num_rows() checks if there are more than zero rows returned.
+If there are more than zero rows returned, the function fetch_assoc() puts all the results into an associative array that we can loop through. The while() loop loops through the result set and outputs the data from the id, firstname and lastname columns.
+The following example shows the same as the example above, in the MySQLi procedural way:
