@@ -20,6 +20,7 @@
         - [] Make post links page.
         - [] Make links list page.
         - [] Make authentication with keycloak.
+        - [] Make web crawling with go colly.
     - [] Make post all docs throw kafka.
         - [] Procces TF-IDF Module throw kafka.
         - [] Make back-pressure throw kafka.
