@@ -95,39 +95,37 @@ func Update(word string, idf float64) {
 
 }
 
-// func SelectQury() UsersInfoTable {
-// 	var firstNameList []string
-// 	var lastNameList []string
-// 	var emailNameList []string
-// 	var ticketNumberList []int
-// 	// var usersInfosTable Tabelinfo
-// 	var usersTable Tabelinfo
+func SelectQury() UsersInfoTable {
+	var word []string
+	var tf []float64
+	var idf []float64
+	// var usersInfosTable Tabelinfo
+	var usersTable Tabelinfo
 
-// 	db := MakeConnectionToDB()
-// 	selectQuery, err := db.Query("select * from users") // For example: db.Query("select * from users")
-// 	if err != nil {
-// 		panic(err.Error())
-// 	}
-// 	defer db.Close()
+	db := MakeConnectionToDB()
+	selectQuery, err := db.Query("select * from word") // For example: db.Query("select * from users")
+	if err != nil {
+		panic(err.Error())
+	}
+	defer db.Close()
 
-// 	for selectQuery.Next() {
-// 		err = selectQuery.Scan(&usersTable.FirstName, &usersTable.Lastname, &usersTable.Email, &usersTable.TicketNumber)
-// 		if err != nil {
-// 			panic(err.Error())
-// 		}
-// 		// fmt.Println("Value from database: ", usersTable.FirstName, usersTable.Lastname, usersTable.Email, usersTable.TicketNumber)
-// 		firstNameList = append(firstNameList, usersTable.FirstName)
-// 		lastNameList = append(lastNameList, usersTable.Lastname)
-// 		emailNameList = append(emailNameList, usersTable.Email)
-// 		ticketNumberList = append(ticketNumberList, usersTable.TicketNumber)
-// 		defer db.Close()
-// 	}
-// 	UsersInfoTable := UsersInfoTable{
-// 		Firstnames:   firstNameList,
-// 		LastName:     lastNameList,
-// 		Email:        emailNameList,
-// 		TicketNumber: ticketNumberList,
-// 	}
-// 	fmt.Println("Len count is: ", len(UsersInfoTable.Firstnames))
-// 	return UsersInfoTable
-// }
+	for selectQuery.Next() {
+		err = selectQuery.Scan(&usersTable.Word, &usersTable.TF, &usersTable.IDF)
+		if err != nil {
+			panic(err.Error())
+		}
+		// fmt.Println("Value from database: ", usersTable.FirstName, usersTable.Lastname, usersTable.Email, usersTable.TicketNumber)
+		word = append(word, usersTable.Word)
+		tf = append(tf, usersTable.TF)
+		idf = append(idf, usersTable.IDF)
+		defer db.Close()
+	}
+	UsersInfoTable := UsersInfoTable{
+		Firstnames:   firstNameList,
+		LastName:     lastNameList,
+		Email:        emailNameList,
+		TicketNumber: ticketNumberList,
+	}
+	fmt.Println("Len count is: ", len(UsersInfoTable.Firstnames))
+	return UsersInfoTable
+}
