@@ -25,3 +25,7 @@
 \sby\s
 \sthe\s
 \swill\s
+\sof\s
+\sin\s
+\sfor\s
+\sit\s
