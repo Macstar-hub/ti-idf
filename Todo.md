@@ -16,3 +16,4 @@
 - [] Find duplication values inserted in database.
     - [] Find and fix TF function duplication words.
 - [x] Fix too many connection to databases error.
+- [] How to reuse old tcp connction to db in new operation.
