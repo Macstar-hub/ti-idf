@@ -17,7 +17,7 @@
 
     - [] Make API docs: 
         - [x] Make landing page.
-        - [] Make post links page.
+        - [x] Make post links page.
         - [] Make links list page.
         - [] Make authentication with keycloak.
         - [] Make web crawling with go colly.
