@@ -147,6 +147,7 @@ func SelectQury() {
 	}
 }
 
+// Fuction for add links and labels name.
 func InsertLabels(link string, name string, lable1 string, lable2 string, lable3 string) {
 	tableName := "links"
 	db := MakeConnectionToDB()
@@ -155,8 +156,19 @@ func InsertLabels(link string, name string, lable1 string, lable2 string, lable3
 	insert, err := db.Query(insertQuery)
 	if err != nil {
 		panic(err.Error())
-
 	}
-	// fmt.Println(insert.Columns())
 	defer insert.Close()
+}
+
+// Function for show all labels.
+func ShowLabels() {
+	TableName := "links"
+	db := MakeConnectionToDB()
+	defer db.Close()
+	var selectAllLabels = fmt.Sprintf("select * from %v", TableName)
+	selectAllValues, err := db.Query(selectAllLabels)
+	if err != nil {
+		panic(err.Error())
+	}
+	defer selectAllValues.Close()
 }

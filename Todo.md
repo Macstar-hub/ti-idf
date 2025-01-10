@@ -16,11 +16,12 @@
         - [] Make Topic Modeling.
 
     - [] Make API docs: 
-        - [] Make landing page.
+        - [x] Make landing page.
         - [] Make post links page.
         - [] Make links list page.
         - [] Make authentication with keycloak.
         - [] Make web crawling with go colly.
+        - [] If possible make figma design.
     - [] Make post all docs throw kafka.
         - [] Procces TF-IDF Module throw kafka.
         - [] Make back-pressure throw kafka.
