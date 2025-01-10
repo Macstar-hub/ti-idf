@@ -146,3 +146,17 @@ func SelectQury() {
 		defer db.Close()
 	}
 }
+
+func InsertLabels(link string, name string, lable1 string, lable2 string, lable3 string) {
+	tableName := "links"
+	db := MakeConnectionToDB()
+	defer db.Close()
+	var insertQuery = fmt.Sprintf("insert into %v(link, name, lable, lable1, lable2) values ('%v', '%v', '%v', '%v', '%v')", tableName, link, name, lable1, lable2, lable3)
+	insert, err := db.Query(insertQuery)
+	if err != nil {
+		panic(err.Error())
+
+	}
+	// fmt.Println(insert.Columns())
+	defer insert.Close()
+}

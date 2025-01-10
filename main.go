@@ -9,7 +9,10 @@ import (
 	"regexp"
 	"slices"
 	"strings"
+	httppost "tf-idf/cmd/api"
 	mysqlconnector "tf-idf/cmd/mysql"
+
+	"github.com/gin-gonic/gin"
 )
 
 // const dockPath string = "./test/sampleFileTrim.txt"
@@ -22,6 +25,7 @@ func main() {
 	fmt.Println("Hello from TF-IDF project.")
 	DocReader(dockPath)
 	DocCleanUp(stopWordFilePath)
+	LandigPage()
 }
 
 func DocReader(fileName string) string {
@@ -154,4 +158,11 @@ func IDFcount(cleanContent string) {
 		fmt.Println("IDF Word: ", word, "Is :", math.Log10(ratio))
 	}
 	mysqlconnector.SelectQury()
+}
+
+func LandigPage() {
+	server := gin.Default()
+	server.StaticFile("/", "./web/landingPages/linkSubmit.html")
+	server.POST("/api/v1/postLinks", httppost.PostLabels)
+	server.Run(":80")
 }
