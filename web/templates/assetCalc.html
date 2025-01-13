@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asset Calculation Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .title {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .price {
+            font-size: 36px;
+            font-weight: bold;
+            color: green;
+            margin-top: 10px;
+        }
+        .label {
+            font-size: 18px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Asset Calculation Result</div>
+        <div class="label">Total Asset Value:</div>
+        <div id="totalAsset" class="price">$0.00</div>
+    </div>
+
+    <script>
+        // Example JavaScript to set the total asset value
+        document.getElementById('totalAsset').textContent = '${{ .totalAsset }}';
+    </script>
+</body>
+</html>

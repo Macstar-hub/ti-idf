@@ -162,7 +162,10 @@ func IDFcount(cleanContent string) {
 
 func LandigPage() {
 	server := gin.Default()
+	server.LoadHTMLGlob("./web/**/*")
 	server.StaticFile("/", "./web/landingPages/linkSubmit.html")
+	server.StaticFile("/assetcalc", "./web/landingPages/assetCalc.html")
 	server.POST("/api/v1/postLinks", httppost.PostLabels)
+	server.POST("/api/v1/assetcalc", httppost.CalcAsset)
 	server.Run(":80")
 }
