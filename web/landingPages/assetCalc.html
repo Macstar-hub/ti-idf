@@ -3,65 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asset Calculcation</title>
+    <title>Asset Calculation</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
-            padding: 0;
             background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
         }
-        .container {
-            max-width: 600px;
-            margin: auto;
+
+        .side-menu {
+            background-color: #333;
+            color: #fff;
+            width: 200px;
             padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
         }
+
+        .side-menu a {
+            color: #fff;
+            text-decoration: none;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 4px;
+            text-align: center;
+        }
+
+        .side-menu a:hover {
+            background-color: #444;
+        }
+
+        .container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .content {
+            max-width: 600px;
+            width: 100%;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
         .form-group {
             margin-bottom: 15px;
         }
-        .form-group label {
+
+        label {
             display: block;
+            font-weight: bold;
             margin-bottom: 5px;
         }
-        .form-group input {
+
+        input[type="text"] {
             width: 100%;
-            padding: 8px;
-            box-sizing: border-box;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
         }
-        .form-group button {
-            padding: 10px 15px;
+
+        button {
+            padding: 10px 20px;
             background-color: #007BFF;
             color: #fff;
             border: none;
+            border-radius: 5px;
             cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .home-button {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .home-button button {
+            width: 100%;
         }
     </style>
 </head>
 <body>
+    <div class="side-menu">
+        <a href="/">Home</a>
+        <a href="/addlink">Add Link Page</a>
+        <a href="/assetcalc">Asset Calculator</a>
+    </div>
     <div class="container">
-        <h2>Submit Asset Information</h2>
-        <form action="/api/v1/assetcalc" method="post">
-            <div class="form-group">
-                <label for="assetGeram">Asset Geram:</label>
-                <input type="text" id="assetGeram" name="assetGeram" required>
+        <div class="content">
+            <h2>Submit Asset Information</h2>
+            <form action="/api/v1/assetcalc" method="post">
+                <div class="form-group">
+                    <label for="assetGeram">Asset Geram:</label>
+                    <input type="text" id="assetGeram" name="assetGeram" required>
+                </div>
+                <div class="form-group">
+                    <label for="newCoin">New Coin:</label>
+                    <input type="text" id="newCoin" name="newCoin" required>
+                </div>
+                <div class="form-group">
+                    <label for="oldCoin">Old Coin:</label>
+                    <input type="text" id="oldCoin" name="oldCoin" required>
+                </div>
+                <div class="form-group">
+                    <label for="semiCoin">Semi Coin:</label>
+                    <input type="text" id="semiCoin" name="semiCoin" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+            <div class="home-button">
+                <button onclick="window.location.href='/';">Go to Home</button>
             </div>
-            <div class="form-group">
-                <label for="newCoin">New Coin:</label>
-                <input type="text" id="newCoin" name="newCoin" required>
-            </div>
-            <div class="form-group">
-                <label for="oldCoin">Old Coin:</label>
-                <input type="text" id="oldCoin" name="oldCoin" required>
-            </div>
-            <div class="form-group">
-                <label for="semiCoin">Semi Coin:</label>
-                <input type="text" id="semiCoin" name="semiCoin" required>
-            <div class="form-group">
-                <button type="submit">Submit</button>
-            </div>
-        </form>
+        </div>
     </div>
 </body>
 </html>

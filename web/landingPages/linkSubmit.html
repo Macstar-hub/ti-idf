@@ -7,27 +7,67 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
-            padding: 0;
             background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
         }
-        .container {
-            max-width: 600px;
-            margin: auto;
+
+        .side-menu {
+            background-color: #333;
+            color: #fff;
+            width: 200px;
             padding: 20px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .side-menu a {
+            color: #fff;
+            text-decoration: none;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 4px;
+            text-align: center;
+        }
+
+        .side-menu a:hover {
+            background-color: #444;
+        }
+
+        .container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content {
+            max-width: 600px;
+            width: 100%;
             background: #fff;
-            border: 1px solid #ccc;
+            padding: 20px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
         .form-group {
             margin-bottom: 15px;
         }
+
         label {
             display: block;
             font-weight: bold;
             margin-bottom: 5px;
         }
+
         input[type="text"] {
             width: 100%;
             padding: 10px;
@@ -35,6 +75,7 @@
             border: 1px solid #ccc;
             border-radius: 5px;
         }
+
         button {
             padding: 10px 20px;
             background-color: #007BFF;
@@ -43,40 +84,57 @@
             border-radius: 5px;
             cursor: pointer;
         }
+
         button:hover {
             background-color: #0056b3;
+        }
+
+        .left-button {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .left-button button {
+            width: 100%;
         }
     </style>
 </head>
 <body>
+    <div class="side-menu">
+        <a href="/">Home</a>
+        <a href="/assetcalc">Asset Calculator</a>
+        <a href="/addlink">Add Link Page</a>
+    </div>
     <div class="container">
-        <h1>Add Link Page</h1>
-        <div class="left-button">
-            <button onclick="window.location.href='/assetcalc';">Go to Asset Calculator</button>
+        <div class="content">
+            <h1>Add Link Page</h1>
+            <div class="left-button">
+                <button onclick="window.location.href='/assetcalc';">Go to Asset Calculator</button>
+            </div>
+            <form action="/api/v1/postLinks" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter name" required>
+                </div>
+                <div class="form-group">
+                    <label for="link">Link:</label>
+                    <input type="text" id="link" name="link" placeholder="Enter URL" required>
+                </div>
+                <div class="form-group">
+                    <label for="label1">Label 1:</label>
+                    <input type="text" id="label1" name="label1" placeholder="Enter label 1">
+                </div>
+                <div class="form-group">
+                    <label for="label2">Label 2:</label>
+                    <input type="text" id="label2" name="label2" placeholder="Enter label 2">
+                </div>
+                <div class="form-group">
+                    <label for="label3">Label 3:</label>
+                    <input type="text" id="label3" name="label3" placeholder="Enter label 3">
+                </div>
+                <button type="submit">Submit</button>
+            </form>
         </div>
-        <form action="/api/v1/postLinks" method="POST">
-            <div class="form-group">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder="Enter name" required>
-            </div>
-            <div class="form-group">
-                <label for="link">Link:</label>
-                <input type="text" id="link" name="link" placeholder="Enter URL" required>
-            </div>
-            <div class="form-group">
-                <label for="label1">Label 1:</label>
-                <input type="text" id="label1" name="label1" placeholder="Enter label 1">
-            </div>
-            <div class="form-group">
-                <label for="label2">Label 2:</label>
-                <input type="text" id="label2" name="label2" placeholder="Enter label 2">
-            </div>
-            <div class="form-group">
-                <label for="label3">Label 3:</label>
-                <input type="text" id="label3" name="label3" placeholder="Enter label 3">
-            </div>
-            <button type="submit">Submit</button>
-        </form>
     </div>
 </body>
 </html>

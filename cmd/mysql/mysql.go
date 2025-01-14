@@ -180,40 +180,6 @@ func ShowLabels() {
 }
 
 // Function For Show Pice Gold.
-func SelectPrice() (*sql.Rows, *sql.Rows, *sql.Rows, *sql.Rows) {
-	TableName := "price"
-	db := MakeConnectionToDB()
-	defer db.Close()
-	var GoldPrice = fmt.Sprintf("select goldprice from %v", TableName)
-	goldPrice, err := db.Query(GoldPrice)
-	if err != nil {
-		panic(err.Error())
-	}
-	defer goldPrice.Close()
-
-	var NewCoinPrice = fmt.Sprintf("select newcoinprice from %v", TableName)
-	newCoinPrice, err := db.Query(NewCoinPrice)
-	if err != nil {
-		panic(err.Error())
-	}
-	defer newCoinPrice.Close()
-
-	var OldCoinPrice = fmt.Sprintf("select newcoinprice from %v", TableName)
-	oldCoinPrice, err := db.Query(OldCoinPrice)
-	if err != nil {
-		panic(err.Error())
-	}
-	defer oldCoinPrice.Close()
-
-	var SemiCoinPrice = fmt.Sprintf("select newcoinprice from %v", TableName)
-	semiCoinPrice, err := db.Query(SemiCoinPrice)
-	if err != nil {
-		panic(err.Error())
-	}
-	defer semiCoinPrice.Close()
-	return goldPrice, newCoinPrice, oldCoinPrice, semiCoinPrice
-}
-
 func SelectPriceGold() (int, int, int, int) {
 
 	// var usersInfosTable Tabelinfo
@@ -231,8 +197,7 @@ func SelectPriceGold() (int, int, int, int) {
 		if err != nil {
 			panic(err.Error())
 		}
-		fmt.Println(asstStruct.GoldPrice, asstStruct.NewCoinPrice, asstStruct.OldCoinPrice, asstStruct.SemiCoinPrice)
-		defer db.Close()
 	}
+	defer db.Close()
 	return asstStruct.GoldPrice, asstStruct.NewCoinPrice, asstStruct.OldCoinPrice, asstStruct.SemiCoinPrice
 }

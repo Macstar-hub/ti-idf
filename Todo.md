@@ -11,10 +11,17 @@
         - [x] Make Multiple TF And IDF.
             - [x] Make database connection with mysql sample.
                 - [x] Make Insert And Duplication values.
+                
         - [] Make use wevaite or qudarant Vector DB instead of mysql.
 
         - [] Make Topic Modeling.
-
+    
+    - [] Make asset manager page:
+        - [x] Make home page.
+        - [x] Make asset calcuation.
+        - [x] Make asset DB Qurty function. 
+        - [x] Make udpate function asset price from telegram.
+        - [] Make asset resault page.
     - [] Make API docs: 
         - [x] Make landing page.
         - [x] Make post links page.
