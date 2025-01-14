@@ -1,7 +1,6 @@
 package httppost
 
 import (
-	"fmt"
 	"net/http"
 
 	strconv "strconv"
@@ -33,20 +32,10 @@ func CalcAsset(body *gin.Context) {
 	semiCoin, _ := strconv.Atoi(body.PostForm("semiCoin"))
 
 	// Get price from mysql
-	// goldPrice, newCoinPrice, oldCoinPrice, semiCoinPrice := mysqlconnector.SelectPrice()
-	// GoldPrice, _ := strconv.Atoi(goldPrice)
-	// NewCoinPrice, _ := strconv.Atoi(newCoinPrice)
-	// OldCoinPrice, _ := strconv.Atoi(oldCoinPrice)
-	// SemiCoinPrice, _ := strconv.Atoi(semiCoinPrice)
+	goldPrice, newCoinPrice, oldCoinPrice, semiCoinPrice := mysqlconnector.SelectPriceGold()
 
-	GoldPrice := 5322100
-	NewCoinPrice := 56950000
-	OldCoinPrice := 54650000
-	SemiCoinPrice := 31500000
+	totalAsset := (assetGeram * goldPrice) + (newCoin * newCoinPrice) + (oldCoin * oldCoinPrice) + (semiCoin * semiCoinPrice)
 
-	fmt.Println(assetGeram, newCoin, oldCoin, semiCoin)
-	totalAsset := (assetGeram * GoldPrice) + (newCoin * NewCoinPrice) + (oldCoin * OldCoinPrice) + (semiCoin * SemiCoinPrice)
+	// Render all Gold asset
 	body.HTML(http.StatusOK, "assetCalc.html", gin.H{"totalAsset": totalAsset})
-
-	fmt.Println("Total asset is: ", totalAsset)
 }

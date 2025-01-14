@@ -19,6 +19,12 @@ type Tabelinfo struct {
 	TFDIDF    float64 `json:"tfidf"`
 	TableName string
 }
+type Asset struct {
+	GoldPrice     int `json:"goldprice"`
+	NewCoinPrice  int `json:"newcoinprice"`
+	OldCoinPrice  int `json:"oldcoinprice"`
+	SemiCoinPrice int `json:"semicoinprice"`
+}
 
 type SqlConfig struct {
 	Password     string
@@ -173,6 +179,7 @@ func ShowLabels() {
 	defer selectAllValues.Close()
 }
 
+// Function For Show Pice Gold.
 func SelectPrice() (*sql.Rows, *sql.Rows, *sql.Rows, *sql.Rows) {
 	TableName := "price"
 	db := MakeConnectionToDB()
@@ -205,4 +212,27 @@ func SelectPrice() (*sql.Rows, *sql.Rows, *sql.Rows, *sql.Rows) {
 	}
 	defer semiCoinPrice.Close()
 	return goldPrice, newCoinPrice, oldCoinPrice, semiCoinPrice
+}
+
+func SelectPriceGold() (int, int, int, int) {
+
+	// var usersInfosTable Tabelinfo
+	var asstStruct Asset
+
+	db := MakeConnectionToDB()
+	selectQuery, err := db.Query("select * from price") // For example: db.Query("select * from users")
+	if err != nil {
+		panic(err.Error())
+	}
+	defer db.Close()
+
+	for selectQuery.Next() {
+		err = selectQuery.Scan(&asstStruct.GoldPrice, &asstStruct.NewCoinPrice, &asstStruct.OldCoinPrice, &asstStruct.SemiCoinPrice)
+		if err != nil {
+			panic(err.Error())
+		}
+		fmt.Println(asstStruct.GoldPrice, asstStruct.NewCoinPrice, asstStruct.OldCoinPrice, asstStruct.SemiCoinPrice)
+		defer db.Close()
+	}
+	return asstStruct.GoldPrice, asstStruct.NewCoinPrice, asstStruct.OldCoinPrice, asstStruct.SemiCoinPrice
 }
