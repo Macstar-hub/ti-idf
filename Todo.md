@@ -16,19 +16,20 @@
 
         - [] Make Topic Modeling.
     
-    - [] Make asset manager page:
+    - [x] Make asset manager page:
         - [x] Make home page.
         - [x] Make asset calcuation.
         - [x] Make asset DB Qurty function. 
         - [x] Make udpate function asset price from telegram.
-        - [] Make asset resault page.
+        - [x] Make asset resault page.
+        - [] Make asset price bot with telegram source.
     - [] Make API docs: 
         - [x] Make landing page.
         - [x] Make post links page.
-        - [] Make links list page.
+        - [x] Make links list page.
         - [] Make authentication with keycloak.
         - [] Make web crawling with go colly.
-        - [] If possible make figma design.
+        
     - [] Make post all docs throw kafka.
         - [] Procces TF-IDF Module throw kafka.
         - [] Make back-pressure throw kafka.
