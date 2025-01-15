@@ -26,6 +26,22 @@ type Asset struct {
 	SemiCoinPrice int `json:"semicoinprice"`
 }
 
+type ShowLinksStruct struct {
+	Link   string `json:"link"`
+	Name   string `json:"name"`
+	Label  string `json:"label"`
+	Label1 string `json:"label1"`
+	Label2 string `json:"label2"`
+}
+
+type ShowLinksStructList struct {
+	Link   []string
+	Name   []string
+	Label  []string
+	Label1 []string
+	Label2 []string
+}
+
 type SqlConfig struct {
 	Password     string
 	UserName     string
@@ -200,4 +216,49 @@ func SelectPriceGold() (int, int, int, int) {
 	}
 	defer db.Close()
 	return asstStruct.GoldPrice, asstStruct.NewCoinPrice, asstStruct.OldCoinPrice, asstStruct.SemiCoinPrice
+}
+
+// Render all links in table.
+func ShowLinks() ShowLinksStructList {
+
+	var Link []string
+	var Name []string
+	var Lable []string
+	var Label1 []string
+	var Lable2 []string
+	// var usersInfosTable Tabelinfo
+	var showLinksStruct ShowLinksStruct
+
+	db := MakeConnectionToDB()
+	selectQuery, err := db.Query("select * from links")
+	if err != nil {
+		panic(err.Error())
+	}
+	defer db.Close()
+
+	for selectQuery.Next() {
+		err = selectQuery.Scan(&showLinksStruct.Link, &showLinksStruct.Name, &showLinksStruct.Label, &showLinksStruct.Label1, &showLinksStruct.Label2)
+
+		Link = append(Link, showLinksStruct.Link)
+		Name = append(Name, showLinksStruct.Name)
+		Lable = append(Lable, showLinksStruct.Label)
+		Label1 = append(Label1, showLinksStruct.Label1)
+		Lable2 = append(Lable2, showLinksStruct.Label2)
+
+		if err != nil {
+			panic(err.Error())
+		}
+	}
+	fmt.Println("++++++++++++++++", showLinksStruct.Link, showLinksStruct.Name, showLinksStruct.Label, showLinksStruct.Label1, showLinksStruct.Label2)
+
+	showLinksStructList := ShowLinksStructList{
+		Link:   Link,
+		Name:   Name,
+		Label:  Lable,
+		Label1: Label1,
+		Label2: Lable2,
+	}
+
+	defer db.Close()
+	return showLinksStructList
 }

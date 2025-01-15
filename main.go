@@ -157,6 +157,8 @@ func IDFcount(cleanContent string) {
 		mysqlconnector.Update(word, math.Log10(ratio))
 		fmt.Println("IDF Word: ", word, "Is :", math.Log10(ratio))
 	}
+	// debug
+	mysqlconnector.ShowLinks()
 	mysqlconnector.SelectQury()
 }
 
@@ -167,5 +169,6 @@ func LandigPage() {
 	server.StaticFile("/assetcalc", "./web/landingPages/assetCalc.html")
 	server.POST("/api/v1/postLinks", httppost.PostLabels)
 	server.POST("/api/v1/assetcalc", httppost.CalcAsset)
+	server.GET("/api/v1/linkslist", httppost.ShowLinks)
 	server.Run(":80")
 }

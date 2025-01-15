@@ -1,6 +1,7 @@
 package httppost
 
 import (
+	"fmt"
 	"net/http"
 
 	strconv "strconv"
@@ -21,7 +22,7 @@ func PostLabels(body *gin.Context) {
 	// Insert data to mysql
 	mysqlconnector.InsertLabels(links, name, label1, label2, label3)
 
-	body.Redirect(http.StatusFound, "/")
+	body.Redirect(http.StatusFound, "/api/v1/linkslist")
 }
 
 func CalcAsset(body *gin.Context) {
@@ -38,4 +39,27 @@ func CalcAsset(body *gin.Context) {
 
 	// Render all Gold asset
 	body.HTML(http.StatusOK, "assetCalc.html", gin.H{"totalAsset": totalAsset})
+}
+
+// Render all links in table.
+func ShowLinks(body *gin.Context) {
+
+	// // Get price from mysql
+	showLinksStruct := mysqlconnector.ShowLinks()
+	allRecords := len(showLinksStruct.Link)
+	var links []gin.H
+	for i := 0; i < allRecords; i++ {
+
+		links = append(links, gin.H{
+			"Links":  showLinksStruct.Link[i],
+			"Name":   showLinksStruct.Name[i],
+			"Label":  showLinksStruct.Label[i],
+			"Label1": showLinksStruct.Label1[i],
+			"Label2": showLinksStruct.Label2[i],
+		})
+		fmt.Println("===============", showLinksStruct)
+	}
+	body.HTML(http.StatusOK, "allLinks.html", gin.H{
+		"Links": links,
+	})
 }
