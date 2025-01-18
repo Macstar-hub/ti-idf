@@ -13,8 +13,8 @@ import (
 func PostLabels(body *gin.Context) {
 
 	// Input valuse sections:
-	links := body.PostForm("link")
-	name := body.PostForm("name")
+	links  := body.PostForm("link")
+	name   := body.PostForm("name")
 	label1 := body.PostForm("label1")
 	label2 := body.PostForm("label2")
 	label3 := body.PostForm("label3")
