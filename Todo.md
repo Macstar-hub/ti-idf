@@ -23,10 +23,12 @@
         - [x] Make udpate function asset price from telegram.
         - [x] Make asset resault page.
         - [] Make asset price bot with telegram source.
+
     - [] Make API docs: 
         - [x] Make landing page.
         - [x] Make post links page.
         - [x] Make links list page.
+        - []  Make search filed in all links page.
         - [] Make authentication with keycloak.
         - [] Make web crawling with go colly.
         
