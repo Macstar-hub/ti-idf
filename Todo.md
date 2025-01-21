@@ -28,7 +28,10 @@
         - [x] Make landing page.
         - [x] Make post links page.
         - [x] Make links list page.
-        - []  Make search filed in all links page.
+        - [] Make search function.
+            - [] Make switch for label and name column.
+            - [] Make regex find in search function.
+            - [x] Make MVP search function in mysql internal. 
         - [] Make authentication with keycloak.
         - [] Make web crawling with go colly.
         

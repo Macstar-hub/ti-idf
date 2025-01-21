@@ -251,6 +251,9 @@ func ShowLinks() ShowLinksStructList {
 	}
 	fmt.Println("++++++++++++++++", showLinksStruct.Link, showLinksStruct.Name, showLinksStruct.Label, showLinksStruct.Label1, showLinksStruct.Label2)
 
+	// -----------------------------> Just searchQuery debug.
+	searchRecord("test") // Just for debug.
+
 	showLinksStructList := ShowLinksStructList{
 		Link:   Link,
 		Name:   Name,
@@ -261,4 +264,46 @@ func ShowLinks() ShowLinksStructList {
 
 	defer db.Close()
 	return showLinksStructList
+}
+
+// Make search function:
+func searchRecord(searchWord string) {
+
+	var showLinksStruct ShowLinksStruct
+	var Link []string
+	var Name []string
+	var Lable []string
+	var Label1 []string
+	var Lable2 []string
+
+	query := fmt.Sprintf("select * from links where name = '%s'", searchWord)
+
+	db := MakeConnectionToDB()
+	searchQuery, err := db.Query(query) // For example: db.Query("select * from users")
+	if err != nil {
+		panic(err.Error())
+	}
+	for searchQuery.Next() {
+		err = searchQuery.Scan(&showLinksStruct.Link, &showLinksStruct.Name, &showLinksStruct.Label, &showLinksStruct.Label1, &showLinksStruct.Label2)
+		Link = append(Link, showLinksStruct.Link)
+		Name = append(Name, showLinksStruct.Name)
+		Lable = append(Lable, showLinksStruct.Label)
+		Label1 = append(Label1, showLinksStruct.Label1)
+		Lable2 = append(Lable2, showLinksStruct.Label2)
+		if err != nil {
+			panic(err.Error())
+		}
+	}
+
+	showLinksStructList := ShowLinksStructList{
+		Link:   Link,
+		Name:   Name,
+		Label:  Lable,
+		Label1: Label1,
+		Label2: Lable2,
+	}
+
+	fmt.Println("Debug from searhQuery function: ", showLinksStructList)
+	defer db.Close()
+
 }
