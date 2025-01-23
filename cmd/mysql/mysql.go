@@ -252,7 +252,7 @@ func ShowLinks() ShowLinksStructList {
 	fmt.Println("++++++++++++++++", showLinksStruct.Link, showLinksStruct.Name, showLinksStruct.Label, showLinksStruct.Label1, showLinksStruct.Label2)
 
 	// -----------------------------> Just searchQuery debug.
-	searchRecord("test") // Just for debug.
+	// SearchRecord("test") // Just for debug.
 
 	showLinksStructList := ShowLinksStructList{
 		Link:   Link,
@@ -267,7 +267,7 @@ func ShowLinks() ShowLinksStructList {
 }
 
 // Make search function:
-func searchRecord(searchWord string) {
+func SearchRecord(searchWord string) ShowLinksStruct {
 
 	var showLinksStruct ShowLinksStruct
 	var Link []string
@@ -276,10 +276,14 @@ func searchRecord(searchWord string) {
 	var Label1 []string
 	var Lable2 []string
 
+	/* Note: we can use switch, case in this funciton in mode of search filed
+	by labels, name OR even links regex.
+	*/
+
 	query := fmt.Sprintf("select * from links where name = '%s'", searchWord)
 
 	db := MakeConnectionToDB()
-	searchQuery, err := db.Query(query) // For example: db.Query("select * from users")
+	searchQuery, err := db.Query(query)
 	if err != nil {
 		panic(err.Error())
 	}
@@ -305,5 +309,5 @@ func searchRecord(searchWord string) {
 
 	fmt.Println("Debug from searhQuery function: ", showLinksStructList)
 	defer db.Close()
-
+	return showLinksStruct
 }

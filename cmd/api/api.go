@@ -13,8 +13,8 @@ import (
 func PostLabels(body *gin.Context) {
 
 	// Input valuse sections:
-	links  := body.PostForm("link")
-	name   := body.PostForm("name")
+	links := body.PostForm("link")
+	name := body.PostForm("name")
 	label1 := body.PostForm("label1")
 	label2 := body.PostForm("label2")
 	label3 := body.PostForm("label3")
@@ -62,4 +62,29 @@ func ShowLinks(body *gin.Context) {
 	body.HTML(http.StatusOK, "allLinks.html", gin.H{
 		"Links": links,
 	})
+}
+
+// Search function:
+func Search(body *gin.Context) {
+
+	// Search based on label and name strings.
+	searchWord := body.PostForm("search")
+	showLinksStruct := mysqlconnector.SearchRecord(searchWord)
+	allRecords := len(showLinksStruct.Link)
+	var links []gin.H
+	for i := 0; i < allRecords; i++ {
+
+		links = append(links, gin.H{
+			"Links":  showLinksStruct.Link[i],
+			"Name":   showLinksStruct.Name[i],
+			"Label":  showLinksStruct.Label[i],
+			"Label1": showLinksStruct.Label1[i],
+			"Label2": showLinksStruct.Label2[i],
+		})
+		fmt.Println("===============", showLinksStruct)
+	}
+	body.HTML(http.StatusOK, "allLinks.html", gin.H{
+		"Links": links,
+	})
+
 }
