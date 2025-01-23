@@ -267,14 +267,14 @@ func ShowLinks() ShowLinksStructList {
 }
 
 // Make search function:
-func SearchRecord(searchWord string) ShowLinksStruct {
+func SearchRecord(searchWord string) (ShowLinksStructList, int) {
 
 	var showLinksStruct ShowLinksStruct
 	var Link []string
 	var Name []string
-	var Lable []string
+	var Label []string
 	var Label1 []string
-	var Lable2 []string
+	var Label2 []string
 
 	/* Note: we can use switch, case in this funciton in mode of search filed
 	by labels, name OR even links regex.
@@ -291,9 +291,9 @@ func SearchRecord(searchWord string) ShowLinksStruct {
 		err = searchQuery.Scan(&showLinksStruct.Link, &showLinksStruct.Name, &showLinksStruct.Label, &showLinksStruct.Label1, &showLinksStruct.Label2)
 		Link = append(Link, showLinksStruct.Link)
 		Name = append(Name, showLinksStruct.Name)
-		Lable = append(Lable, showLinksStruct.Label)
+		Label = append(Label, showLinksStruct.Label)
 		Label1 = append(Label1, showLinksStruct.Label1)
-		Lable2 = append(Lable2, showLinksStruct.Label2)
+		Label2 = append(Label2, showLinksStruct.Label2)
 		if err != nil {
 			panic(err.Error())
 		}
@@ -302,12 +302,12 @@ func SearchRecord(searchWord string) ShowLinksStruct {
 	showLinksStructList := ShowLinksStructList{
 		Link:   Link,
 		Name:   Name,
-		Label:  Lable,
+		Label:  Label,
 		Label1: Label1,
-		Label2: Lable2,
+		Label2: Label2,
 	}
-
+	element := len(showLinksStructList.Name)
 	fmt.Println("Debug from searhQuery function: ", showLinksStructList)
 	defer db.Close()
-	return showLinksStruct
+	return showLinksStructList, element
 }

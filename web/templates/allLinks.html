@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All links list </title>
+    <title>All links list</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -17,10 +17,38 @@
             color: #fff;
             padding: 20px 10px;
             text-align: center;
+            position: relative;
         }
         header h1 {
             margin: 0;
             font-size: 24px;
+        }
+        .search-bar {
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            display: flex;
+            align-items: center;
+        }
+        .search-bar input[type="text"] {
+            padding: 8px 12px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .search-bar button {
+            margin-left: 8px;
+            padding: 8px 12px;
+            font-size: 14px;
+            border: none;
+            border-radius: 4px;
+            background-color: #0056b3;
+            color: #fff;
+            cursor: pointer;
+        }
+        .search-bar button:hover {
+            background-color: #003f8a;
         }
         .container {
             margin: 20px auto;
@@ -30,13 +58,6 @@
             border-radius: 8px;
             overflow: hidden;
             padding: 20px;
-        }
-        .container h1 {
-            margin: 0 0 20px;
-            text-align: center;
-            background-color: #f4f4f4;
-            padding: 10px;
-            border-bottom: 1px solid #ddd;
         }
         table {
             width: 100%;
@@ -73,10 +94,6 @@
             margin: 0;
             font-size: 14px;
         }
-        .button-container {
-            text-align: center;
-            margin: 20px 0;
-        }
         .btn {
             display: inline-block;
             padding: 10px 20px;
@@ -98,6 +115,13 @@
     <!-- Banner Section -->
     <header>
         <h1>Links Lists</h1>
+        <!-- Search Bar -->
+        <div class="search-bar">
+            <form action="/api/v1/search" method="POST">
+                <input type="text" name="search" placeholder="Search..." required>
+                <button type="submit">search</button>
+            </form>
+        </div>
     </header>
 
     <!-- Main Content -->
