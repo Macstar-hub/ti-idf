@@ -22,7 +22,7 @@
         - [x] Make asset DB Qurty function. 
         - [x] Make udpate function asset price from telegram.
         - [x] Make asset resault page.
-        - [] Make asset price bot with telegram source.
+        - [x] Make asset price bot with telegram source.
 
     - [] Make API docs: 
         - [x] Make landing page.
@@ -33,7 +33,9 @@
             - [] Make regex find in search function.
             - [x] Make MVP search function in mysql internal. 
         - [] Make authentication with keycloak.
-        - [] Make web crawling with go colly.
+        - [x] Make web crawling with go colly.
+        - [] Make Edit function in ui for recorde ui. 
+        - [] Make delete function.
         
     - [] Make post all docs throw kafka.
         - [] Procces TF-IDF Module throw kafka.

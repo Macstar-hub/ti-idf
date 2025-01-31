@@ -132,7 +132,6 @@
         <div class="button-container">
             <a href="/" class="btn">Links Registration Page</a>
         </div>
-
         <table>
             <thead>
                 <tr>
@@ -146,11 +145,11 @@
             <tbody>
                 <tr>
                     {{ range .Links }}
-                        <td>{{ .Links }}</td>
-                        <td>{{ .Name }}</td>
-                        <td>{{ .Label }}</td>
-                        <td>{{ .Label1 }}</td>
-                        <td>{{ .Label2 }}</td>
+                        <td contenteditable="true">{{ .Links }}</td>
+                        <td contenteditable="true">{{ .Name }}</td>
+                        <td contenteditable="true">{{ .Label }}</td>
+                        <td contenteditable="true">{{ .Label1 }}</td>
+                        <td contenteditable="true">{{ .Label2 }}</td>
                     </tr>
                     {{ end }}
             </tbody>

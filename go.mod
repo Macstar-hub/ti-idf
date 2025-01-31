@@ -3,8 +3,10 @@ module tf-idf
 go 1.23.3
 
 require (
+	github.com/aslrousta/persian v0.3.1
 	github.com/gin-gonic/gin v1.10.0
 	github.com/go-sql-driver/mysql v1.8.1
+	github.com/mavihq/persian v0.0.0-20231020110200-3e779b10be51
 )
 
 require (

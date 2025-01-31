@@ -125,6 +125,22 @@ func Update(word string, idf float64) {
 
 }
 
+func UpdatePrice(goldPrice []int) {
+	tableInfo := Tabelinfo{
+		TableName: "price",
+	}
+	db := MakeConnectionToDB()
+	defer db.Close()
+	var updateQuery = fmt.Sprintf("update %v set goldprice = %v, newcoinprice = %v, oldcoinprice = %v, semicoinprice = %v ", tableInfo.TableName, goldPrice[0], goldPrice[1], goldPrice[2], goldPrice[3])
+	update, err := db.Query(updateQuery)
+	if err != nil {
+		panic(err.Error())
+
+	}
+	defer update.Close()
+
+}
+
 // func SelectQury() UsersInfoTable {
 func SelectQury() {
 	var word []string
@@ -311,3 +327,8 @@ func SearchRecord(searchWord string) (ShowLinksStructList, int) {
 	defer db.Close()
 	return showLinksStructList, element
 }
+
+// Make edit function:
+// func EditRecord() {
+// 	query := fmt.Sprintf("select * from links where name = '%s'", searchWord)
+// }

@@ -1,0 +1,181 @@
+// package main
+
+// import (
+// 	"fmt"
+// 	"io"
+
+// 	// "io/ioutil"
+// 	"net/http"
+
+// 	"golang.org/x/text/language"
+// 	// "golang.org/x/text/internal/language"
+// 	// "github.com/aslrousta/persian"
+// 	// "github.com/mavihq/persian"
+// 	// "io"
+// 	// "net/http"
+// )
+
+// var token = "7866790505:AAGWjmSDBQyKhVsxObscwCJ8U2AX7Mn1EB8"
+
+// func GetURL(token string) string {
+// 	return fmt.Sprintf("https://api.telegram.org/bot%s/getUpdates", token)
+// }
+
+// func main() {
+// 	fmt.Print(GetURL(token))
+// 	getAllMessage, err := http.Get(GetURL(token))
+// 	if err != nil {
+// 		fmt.Println("Get all udpate failed with: ", err)
+// 	}
+
+// 	body, err := io.ReadAll(getAllMessage.Body)
+// 	if err != nil {
+// 		fmt.Println("Cannot read body with error: ", err)
+// 	}
+
+// 	/*
+// 		Make Persian Format.
+// 		// bodyString := persian.ToPersianDigits(string(body))
+// 	*/
+
+// 	bodyStringFormat, err := fmt.Printf("%q\n", body)
+// 	if err != nil {
+// 		fmt.Println("Cannot convert to utf64 with error: ", err)
+// 	}
+// 	fmt.Println(bodyStringFormat)
+// 	fmt.Println("================================================================================")
+// 	fmt.Println(string(body))
+// 	var matcher = language.NewMatcher([]language.Tag{
+// 		language.English, // The first language is used as fallback.
+// 		language.MustParse("en-AU"),
+// 		language.Danish,
+// 		language.Chinese,
+// 		language.Persian,
+// 	})
+
+// 	fmt.Println(matcher)
+// }
+
+//=============
+
+// package main
+
+// import (
+// 	"encoding/json"
+// 	"fmt"
+// 	"io"
+// 	"net/http"
+// )
+
+// var token = "7866790505:AAGWjmSDBQyKhVsxObscwCJ8U2AX7Mn1EB8"
+
+// func GetURL(token string) string {
+// 	return fmt.Sprintf("https://api.telegram.org/bot%s/getUpdates", token)
+// }
+
+// func main() {
+// 	// Fetch updates from Telegram API
+// 	resp, err := http.Get(GetURL(token))
+// 	if err != nil {
+// 		fmt.Println("Get all updates failed with:", err)
+// 		return
+// 	}
+// 	defer resp.Body.Close()
+
+// 	// Read response body
+// 	body, err := io.ReadAll(resp.Body)
+// 	if err != nil {
+// 		fmt.Println("Cannot read body:", err)
+// 		return
+// 	}
+
+// 	// Decode JSON and print properly formatted output
+// 	var prettyJSON map[string]interface{}
+// 	err = json.Unmarshal(body, &prettyJSON)
+// 	if err != nil {
+// 		fmt.Println("JSON unmarshalling error:", err)
+// 		return
+// 	}
+
+// 	// Print formatted JSON with correct Unicode characters
+// 	formattedJSON, err := json.MarshalIndent(prettyJSON, "", "  ")
+// 	if err != nil {
+// 		fmt.Println("JSON formatting error:", err)
+// 		return
+// 	}
+
+// 	fmt.Println(string(formattedJSON))
+// }
+
+// +++++++++++
+package main
+
+import (
+	"encoding/json"
+	"fmt"
+
+	// "io"
+	"io/ioutil"
+	// "net/http"
+)
+
+type AllPriceNew struct {
+	GoldPrice []struct {
+		// Price int `json:"price"`
+		Gold
+	} `json:"gold"`
+}
+
+type Gold struct {
+	// Date       string
+	// Time       string
+	Name  string
+	Price int
+	// ChangeRate float64
+	// Unit       string
+}
+
+func GetURL() string {
+	return fmt.Sprintf("https://brsapi.ir/FreeTsetmcBourseApi/Api_Free_Gold_Currency_v2.json")
+}
+
+func loadFile(filePath string) string {
+	date, err := ioutil.ReadFile(filePath)
+	if err != nil {
+		fmt.Println("Cannot read file with error: ", err)
+	}
+
+	return string(date)
+}
+
+func GetCoinPrice() string {
+	// getAllMessage, err := http.Get(GetURL())
+	// if err != nil {
+	// 	fmt.Println("Cannot get update with: ", err)
+	// }
+
+	// Make convert resp.http to string:
+	// body, err := io.ReadAll(getAllMessage.Body)
+	// if err != nil {
+	// 	fmt.Println("Cannot make resp.http to string with: ", err)
+	// }
+
+	var gold AllPriceNew
+	body := loadFile("price.json")
+
+	// Make convert string to byte to make json unmarshall:
+	getAllMessageByte := []byte(body)
+	errJsonUmarshall := json.Unmarshal(getAllMessageByte, &gold)
+	if errJsonUmarshall != nil {
+		fmt.Println("Cannot make unmarshall json with: ", errJsonUmarshall)
+	}
+
+	fmt.Println(gold.GoldPrice[0].Name)
+	fmt.Println(gold.GoldPrice[0].Price)
+
+	return string(body)
+}
+
+func main() {
+	GetCoinPrice()
+}

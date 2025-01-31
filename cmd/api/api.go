@@ -6,6 +6,7 @@ import (
 
 	strconv "strconv"
 	mysqlconnector "tf-idf/cmd/mysql"
+	"tf-idf/cmd/telegram"
 
 	"github.com/gin-gonic/gin"
 )
@@ -33,6 +34,7 @@ func CalcAsset(body *gin.Context) {
 	semiCoin, _ := strconv.Atoi(body.PostForm("semiCoin"))
 
 	// Get price from mysql
+	telegram.GetCoinPrice()
 	goldPrice, newCoinPrice, oldCoinPrice, semiCoinPrice := mysqlconnector.SelectPriceGold()
 
 	totalAsset := (assetGeram * goldPrice) + (newCoin * newCoinPrice) + (oldCoin * oldCoinPrice) + (semiCoin * semiCoinPrice)
