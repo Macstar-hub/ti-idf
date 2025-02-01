@@ -15,7 +15,7 @@
 // 	// "net/http"
 // )
 
-// var token = "7866790505:AAGWjmSDBQyKhVsxObscwCJ8U2AX7Mn1EB8"
+// var token = "____"
 
 // func GetURL(token string) string {
 // 	return fmt.Sprintf("https://api.telegram.org/bot%s/getUpdates", token)
@@ -67,7 +67,7 @@
 // 	"net/http"
 // )
 
-// var token = "7866790505:AAGWjmSDBQyKhVsxObscwCJ8U2AX7Mn1EB8"
+// var token = "____"
 
 // func GetURL(token string) string {
 // 	return fmt.Sprintf("https://api.telegram.org/bot%s/getUpdates", token)
