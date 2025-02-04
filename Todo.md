@@ -22,7 +22,9 @@
         - [x] Make asset DB Qurty function. 
         - [x] Make udpate function asset price from telegram.
         - [x] Make asset resault page.
-        - [x] Make asset price bot with telegram source.
+        - [] Make asset price bot with telegram source.
+        - [] Make daily note section.
+        - [] Add advanced search mode.
 
     - [] Make API docs: 
         - [x] Make landing page.
