@@ -1,4 +1,4 @@
-package main
+package webcrawler
 
 import (
 	"crypto/tls"
@@ -18,7 +18,7 @@ type Price struct {
 	RobeSekke    int
 }
 
-func main() {
+func GetPrice() {
 	var price Price
 
 	usdPrice := httpGet("https://www.tgju.org/profile/price_dollar_rl")
@@ -109,6 +109,6 @@ func priceCleaner(priceString string) int {
 
 	// Make int format.
 	price, _ := strconv.Atoi(priceInString)
-
+	fmt.Println(price)
 	return price
 }
