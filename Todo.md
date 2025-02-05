@@ -13,7 +13,6 @@
                 - [x] Make Insert And Duplication values.
                 
         - [] Make use wevaite or qudarant Vector DB instead of mysql.
-
         - [] Make Topic Modeling.
     
     - [x] Make asset manager page:
@@ -22,7 +21,6 @@
         - [x] Make asset DB Qurty function. 
         - [x] Make udpate function asset price from telegram.
         - [x] Make asset resault page.
-        - [] Make asset price bot with telegram source.
         - [] Make daily note section.
         - [] Add advanced search mode.
 
@@ -35,7 +33,7 @@
             - [] Make regex find in search function.
             - [x] Make MVP search function in mysql internal. 
         - [] Make authentication with keycloak.
-        - [x] Make web crawling with go colly.
+        - [x] Make web crawling with go.
         - [] Make Edit function in ui for recorde ui. 
         - [] Make delete function.
         
