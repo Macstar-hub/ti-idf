@@ -34,6 +34,7 @@
             - [x] Make MVP search function in mysql internal. 
         - [] Make authentication with keycloak.
         - [x] Make web crawling with go.
+        - [] Make crawling with tjgu.
         - [] Make Edit function in ui for recorde ui. 
         - [] Make delete function.
         
