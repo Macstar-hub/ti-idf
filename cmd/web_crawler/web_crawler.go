@@ -39,8 +39,14 @@ func main() {
 	SekkehRobePrice, _ := httpGet("https://www.tgju.org/profile/rob", "priceGold")
 	price.RobeSekke = SekkehRobePrice
 
-	_, MaskanPrice := httpGet("https://divar.ir/v/باغچه۶%DB%B0%DB%B0متری-زمین-دیوارکشی-فنداسیون-کنتوربرق-جابان/wZaylmuw", "maskan")
-	fmt.Println(MaskanPrice)
+	maskanURL := maskanPriceURL()
+	for i := 0; i < len(maskanPriceURL()); i++ {
+		_, MaskanPrice := httpGet(maskanURL[i], "maskan")
+		fmt.Println(MaskanPrice)
+	}
+
+	// _, maskanPrice := httpGet("https//diva.i/v/فروش-آپارتمان-۶۰-متری-۲-خوابه-در-تهرانپارس-غربی/wZUivCI3", "maskan")
+	// fmt.Println(maskanPrice)
 	fmt.Println(price)
 }
 
@@ -147,4 +153,9 @@ func priceCleaner(priceString string) int {
 	price, _ := strconv.Atoi(priceInString)
 	fmt.Println(price)
 	return price
+}
+
+func maskanPriceURL() []string {
+	maskanURL := []string{"https://divar.ir/v/اپارتمان-۱۰۰-متری-۲-خوابه/wZlevVAA", "https://divar.ir/v/۹۶مترفلکه-اول-۱۶۲غربی-کلید-نخورده-برند/wZzZ6BDM", "https://divar.ir/v/فروش-و-معاوضه-۸-دستگاه-آپارتمان-۹۰-متری/wZfyUrJe", "https://divar.ir/v/۸۱متر-فول-محله-بهار-تهرانپارس/wZlicEoQ"}
+	return maskanURL
 }

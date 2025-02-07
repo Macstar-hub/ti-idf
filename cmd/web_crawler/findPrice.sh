@@ -1,10 +1,5 @@
-#!/bin/bash
+Divar search example: 
+1-  curl 'https://divar.ir/s/tehran/buy-residential/west-tehran-pars'
 
-# export text='value":"۶٬۹۵۰٬۰۰۰٬۰۰۰ تومان"'
-
-makeCleanPrice () { 
-   echo $1 
-   echo $1 |  tr ',' '\n' | grep -i "value.*" | grep -i 'تومان' | tail -n 2 | tr -d \" | tr -d value | tr -d \: | tr -d 'تومان'
-}
-
-makeCleanPrice
+2- for search and find all links: 
+curl "https://divar.ir/s/tehran/buy-residential/west-tehran-pars?size=65-80" | grep -i 'https://divar.ir/v/' | tr "," "\n"  | grep -i "url" | tr -d "\"" | cut -d ":" -f2-
