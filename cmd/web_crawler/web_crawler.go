@@ -1,4 +1,4 @@
-package webcrawler
+package main
 
 import (
 	"crypto/tls"
@@ -8,6 +8,8 @@ import (
 	"regexp"
 	"strconv"
 	"strings"
+
+	"github.com/mavihq/persian"
 )
 
 type Price struct {
@@ -16,30 +18,35 @@ type Price struct {
 	SekketGhadim int
 	SekkehNim    int
 	RobeSekke    int
+	Maskan       int
 }
 
-func GetPrice() {
+func main() {
 	var price Price
 
-	usdPrice := httpGet("https://www.tgju.org/profile/price_dollar_rl")
+	usdPrice, _ := httpGet("https://www.tgju.org/profile/price_dollar_rl", "priceGold")
 	price.Dollar = usdPrice
 
-	sekkeTamamPrice := httpGet("https://www.tgju.org/profile/sekee")
+	sekkeTamamPrice, _ := httpGet("https://www.tgju.org/profile/sekee", "priceGold")
 	price.SekkeTamam = sekkeTamamPrice
 
-	sekkeGhadimPrice := httpGet("https://www.tgju.org/profile/sekeb")
+	sekkeGhadimPrice, _ := httpGet("https://www.tgju.org/profile/sekeb", "priceGold")
 	price.SekketGhadim = sekkeGhadimPrice
 
-	SekkehNimPrice := httpGet("https://www.tgju.org/profile/nim")
+	SekkehNimPrice, _ := httpGet("https://www.tgju.org/profile/nim", "priceGold")
 	price.SekkehNim = SekkehNimPrice
 
-	SekkehRobePrice := httpGet("https://www.tgju.org/profile/rob")
+	SekkehRobePrice, _ := httpGet("https://www.tgju.org/profile/rob", "priceGold")
 	price.RobeSekke = SekkehRobePrice
 
+	_, MaskanPrice := httpGet("https://divar.ir/v/باغچه۶%DB%B0%DB%B0متری-زمین-دیوارکشی-فنداسیون-کنتوربرق-جابان/wZaylmuw", "maskan")
+	fmt.Println(MaskanPrice)
 	fmt.Println(price)
 }
 
-func httpGet(url string) int {
+func httpGet(url string, priceType string) (int, []int) {
+	var price int
+	var maskanPrice []int
 	netClient := customHttpClient()
 
 	responseByte, err := netClient.Get(url)
@@ -51,11 +58,15 @@ func httpGet(url string) int {
 
 	responseString := string(responeBody)
 
-	_, price := findSekkeTamam(responseString)
-	// fmt.Println(price)
+	if priceType == "maskan" {
+		maskanPrice = findMaskan(responseString)
+	} else {
+		_, price = findSekkeTamam(responseString)
+	}
+
 	responseByte.Body.Close()
 
-	return price
+	return price, maskanPrice
 }
 
 func httpErrorHandeler(err error) error {
@@ -92,6 +103,31 @@ func findSekkeTamam(html string) (string, int) {
 	price := regex.FindString(html)
 	priceInt := priceCleaner(price)
 	return price, priceInt
+}
+
+func findMaskan(html string) []int {
+	var priceSlice []int
+
+	regexInt, _ := regexp.Compile("\"value.*")
+	regexSec := regexp.MustCompile("[^0-9]+")
+	htmlString := string(html)
+	priceStep1Cleanup := strings.Replace(htmlString, ",", "\n", -1)
+	priceStep2Cleanup := regexInt.FindAllString(priceStep1Cleanup, 10000)
+	persianCharecter := "\u062A\u0648\u0645\u0627\u0646"
+	for i := 0; i < len(priceStep2Cleanup); i++ {
+		if strings.Contains(priceStep2Cleanup[i], persianCharecter) {
+			persianStep1 := persian.ToEnglishDigits(priceStep2Cleanup[i])
+			persianStep2 := persian.SwitchToEnglishKey(persianStep1)
+			persianStep3 := strings.Replace(persianStep2, "\"value\":\"", "", -1)
+			persianStep4 := strings.Replace(persianStep3, "j,lhk\"", "", -1)
+			persianStepAsString := regexSec.ReplaceAllString(persianStep4, "")
+			persianStepAsInt, _ := strconv.Atoi(persianStepAsString)
+			// fmt.Println(persianStepAsInt)
+			priceSlice = append(priceSlice, persianStepAsInt)
+		}
+	}
+	// fmt.Println(priceSlice)
+	return priceSlice
 }
 
 func priceCleaner(priceString string) int {
