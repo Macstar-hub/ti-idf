@@ -1,4 +1,4 @@
-package main
+package web_crawler
 
 import (
 	"crypto/tls"
@@ -21,7 +21,7 @@ type Price struct {
 	Maskan       int
 }
 
-func main() {
+func GetPrice() {
 	var price Price
 
 	usdPrice, _, _ := httpGet("https://www.tgju.org/profile/price_dollar_rl", "priceGold")
@@ -42,13 +42,17 @@ func main() {
 	fmt.Println(price)
 
 	_, _, maskanURL := httpGet("https://divar.ir/s/tehran/buy-apartment/west-tehran-pars?size=70-90", "maskanurls")
+
 	for i := 0; i < len(maskanURL); i++ {
 		fmt.Println(maskanURL[i])
 		maskanURL := fmt.Sprintf("%s", maskanURL[i])
 		_, MaskanPrice, _ := httpGet(maskanURL, "maskan")
-		if i >= 4 {
+
+		// Divar only respone 2 house price in every call.
+		if i >= 2 {
 			break
 		}
+
 		fmt.Println(MaskanPrice)
 	}
 
@@ -170,11 +174,6 @@ func maskanPriceURL(html string) []string {
 	regexSec := regexp.MustCompile("\"url.*")
 	var step2 string
 	var step5 []string
-
-	// html, err := os.ReadFile("test.html")
-	// if err != nil {
-	// 	fmt.Println("Cannot read file: ", err)
-	// }
 
 	step1 := regexInit.FindAllString(string(html), 20000)
 
