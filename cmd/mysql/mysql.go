@@ -4,6 +4,7 @@ package mysqlconnector
 
 import (
 	"database/sql"
+	b64 "encoding/base64"
 	"fmt"
 
 	_ "github.com/go-sql-driver/mysql"
@@ -17,6 +18,11 @@ type Tabelinfo struct {
 	TF        float64 `json:"tf"`
 	IDF       float64 `json:"idf"`
 	TFDIDF    float64 `json:"tfidf"`
+	TableName string
+}
+type HouseInfo struct {
+	ID        string `json:"id"`
+	Links     string `json:"links"`
 	TableName string
 }
 type Asset struct {
@@ -196,6 +202,49 @@ func InsertLabels(link string, name string, lable1 string, lable2 string, lable3
 		panic(err.Error())
 	}
 	defer insert.Close()
+}
+
+func InsertHousePrice(id int64, links string, per_squar int64, total_squar int64) {
+	tableName := "house_price"
+	db := MakeConnectionToDB()
+	defer db.Close()
+	var insertQuery = fmt.Sprintf("insert into %v(id, links, per_squar, total_squar) values ('%v', '%v', '%v', '%v')", tableName, id, links, per_squar, total_squar)
+	insert, err := db.Query(insertQuery)
+	if err != nil {
+		panic(err.Error())
+	}
+	defer insert.Close()
+}
+
+func SelectHousePrice() ([]string, []string) {
+
+	var id []string
+	var links []string
+
+	tableInfo := HouseInfo{
+		ID:    `json:id`,
+		Links: `json:"links"`,
+	}
+
+	db := MakeConnectionToDB()
+	selectQuery, err := db.Query("select id, links from house_price")
+	if err != nil {
+		panic(err.Error())
+	}
+	defer db.Close()
+
+	for selectQuery.Next() {
+		err = selectQuery.Scan(&tableInfo.ID, &tableInfo.Links)
+		if err != nil {
+			panic(err.Error())
+		}
+
+		id = append(id, tableInfo.ID)
+		decodeLink, _ := b64.StdEncoding.DecodeString(tableInfo.Links)
+		links = append(links, string(decodeLink))
+		defer db.Close()
+	}
+	return id, links
 }
 
 // Function for show all labels.

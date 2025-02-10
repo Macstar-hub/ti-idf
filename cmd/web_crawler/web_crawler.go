@@ -1,13 +1,16 @@
-package web_crawler
+package main
 
 import (
 	"crypto/tls"
+	b64 "encoding/base64"
 	"fmt"
 	"io/ioutil"
 	"net/http"
 	"regexp"
 	"strconv"
 	"strings"
+
+	mysqlconnector "tf-idf/cmd/mysql"
 
 	"github.com/mavihq/persian"
 )
@@ -21,7 +24,7 @@ type Price struct {
 	Maskan       int
 }
 
-func GetPrice() {
+func main() {
 	var price Price
 
 	usdPrice, _, _ := httpGet("https://www.tgju.org/profile/price_dollar_rl", "priceGold")
@@ -41,7 +44,15 @@ func GetPrice() {
 
 	fmt.Println(price)
 
-	_, _, maskanURL := httpGet("https://divar.ir/s/tehran/buy-apartment/west-tehran-pars?size=70-90", "maskanurls")
+	_, _, maskanURL := httpGet("https://divar.ir/s/tehran/buy-apartment/west-tehran-pars?size=60-70", "maskanurls")
+
+	// Insert data to mysql
+	for id := 0; id < len(maskanURL); id++ {
+		link := b64.StdEncoding.EncodeToString([]byte(maskanURL[id]))
+		mysqlconnector.InsertHousePrice(int64(id), link, 0, 0)
+	}
+
+	mysqlconnector.SelectHousePrice()
 
 	for i := 0; i < len(maskanURL); i++ {
 		fmt.Println(maskanURL[i])
