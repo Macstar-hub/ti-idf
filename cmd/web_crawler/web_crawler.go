@@ -27,48 +27,58 @@ type Price struct {
 }
 
 func main() {
-	var price Price
+	var totalSquarePrice int
+	var persquarPrice int
+	// var price Price
 
-	usdPrice, _, _ := httpGet("https://www.tgju.org/profile/price_dollar_rl", "priceGold")
-	price.Dollar = usdPrice
+	// usdPrice, _, _ := httpGet("https://www.tgju.org/profile/price_dollar_rl", "priceGold")
+	// price.Dollar = usdPrice
 
-	sekkeTamamPrice, _, _ := httpGet("https://www.tgju.org/profile/sekee", "priceGold")
-	price.SekkeTamam = sekkeTamamPrice
+	// sekkeTamamPrice, _, _ := httpGet("https://www.tgju.org/profile/sekee", "priceGold")
+	// price.SekkeTamam = sekkeTamamPrice
 
-	sekkeGhadimPrice, _, _ := httpGet("https://www.tgju.org/profile/sekeb", "priceGold")
-	price.SekketGhadim = sekkeGhadimPrice
+	// sekkeGhadimPrice, _, _ := httpGet("https://www.tgju.org/profile/sekeb", "priceGold")
+	// price.SekketGhadim = sekkeGhadimPrice
 
-	SekkehNimPrice, _, _ := httpGet("https://www.tgju.org/profile/nim", "priceGold")
-	price.SekkehNim = SekkehNimPrice
+	// SekkehNimPrice, _, _ := httpGet("https://www.tgju.org/profile/nim", "priceGold")
+	// price.SekkehNim = SekkehNimPrice
 
-	SekkehRobePrice, _, _ := httpGet("https://www.tgju.org/profile/rob", "priceGold")
-	price.RobeSekke = SekkehRobePrice
+	// SekkehRobePrice, _, _ := httpGet("https://www.tgju.org/profile/rob", "priceGold")
+	// price.RobeSekke = SekkehRobePrice
 
-	fmt.Println(price)
+	// fmt.Println(price)
 
 	_, _, maskanURL := httpGet("https://divar.ir/s/tehran/buy-apartment/west-tehran-pars?size=60-70", "maskanurls")
 
-	// Insert data to mysql
-	for id := 0; id < len(maskanURL); id++ {
-		link := b64.StdEncoding.EncodeToString([]byte(maskanURL[id]))
-		mysqlconnector.InsertHousePrice(int64(id), link, 0, 0)
-	}
-
 	ids, links := mysqlconnector.SelectHousePrice()
-	for i := 0; i < len(ids); i++ {
 
-		maskanURL := fmt.Sprintf("%s", links[i])
-		_, MaskanPrice, _ := httpGet(maskanURL, "maskan")
-		totalSquarePrice := MaskanPrice[0]
-		persquarPrice := MaskanPrice[1]
+	if len(ids) < 2 {
+		// Insert data to mysql
+		for id := 0; id < len(maskanURL); id++ {
+			link := b64.StdEncoding.EncodeToString([]byte(maskanURL[id]))
+			mysqlconnector.InsertHousePrice(int64(id), link, 0, 0)
+		}
+	} else {
+		for i := 0; i < len(ids); i++ {
 
-		fmt.Println(persquarPrice, totalSquarePrice)
+			maskanURL := fmt.Sprintf("%s", links[i])
+			_, MaskanPrice, _ := httpGet(maskanURL, "maskan")
 
-		idsInt, _ := strconv.Atoi(ids[i])
-		mysqlconnector.UpdateHousePrice(idsInt, totalSquarePrice, persquarPrice)
-		fmt.Println(MaskanPrice)
+			if MaskanPrice == nil {
+				fmt.Println("Cannot retrive price form divar site ...")
+				break
+			} else {
+				totalSquarePrice = MaskanPrice[1]
+				persquarPrice = MaskanPrice[0]
+			}
+
+			fmt.Println(persquarPrice, totalSquarePrice)
+
+			idsInt, _ := strconv.Atoi(ids[i])
+			mysqlconnector.UpdateHousePrice(idsInt, totalSquarePrice, persquarPrice)
+			fmt.Println(MaskanPrice)
+		}
 	}
-
 }
 
 func httpGet(url string, priceType string) (int, []int, []string) {

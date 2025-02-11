@@ -7,7 +7,7 @@ import (
 	"io/ioutil"
 	"net/http"
 	mysqlconnector "tf-idf/cmd/mysql"
-	webcrawler "tf-idf/cmd/web_crawler" // tjgu crawler source.
+	// webcrawler "tf-idf/cmd/web_crawler" // tjgu crawler source.
 )
 
 type AllPriceNew struct {
@@ -40,7 +40,7 @@ func loadFile(filePath string) string {
 
 func GetCoinPrice() (string, []int) {
 	// For crawl with tjgu source plz uncomment below line.
-	webcrawler.GetPrice() // tjgu source
+	// webcrawler.GetPrice() // tjgu source
 	getAllMessage, err := http.Get(GetURL())
 	if err != nil {
 		fmt.Println("Cannot get update with: ", err)
