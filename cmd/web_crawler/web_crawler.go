@@ -29,24 +29,24 @@ type Price struct {
 func main() {
 	var totalSquarePrice int
 	var persquarPrice int
-	// var price Price
+	var price Price
 
-	// usdPrice, _, _ := httpGet("https://www.tgju.org/profile/price_dollar_rl", "priceGold")
-	// price.Dollar = usdPrice
+	usdPrice, _, _ := httpGet("https://www.tgju.org/profile/price_dollar_rl", "priceGold")
+	price.Dollar = usdPrice
 
-	// sekkeTamamPrice, _, _ := httpGet("https://www.tgju.org/profile/sekee", "priceGold")
-	// price.SekkeTamam = sekkeTamamPrice
+	sekkeTamamPrice, _, _ := httpGet("https://www.tgju.org/profile/sekee", "priceGold")
+	price.SekkeTamam = sekkeTamamPrice
 
-	// sekkeGhadimPrice, _, _ := httpGet("https://www.tgju.org/profile/sekeb", "priceGold")
-	// price.SekketGhadim = sekkeGhadimPrice
+	sekkeGhadimPrice, _, _ := httpGet("https://www.tgju.org/profile/sekeb", "priceGold")
+	price.SekketGhadim = sekkeGhadimPrice
 
-	// SekkehNimPrice, _, _ := httpGet("https://www.tgju.org/profile/nim", "priceGold")
-	// price.SekkehNim = SekkehNimPrice
+	SekkehNimPrice, _, _ := httpGet("https://www.tgju.org/profile/nim", "priceGold")
+	price.SekkehNim = SekkehNimPrice
 
-	// SekkehRobePrice, _, _ := httpGet("https://www.tgju.org/profile/rob", "priceGold")
-	// price.RobeSekke = SekkehRobePrice
+	SekkehRobePrice, _, _ := httpGet("https://www.tgju.org/profile/rob", "priceGold")
+	price.RobeSekke = SekkehRobePrice
 
-	// fmt.Println(price)
+	fmt.Println(price)
 
 	_, _, maskanURL := httpGet("https://divar.ir/s/tehran/buy-apartment/west-tehran-pars?size=60-70", "maskanurls")
 
