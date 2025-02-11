@@ -220,6 +220,7 @@ func SelectHousePrice() ([]string, []string) {
 
 	var id []string
 	var links []string
+	var i = 0
 
 	tableInfo := HouseInfo{
 		ID:    `json:id`,
@@ -227,7 +228,7 @@ func SelectHousePrice() ([]string, []string) {
 	}
 
 	db := MakeConnectionToDB()
-	selectQuery, err := db.Query("select id, links from house_price")
+	selectQuery, err := db.Query("select id, links from house_price where per_squar = 0")
 	if err != nil {
 		panic(err.Error())
 	}
@@ -242,9 +243,25 @@ func SelectHousePrice() ([]string, []string) {
 		id = append(id, tableInfo.ID)
 		decodeLink, _ := b64.StdEncoding.DecodeString(tableInfo.Links)
 		links = append(links, string(decodeLink))
+		i++
+		if i >= 2 {
+			break
+		}
 		defer db.Close()
 	}
 	return id, links
+}
+
+func UpdateHousePrice(id int, per_squar int, total_squar int) {
+	tableName := "house_price"
+	db := MakeConnectionToDB()
+	defer db.Close()
+	var updateQuery = fmt.Sprintf("update %v set per_squar = %v, total_squar = %v where id = %v", tableName, per_squar, total_squar, id)
+	update, err := db.Query(updateQuery)
+	if err != nil {
+		panic(err.Error())
+	}
+	defer update.Close()
 }
 
 // Function for show all labels.

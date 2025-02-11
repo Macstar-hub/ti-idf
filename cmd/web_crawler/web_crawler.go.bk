@@ -9,8 +9,7 @@ import (
 	"regexp"
 	"strconv"
 	"strings"
-
-	// "time"
+	"time"
 
 	mysqlconnector "tf-idf/cmd/mysql"
 
@@ -54,18 +53,20 @@ func main() {
 		mysqlconnector.InsertHousePrice(int64(id), link, 0, 0)
 	}
 
-	ids, links := mysqlconnector.SelectHousePrice()
-	for i := 0; i < len(ids); i++ {
+	id, links := mysqlconnector.SelectHousePrice()
 
-		maskanURL := fmt.Sprintf("%s", links[i])
+	for i := 0; i < len(maskanURL); i++ {
+		fmt.Println(maskanURL[i])
+		maskanURL := fmt.Sprintf("%s", maskanURL[i])
 		_, MaskanPrice, _ := httpGet(maskanURL, "maskan")
-		totalSquarePrice := MaskanPrice[0]
-		persquarPrice := MaskanPrice[1]
 
-		fmt.Println(persquarPrice, totalSquarePrice)
+		time.Sleep(5 * time.Second)
 
-		idsInt, _ := strconv.Atoi(ids[i])
-		mysqlconnector.UpdateHousePrice(idsInt, totalSquarePrice, persquarPrice)
+		// Divar only respone 2 house price in every call.
+		if i >= 2 {
+			break
+		}
+
 		fmt.Println(MaskanPrice)
 	}
 
