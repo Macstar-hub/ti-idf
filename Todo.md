@@ -15,7 +15,7 @@
         - [] Make use wevaite or qudarant Vector DB instead of mysql.
         - [] Make Topic Modeling.
     
-    - [x] Make asset manager page:
+    - [x] Make links manager page:
         - [x] Make home page.
         - [x] Make asset calcuation.
         - [x] Make asset DB Qurty function. 
@@ -33,15 +33,20 @@
             - [] Make regex find in search function.
             - [x] Make MVP search function in mysql internal. 
         - [] Make authentication with keycloak.
-        - [x] Make web crawling with go.
-        - [] Make crawling with tjgu.
         - [] Make Edit function in ui for recorde ui. 
         - [] Make delete function.
-        
-    - [] Make post all docs throw kafka.
-        - [] Procces TF-IDF Module throw kafka.
-        - [] Make back-pressure throw kafka.
-        - [] Make serilizaton and deserilize with schema registery proto buff.
+        - [] Make post all docs throw kafka.
+            - [] Procces TF-IDF Module throw kafka.
+            - [] Make back-pressure throw kafka.
+            - [] Make serilizaton and deserilize with schema registery proto buff.
+
+    - Make Price Crawling.
+        - [x] Make web crawling with go.
+        - [x] Make crawling with tjgu.
+        - [x] Make house price from divar.
+        - [] Make function to produce avg house price. 
+        - [] Make export price house, dollar, gold and coin to ui.
+
 
     - [] Make cache layer for topic modeling and topic vectorization instead of sql DB.
         - [] Make redis SET and GET command modules.

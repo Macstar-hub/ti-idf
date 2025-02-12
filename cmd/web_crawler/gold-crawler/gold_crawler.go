@@ -2,7 +2,6 @@ package main
 
 import (
 	"crypto/tls"
-	b64 "encoding/base64"
 	"fmt"
 	"io/ioutil"
 	"net/http"
@@ -11,9 +10,6 @@ import (
 	"strings"
 
 	// "time"
-
-	mysqlconnector "tf-idf/cmd/mysql"
-
 	"github.com/mavihq/persian"
 )
 
@@ -27,8 +23,7 @@ type Price struct {
 }
 
 func main() {
-	var totalSquarePrice int
-	var persquarPrice int
+
 	var price Price
 
 	usdPrice, _, _ := httpGet("https://www.tgju.org/profile/price_dollar_rl", "priceGold")
@@ -48,37 +43,6 @@ func main() {
 
 	fmt.Println(price)
 
-	_, _, maskanURL := httpGet("https://divar.ir/s/tehran/buy-apartment/west-tehran-pars?size=60-70", "maskanurls")
-
-	ids, links := mysqlconnector.SelectHousePrice()
-
-	if len(ids) < 2 {
-		// Insert data to mysql
-		for id := 0; id < len(maskanURL); id++ {
-			link := b64.StdEncoding.EncodeToString([]byte(maskanURL[id]))
-			mysqlconnector.InsertHousePrice(int64(id), link, 0, 0)
-		}
-	} else {
-		for i := 0; i < len(ids); i++ {
-
-			maskanURL := fmt.Sprintf("%s", links[i])
-			_, MaskanPrice, _ := httpGet(maskanURL, "maskan")
-
-			if MaskanPrice == nil {
-				fmt.Println("Cannot retrive price form divar site ...")
-				break
-			} else {
-				totalSquarePrice = MaskanPrice[1]
-				persquarPrice = MaskanPrice[0]
-			}
-
-			fmt.Println(persquarPrice, totalSquarePrice)
-
-			idsInt, _ := strconv.Atoi(ids[i])
-			mysqlconnector.UpdateHousePrice(idsInt, totalSquarePrice, persquarPrice)
-			fmt.Println(MaskanPrice)
-		}
-	}
 }
 
 func httpGet(url string, priceType string) (int, []int, []string) {
