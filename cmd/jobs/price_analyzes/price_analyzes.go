@@ -31,6 +31,10 @@ var DBConnection = MakeConnectionToDB()
 
 func main() {
 	fmt.Println("Average price house: ", makeAveragePrice("house_price_1739485032"))
+	fmt.Println("Average price house: ", makeAveragePrice("house_price_1739484998"))
+	fmt.Println("Average price house: ", makeAveragePrice("house_price_24_11_1403"))
+	fmt.Println("Average price house: ", makeAveragePrice("house_price_25_11_1403"))
+
 }
 
 func MakeConnectionToDB() *sql.DB {
