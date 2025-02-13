@@ -61,6 +61,7 @@ func main() {
 			fmt.Println(MaskanPrice)
 		}
 	}
+
 }
 
 func httpGet(url string, priceType string) (int, []int, []string) {
