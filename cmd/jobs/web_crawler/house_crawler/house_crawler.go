@@ -31,7 +31,6 @@ func main() {
 	var persquarPrice int
 
 	_, _, maskanURL := httpGet("https://divar.ir/s/tehran/buy-apartment/west-tehran-pars?size=60-70", "maskanurls")
-
 	ids, links := mysqlconnector.SelectHousePrice()
 
 	if len(ids) < 2 {
