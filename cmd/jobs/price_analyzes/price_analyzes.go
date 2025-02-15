@@ -34,6 +34,9 @@ func main() {
 	fmt.Println("Average price house: ", makeAveragePrice("house_price_1739484998"))
 	fmt.Println("Average price house: ", makeAveragePrice("house_price_24_11_1403"))
 	fmt.Println("Average price house: ", makeAveragePrice("house_price_25_11_1403"))
+	fmt.Println("Average price house: ", makeAveragePrice("house_price_1739533801"))
+	fmt.Println("Average price house: ", makeAveragePrice("house_price_1739535931"))
+	fmt.Println("Average price house majidieh : ", makeAveragePrice("house_price"))
 
 }
 
@@ -84,7 +87,6 @@ func makeAveragePrice(tableName string) int {
 		id++
 		priceInt, _ := strconv.Atoi(perSquar.PerSquar)
 		priceList = append(priceList, priceInt)
-
 	}
 	for i := 0; i < len(priceList); i++ {
 		sumPrice = priceList[i] + sumPrice

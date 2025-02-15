@@ -79,7 +79,7 @@ func CheckTableTime() {
 func CopyTable(tableName string) error {
 	currentTimeUnix := time.Now().Unix()
 
-	var copyTableQuery = fmt.Sprintf("create table house_price_%v as select * from house_price", currentTimeUnix)
+	var copyTableQuery = fmt.Sprintf("create table house_price_majidieh_%v as select * from house_price", currentTimeUnix)
 	_, err := DBConnection.Query(copyTableQuery)
 
 	if err != nil {
