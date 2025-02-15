@@ -44,7 +44,9 @@
         - [x] Make web crawling with go.
         - [x] Make crawling with tjgu.
         - [x] Make house price from divar.
-        - [] Make function to produce avg house price. 
+        - [] Make outliner detection and cleaner to make correct price.
+        - [] Make function to detect specefic house area.
+        - [x] Make function to produce avg house price. 
         - [] Make export price house, dollar, gold and coin to ui.
 
 
