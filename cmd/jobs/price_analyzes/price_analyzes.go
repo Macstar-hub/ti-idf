@@ -6,6 +6,8 @@ import (
 	"math"
 	"strconv"
 
+	ztable "github.com/gregscott94/z-table-golang"
+
 	// "strconv"
 	_ "github.com/go-sql-driver/mysql"
 )
@@ -32,7 +34,8 @@ var DBConnection = MakeConnectionToDB()
 
 func main() {
 
-	ZScore("house_price")
+	// ZScore("house_price")
+	ZScore("house_price_1739485032")
 
 }
 
@@ -97,6 +100,7 @@ func ZScore(tableName string) {
 	var b float64
 	sigmaPrice := 0
 	var deviationPopulation float64
+	zTable := ztable.NewZTable(nil)
 
 	_, allPrice := makeAveragePrice(tableName)
 
@@ -116,7 +120,9 @@ func ZScore(tableName string) {
 
 	for i := 0; i < len(allPrice); i++ {
 		z := (float64(allPrice[i]) - float64(meanPoplutaion)) / deviationPopulation
-		fmt.Println(allPrice[i], z)
+		// fmt.Print(allPrice[i], z, (zTable.FindPercentage(z) * 100))
+		fmt.Printf("Price: %v, And Z-Score is: %v ,Z-Percentage: %v \n", allPrice[i], z, (zTable.FindPercentage(z) * 100))
+
 	}
 	fmt.Printf("deviationPopulation:  %v, meanPoplutaion: %v \n", deviationPopulation, meanPoplutaion)
 }
