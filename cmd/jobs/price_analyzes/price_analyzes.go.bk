@@ -3,7 +3,6 @@ package main
 import (
 	"database/sql"
 	"fmt"
-	"math"
 	"strconv"
 
 	// "strconv"
@@ -31,8 +30,18 @@ type TableInfo struct {
 var DBConnection = MakeConnectionToDB()
 
 func main() {
-
-	ZScore("house_price")
+	fmt.Println("Average price house: ", makeAveragePrice("house_price_1739485032"))
+	fmt.Println("Average price house: ", makeAveragePrice("house_price_1739484998"))
+	fmt.Println("Average price house: ", makeAveragePrice("house_price_24_11_1403"))
+	fmt.Println("Average price house: ", makeAveragePrice("house_price_25_11_1403"))
+	fmt.Println("Average price house: ", makeAveragePrice("house_price_1739533801"))
+	fmt.Println("Average price house: ", makeAveragePrice("house_price_1739535931"))
+	//  For convert epoch to date: date -r 1739590786 '+%m/%d/%Y:%H:%M:%S' => 11/25/2020:08:00:00
+	fmt.Println("Average price house majidieh: ", makeAveragePrice("house_price_majidieh_1739590786"))
+	fmt.Println("Average price house majidieh: ", makeAveragePrice("house_price_majidieh_1739608578"))
+	fmt.Println("Average price house majidieh: ", makeAveragePrice("house_price_majidieh_1739732032"))
+	fmt.Println("Average price house majidieh: ", makeAveragePrice("house_price"))
+	// ZScore(tableName)
 
 }
 
@@ -56,7 +65,7 @@ func MakeConnectionToDB() *sql.DB {
 
 }
 
-func makeAveragePrice(tableName string) (int, []int) {
+func makeAveragePrice(tableName string) int {
 
 	id := 0
 	sumPrice := 0
@@ -89,34 +98,10 @@ func makeAveragePrice(tableName string) (int, []int) {
 	}
 	averagePrice = float64(sumPrice) / float64(id)
 
-	return int(averagePrice), priceList
+	return int(averagePrice)
 }
 
-func ZScore(tableName string) {
-	var a float64
-	var b float64
-	sigmaPrice := 0
-	var deviationPopulation float64
-
-	_, allPrice := makeAveragePrice(tableName)
-
-	for i := 0; i < len(allPrice); i++ {
-		sigmaPrice = allPrice[i] + sigmaPrice
-	}
-	meanPoplutaion := sigmaPrice / len(allPrice)
-
-	for i := 0; i < len(allPrice); i++ {
-		sigmaPrice = (allPrice[i] - meanPoplutaion)
-		a = math.Pow(2, float64(sigmaPrice))
-		b = a + b
-	}
-	sigmaPrice = int(b)
-	c := sigmaPrice / len(allPrice)
-	deviationPopulation = math.Sqrt(float64(c))
-
-	for i := 0; i < len(allPrice); i++ {
-		z := (float64(allPrice[i]) - float64(meanPoplutaion)) / deviationPopulation
-		fmt.Println(allPrice[i], z)
-	}
-	fmt.Printf("deviationPopulation:  %v, meanPoplutaion: %v \n", deviationPopulation, meanPoplutaion)
-}
+// func ZScore(tableName string) {
+// 	_, allPrice := makeAveragePrice(tableName)
+// 	fmt.Println()
+// }
