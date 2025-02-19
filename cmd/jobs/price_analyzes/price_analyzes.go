@@ -9,6 +9,12 @@ import (
 	ztable "github.com/gregscott94/z-table-golang"
 	"github.com/montanaflynn/stats"
 
+	"gonum.org/v1/plot"
+	"gonum.org/v1/plot/plotter"
+	"gonum.org/v1/plot/vg"
+
+	mysqlconnector "tf-idf/cmd/mysql"
+
 	// "strconv"
 	_ "github.com/go-sql-driver/mysql"
 )
@@ -35,10 +41,10 @@ var DBConnection = MakeConnectionToDB()
 
 func main() {
 
-	ZScore("house_price")
+	ZScore("house_price_majidieh_1739945882")
 	// ZScore("house_price_1739485032")
-	IQR("house_price")
-	fmt.Println(22634483 * 22634483)
+	IQR("house_price_majidieh_1739945882")
+	histPlot()
 
 }
 
@@ -90,6 +96,7 @@ func makeAveragePrice(tableName string) (int, []int) {
 		priceInt, _ := strconv.Atoi(perSquar.PerSquar)
 		priceList = append(priceList, priceInt)
 	}
+
 	for i := 0; i < len(priceList); i++ {
 		sumPrice = priceList[i] + sumPrice
 	}
@@ -115,7 +122,6 @@ func ZScore(tableName string) {
 	for i := 0; i < len(allPrice); i++ {
 		sigmaPrice = (allPrice[i] - meanPoplutaion)
 		a = (sigmaPrice * sigmaPrice)
-		fmt.Println("a: ", int(a), "SigmaPrice: ", sigmaPrice)
 		b = a + b
 	}
 	sigmaPrice = int(b)
@@ -126,6 +132,7 @@ func ZScore(tableName string) {
 	for i := 0; i < len(allPrice); i++ {
 		z := (float64(allPrice[i]) - float64(meanPoplutaion)) / deviationPopulation
 		fmt.Printf("Price: %v, And Z-Score is: %v ,Z-Percentage: %v \n", allPrice[i], z, (zTable.FindPercentage(z) * 100))
+		mysqlconnector.UpdateHousePriceZscore(allPrice[i], (zTable.FindPercentage(z) * 100))
 	}
 	fmt.Printf("deviationPopulation:  %v, meanPoplutaion: %v \n", deviationPopulation, meanPoplutaion)
 }
@@ -134,7 +141,7 @@ func IQR(tableName string) (int, int) {
 	var allPriceFloat []float64
 
 	_, allPrice := makeAveragePrice(tableName)
-	for i := 0; i < len(allPrice); i
+	for i := 0; i < len(allPrice); i++ {
 		allPriceFloat = append(allPriceFloat, float64(allPrice[i]))
 	}
 
@@ -149,4 +156,29 @@ func IQR(tableName string) (int, int) {
 	fmt.Printf("Q1: %v, Q3: %v, IQR: %v, lowerBound: %v, UpperBound: %v \n", Q1, Q3, IQR, int(lowerBound), int(UpperBound))
 
 	return int(lowerBound), int(UpperBound)
+}
+
+func averagePrice() {
+
+}
+
+func histPlot() {
+	plot := plot.New()
+
+	testSlice := []float64{1, 2, 3, 7, 5, 6, 6, 3, 9, 10}
+
+	plot.Title.Text = "Price Histogram"
+
+	hist, err := plotter.NewHist(plotter.Values(testSlice), 20)
+	if err != nil {
+		fmt.Println("Cannot create histogram with error: ", err)
+	}
+
+	plot.Add(hist)
+	plot.Save(4*vg.Inch, 4*vg.Inch, "hist.png")
+
+	/*
+		For more plot info:
+		https://golangdocs.com/plotting-in-golang-histogram-barplot-boxplot
+	*/
 }

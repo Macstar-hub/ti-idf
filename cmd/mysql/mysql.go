@@ -264,6 +264,18 @@ func UpdateHousePrice(id int, per_squar int, total_squar int) {
 	defer update.Close()
 }
 
+func UpdateHousePriceZscore(per_squar int, z_score float64) {
+	tableName := "house_price"
+	db := MakeConnectionToDB()
+	defer db.Close()
+	var updateQuery = fmt.Sprintf("update %v set z_score = %v where per_squar = %v", tableName, z_score, per_squar)
+	update, err := db.Query(updateQuery)
+	if err != nil {
+		panic(err.Error())
+	}
+	defer update.Close()
+}
+
 // Function for show all labels.
 func ShowLabels() {
 	TableName := "links"
