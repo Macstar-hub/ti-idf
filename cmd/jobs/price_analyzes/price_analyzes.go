@@ -122,7 +122,6 @@ func ZScore(tableName string) {
 		z := (float64(allPrice[i]) - float64(meanPoplutaion)) / deviationPopulation
 		// fmt.Print(allPrice[i], z, (zTable.FindPercentage(z) * 100))
 		fmt.Printf("Price: %v, And Z-Score is: %v ,Z-Percentage: %v \n", allPrice[i], z, (zTable.FindPercentage(z) * 100))
-
 	}
 	fmt.Printf("deviationPopulation:  %v, meanPoplutaion: %v \n", deviationPopulation, meanPoplutaion)
 }
