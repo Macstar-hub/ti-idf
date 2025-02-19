@@ -1,4 +1,5 @@
 matplotlib==3.10.0
+mysql-connector-python==9.2.0
 # or just
 ### apt install python3-matplotlib
 ### apt install python3-mysql.connector
