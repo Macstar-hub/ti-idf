@@ -7,6 +7,7 @@ require (
 	github.com/go-sql-driver/mysql v1.8.1
 	github.com/gregscott94/z-table-golang v1.0.0
 	github.com/mavihq/persian v0.0.0-20231020110200-3e779b10be51
+	github.com/montanaflynn/stats v0.7.1
 )
 
 require (

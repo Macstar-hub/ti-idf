@@ -7,6 +7,7 @@ import (
 	"strconv"
 
 	ztable "github.com/gregscott94/z-table-golang"
+	"github.com/montanaflynn/stats"
 
 	// "strconv"
 	_ "github.com/go-sql-driver/mysql"
@@ -34,8 +35,10 @@ var DBConnection = MakeConnectionToDB()
 
 func main() {
 
-	// ZScore("house_price")
-	ZScore("house_price_1739485032")
+	ZScore("house_price")
+	// ZScore("house_price_1739485032")
+	IQR("house_price")
+	fmt.Println(22634483 * 22634483)
 
 }
 
@@ -96,8 +99,8 @@ func makeAveragePrice(tableName string) (int, []int) {
 }
 
 func ZScore(tableName string) {
-	var a float64
-	var b float64
+	var a int
+	var b int
 	sigmaPrice := 0
 	var deviationPopulation float64
 	zTable := ztable.NewZTable(nil)
@@ -111,17 +114,39 @@ func ZScore(tableName string) {
 
 	for i := 0; i < len(allPrice); i++ {
 		sigmaPrice = (allPrice[i] - meanPoplutaion)
-		a = math.Pow(2, float64(sigmaPrice))
+		a = (sigmaPrice * sigmaPrice)
+		fmt.Println("a: ", int(a), "SigmaPrice: ", sigmaPrice)
 		b = a + b
 	}
 	sigmaPrice = int(b)
+	fmt.Println("SigmaPrice: ", sigmaPrice)
 	c := sigmaPrice / len(allPrice)
 	deviationPopulation = math.Sqrt(float64(c))
 
 	for i := 0; i < len(allPrice); i++ {
 		z := (float64(allPrice[i]) - float64(meanPoplutaion)) / deviationPopulation
-		// fmt.Print(allPrice[i], z, (zTable.FindPercentage(z) * 100))
 		fmt.Printf("Price: %v, And Z-Score is: %v ,Z-Percentage: %v \n", allPrice[i], z, (zTable.FindPercentage(z) * 100))
 	}
 	fmt.Printf("deviationPopulation:  %v, meanPoplutaion: %v \n", deviationPopulation, meanPoplutaion)
+}
+
+func IQR(tableName string) (int, int) {
+	var allPriceFloat []float64
+
+	_, allPrice := makeAveragePrice(tableName)
+	for i := 0; i < len(allPrice); i
+		allPriceFloat = append(allPriceFloat, float64(allPrice[i]))
+	}
+
+	Q1, _ := stats.Percentile(allPriceFloat, 25)
+	Q3, _ := stats.Percentile(allPriceFloat, 75)
+
+	IQR := Q3 - Q1
+
+	lowerBound := Q1 - 1.5*IQR
+	UpperBound := Q3 + 1.5*IQR
+
+	fmt.Printf("Q1: %v, Q3: %v, IQR: %v, lowerBound: %v, UpperBound: %v \n", Q1, Q3, IQR, int(lowerBound), int(UpperBound))
+
+	return int(lowerBound), int(UpperBound)
 }

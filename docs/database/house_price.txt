@@ -1,0 +1,2 @@
+1- For make database with bigint for example house_price table: 
+1-1: create table house_price ( id int, links varchar(255), per_squar bigint, total_squar bigint );
