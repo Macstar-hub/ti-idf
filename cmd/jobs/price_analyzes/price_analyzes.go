@@ -43,9 +43,11 @@ func main() {
 
 	ZScore("house_price_majidieh_1739945882")
 	// ZScore("house_price_1739485032")
-	IQR("house_price_majidieh_1739945882")
-	histPlot()
 
+	lowerBound, upperBound := IQR("house_price_majidieh_1739945882")
+	fmt.Println("Lower Bound: ", lowerBound, "Upper Bound: ", upperBound)
+
+	fmt.Println("Fine tune average pice: ", averagePriceZscore("house_price_majidieh_1739945882"))
 }
 
 func MakeConnectionToDB() *sql.DB {
@@ -125,16 +127,15 @@ func ZScore(tableName string) {
 		b = a + b
 	}
 	sigmaPrice = int(b)
-	fmt.Println("SigmaPrice: ", sigmaPrice)
 	c := sigmaPrice / len(allPrice)
 	deviationPopulation = math.Sqrt(float64(c))
 
 	for i := 0; i < len(allPrice); i++ {
 		z := (float64(allPrice[i]) - float64(meanPoplutaion)) / deviationPopulation
-		fmt.Printf("Price: %v, And Z-Score is: %v ,Z-Percentage: %v \n", allPrice[i], z, (zTable.FindPercentage(z) * 100))
+		// fmt.Printf("Price: %v, And Z-Score is: %v ,Z-Percentage: %v \n", allPrice[i], z, (zTable.FindPercentage(z) * 100))
 		mysqlconnector.UpdateHousePriceZscore(allPrice[i], (zTable.FindPercentage(z) * 100))
 	}
-	fmt.Printf("deviationPopulation:  %v, meanPoplutaion: %v \n", deviationPopulation, meanPoplutaion)
+	// fmt.Printf("deviationPopulation:  %v, meanPoplutaion: %v \n", deviationPopulation, meanPoplutaion)
 }
 
 func IQR(tableName string) (int, int) {
@@ -153,13 +154,46 @@ func IQR(tableName string) (int, int) {
 	lowerBound := Q1 - 1.5*IQR
 	UpperBound := Q3 + 1.5*IQR
 
-	fmt.Printf("Q1: %v, Q3: %v, IQR: %v, lowerBound: %v, UpperBound: %v \n", Q1, Q3, IQR, int(lowerBound), int(UpperBound))
+	// fmt.Printf("Q1: %v, Q3: %v, IQR: %v, lowerBound: %v, UpperBound: %v \n", Q1, Q3, IQR, int(lowerBound), int(UpperBound))
 
 	return int(lowerBound), int(UpperBound)
 }
 
-func averagePrice() {
+func averagePriceZscore(tableName string) int {
 
+	id := 0
+	sumPrice := 0
+	var averagePrice float64
+	averagePrice = 0.0
+
+	var priceList []int
+
+	perSquar := TableInfo{
+		PerSquar: `json:"per_squar"`,
+	}
+	var tableCreationTime = fmt.Sprintf("SELECT per_squar from %v where (not per_squar = 0  and z_score  BETWEEN 35 AND 75)", tableName)
+	timeTable, err := DBConnection.Query(tableCreationTime)
+
+	if err != nil {
+		fmt.Println("Cannot find creation table with error: ", err)
+	}
+
+	for timeTable.Next() {
+		err := timeTable.Scan(&perSquar.PerSquar)
+		if err != nil {
+			fmt.Println("Cannot find table creation time with: ", err)
+		}
+		id++
+		priceInt, _ := strconv.Atoi(perSquar.PerSquar)
+		priceList = append(priceList, priceInt)
+	}
+
+	for i := 0; i < len(priceList); i++ {
+		sumPrice = priceList[i] + sumPrice
+	}
+	averagePrice = float64(sumPrice) / float64(id)
+
+	return int(averagePrice)
 }
 
 func histPlot() {
