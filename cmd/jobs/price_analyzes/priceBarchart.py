@@ -11,9 +11,10 @@ password="test@test",
 database="words"
 )
 
+tableName = "house_price"
 
 def historyBarPlot ():
-    prices, z_score = housePriceQuery("house_price")
+    prices, z_score = housePriceQuery(tableName)
     print (prices, z_score)
 
     fruit_names = ['Coffee', 'Salted Caramel', 'Pistachio']
@@ -24,7 +25,7 @@ def historyBarPlot ():
     ax.set(xlabel='Z score Percent', ylabel='Per Squar Price', title='House Price Distribution')
     ax.bar_label(bar_container, fmt='{:,.0f}')
 
-    plt.savefig('./priceBarchart.png')
+    plt.savefig('./test.png')
     plt.show() 
 
 

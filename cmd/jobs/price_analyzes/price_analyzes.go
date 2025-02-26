@@ -30,7 +30,7 @@ type SqlConfig struct {
 
 const (
 	DBName    = "words"
-	TableName = "house_price"
+	TableName = "house_price_1739484998"
 )
 
 type TableInfo struct {
@@ -40,14 +40,13 @@ type TableInfo struct {
 var DBConnection = MakeConnectionToDB()
 
 func main() {
+	zScoreColumn()
+	dbCleaner()
 
-	ZScore("house_price_majidieh_1739945882")
-	// ZScore("house_price_1739485032")
-
-	lowerBound, upperBound := IQR("house_price_majidieh_1739945882")
+	ZScore(TableName)
+	lowerBound, upperBound := IQR(TableName)
 	fmt.Println("Lower Bound: ", lowerBound, "Upper Bound: ", upperBound)
-
-	fmt.Println("Fine tune average pice: ", averagePriceZscore("house_price_majidieh_1739945882"))
+	fmt.Println("Fine tune average pice: ", averagePriceZscore(TableName))
 }
 
 func MakeConnectionToDB() *sql.DB {
@@ -133,7 +132,7 @@ func ZScore(tableName string) {
 	for i := 0; i < len(allPrice); i++ {
 		z := (float64(allPrice[i]) - float64(meanPoplutaion)) / deviationPopulation
 		// fmt.Printf("Price: %v, And Z-Score is: %v ,Z-Percentage: %v \n", allPrice[i], z, (zTable.FindPercentage(z) * 100))
-		mysqlconnector.UpdateHousePriceZscore(allPrice[i], (zTable.FindPercentage(z) * 100))
+		mysqlconnector.UpdateHousePriceZscore(allPrice[i], (zTable.FindPercentage(z) * 100), TableName)
 	}
 	// fmt.Printf("deviationPopulation:  %v, meanPoplutaion: %v \n", deviationPopulation, meanPoplutaion)
 }
@@ -215,4 +214,22 @@ func histPlot() {
 		For more plot info:
 		https://golangdocs.com/plotting-in-golang-histogram-barplot-boxplot
 	*/
+}
+
+func dbCleaner() {
+	var dbCleaner = fmt.Sprintf("delete from %v where per_squar = 0 ;", TableName)
+	_, err := DBConnection.Query(dbCleaner)
+
+	if err != nil {
+		fmt.Println("Cannot cleanup DB's: ", err)
+	}
+}
+
+func zScoreColumn() {
+	var addZscoreColumn = fmt.Sprintf("alter table %v add z_score float", TableName)
+	_, err := DBConnection.Query(addZscoreColumn)
+
+	if err != nil {
+		fmt.Println("Cannot make zscore column with error: ", err)
+	}
 }

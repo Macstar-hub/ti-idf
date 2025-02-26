@@ -264,8 +264,8 @@ func UpdateHousePrice(id int, per_squar int, total_squar int) {
 	defer update.Close()
 }
 
-func UpdateHousePriceZscore(per_squar int, z_score float64) {
-	tableName := "house_price"
+func UpdateHousePriceZscore(per_squar int, z_score float64, TableName string) {
+	tableName := TableName
 	db := MakeConnectionToDB()
 	defer db.Close()
 	var updateQuery = fmt.Sprintf("update %v set z_score = %v where per_squar = %v", tableName, z_score, per_squar)
