@@ -30,7 +30,7 @@ type SqlConfig struct {
 
 const (
 	DBName    = "words"
-	TableName = "house_price_1739484998"
+	TableName = "house_price"
 )
 
 type TableInfo struct {

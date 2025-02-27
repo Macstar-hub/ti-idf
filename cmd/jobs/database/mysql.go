@@ -18,8 +18,9 @@ type SqlConfig struct {
 }
 
 const (
-	DBName    = "words"
-	TableName = "house_price"
+	DBName          = "words"
+	TableName       = "house_price"
+	targetTableName = "house_price_tehran_parse_gharbi"
 )
 
 type CreateTime struct {
@@ -79,7 +80,7 @@ func CheckTableTime() {
 func CopyTable(tableName string) error {
 	currentTimeUnix := time.Now().Unix()
 
-	var copyTableQuery = fmt.Sprintf("create table house_price_majidieh_%v as select * from house_price", currentTimeUnix)
+	var copyTableQuery = fmt.Sprintf("create table %v_%v as select * from house_price", targetTableName, currentTimeUnix)
 	_, err := DBConnection.Query(copyTableQuery)
 
 	if err != nil {
