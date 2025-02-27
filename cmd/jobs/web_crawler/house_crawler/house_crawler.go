@@ -6,11 +6,12 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net/http"
+	"os"
+	"os/signal"
 	"regexp"
 	"strconv"
 	"strings"
-
-	// "time"
+	"syscall"
 
 	mysqlconnector "tf-idf/cmd/mysql"
 
@@ -30,19 +31,19 @@ func main() {
 	var totalSquarePrice int
 	var persquarPrice int
 
-	_, _, maskanURL := httpGet("https://divar.ir/s/tehran/buy-apartment/west-tehran-pars?size=60-70", "maskanurls") // tehran pars gharib.
-	// _, _, maskanURL := httpGet("https://divar.ir/s/tehran/buy-residential/majid-abad?size=65-80", "maskanurls")
-	ids, links := mysqlconnector.SelectHousePrice()
+	// _, _, maskanURL := httpGet("https://divar.ir/s/tehran/buy-apartment/west-tehran-pars?size=60-70", "maskanurls")
+	_, _, maskanURL := httpGet("https://divar.ir/s/tehran/buy-residential/majid-abad?size=65-80", "maskanurls")
+	ids, links, allLinks := mysqlconnector.SelectHousePrice()
 
-	if len(ids) < 2 {
-		// Insert data to mysql
+	if len(ids) < 2 && allLinks == 0 {
+		// Condition for make new table with fresh records.
 		for id := 0; id < len(maskanURL); id++ {
 			link := b64.StdEncoding.EncodeToString([]byte(maskanURL[id]))
 			mysqlconnector.InsertHousePrice(int64(id), link, 0, 0)
 		}
+		// Condition for countinuse crawling price.
 	} else {
 		for i := 0; i < len(ids); i++ {
-
 			maskanURL := fmt.Sprintf("%s", links[i])
 			_, MaskanPrice, _ := httpGet(maskanURL, "maskan")
 
@@ -56,12 +57,26 @@ func main() {
 
 			fmt.Println(persquarPrice, totalSquarePrice)
 
-			idsInt, _ := strconv.Atoi(ids[i])
+			idsInt := ids[i]
 			mysqlconnector.UpdateHousePrice(idsInt, totalSquarePrice, persquarPrice)
 			fmt.Println(MaskanPrice)
 		}
 	}
+	if len(ids) == 0 && allLinks != 0 {
+		fmt.Println("All links scraped and Done !")
+		signalExit()
+	}
+}
 
+func signalExit() {
+	os.Exit(1) // Exit the Go program
+}
+
+func signalHandeler() {
+	quite := make(chan os.Signal, 1)
+	signal.Notify(quite, syscall.SIGINT, syscall.SIGTERM)
+	s := <-quite
+	fmt.Println("Termination: ", s)
 }
 
 func httpGet(url string, priceType string) (int, []int, []string) {
@@ -141,7 +156,6 @@ func findMaskan(html string) []int {
 			priceSlice = append(priceSlice, persianStepAsInt)
 		}
 	}
-	// fmt.Println(priceSlice)
 	return priceSlice
 }
 

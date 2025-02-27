@@ -6,6 +6,7 @@ import (
 	"database/sql"
 	b64 "encoding/base64"
 	"fmt"
+	"strconv"
 
 	_ "github.com/go-sql-driver/mysql"
 )
@@ -23,6 +24,7 @@ type Tabelinfo struct {
 type HouseInfo struct {
 	ID        string `json:"id"`
 	Links     string `json:"links"`
+	LinkList  string `json: "id"`
 	TableName string
 }
 type Asset struct {
@@ -216,15 +218,17 @@ func InsertHousePrice(id int64, links string, per_squar int64, total_squar int64
 	defer insert.Close()
 }
 
-func SelectHousePrice() ([]string, []string) {
+func SelectHousePrice() ([]int, []string, int) {
 
-	var id []string
+	var linkList []int
+	var id []int
 	var links []string
 	var i = 0
 
 	tableInfo := HouseInfo{
-		ID:    `json:id`,
-		Links: `json:"links"`,
+		ID:       `json:id`,
+		Links:    `json:"links"`,
+		LinkList: `json:"id"`,
 	}
 
 	db := MakeConnectionToDB()
@@ -232,6 +236,7 @@ func SelectHousePrice() ([]string, []string) {
 	if err != nil {
 		panic(err.Error())
 	}
+
 	defer db.Close()
 
 	for selectQuery.Next() {
@@ -240,7 +245,8 @@ func SelectHousePrice() ([]string, []string) {
 			panic(err.Error())
 		}
 
-		id = append(id, tableInfo.ID)
+		intID, _ := strconv.Atoi(tableInfo.ID)
+		id = append(id, intID)
 		decodeLink, _ := b64.StdEncoding.DecodeString(tableInfo.Links)
 		links = append(links, string(decodeLink))
 		i++
@@ -249,7 +255,24 @@ func SelectHousePrice() ([]string, []string) {
 		}
 		defer db.Close()
 	}
-	return id, links
+
+	linkListSelectQuey, err := db.Query("select id from house_price")
+	if err != nil {
+		panic(err.Error())
+	}
+
+	for linkListSelectQuey.Next() {
+		err = linkListSelectQuey.Scan(&tableInfo.LinkList)
+		if err != nil {
+			panic(err.Error())
+		}
+
+		allLinkCount, _ := strconv.Atoi(tableInfo.LinkList)
+		linkList = append(id, allLinkCount)
+		defer db.Close()
+	}
+
+	return id, links, len(linkList)
 }
 
 func UpdateHousePrice(id int, per_squar int, total_squar int) {
