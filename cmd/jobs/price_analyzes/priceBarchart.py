@@ -17,16 +17,13 @@ def historyBarPlot ():
     prices, z_score = housePriceQuery(tableName)
     print (prices, z_score)
 
-    fruit_names = ['Coffee', 'Salted Caramel', 'Pistachio']
-    fruit_counts = [4000, 2000, 7000]
-
     fig, ax = plt.subplots()
     bar_container = ax.bar(z_score, prices)
     ax.set(xlabel='Z score Percent', ylabel='Per Squar Price', title='House Price Distribution')
     ax.bar_label(bar_container, fmt='{:,.0f}')
 
     plt.savefig('./test.png')
-    plt.show() 
+    # plt.show() 
 
 
 
