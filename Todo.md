@@ -44,10 +44,12 @@
         - [x] Make web crawling with go.
         - [x] Make crawling with tjgu.
         - [x] Make house price from divar.
-        - [] Make outliner detection and cleaner to make correct price.
+        - [x] Make outliner detection and cleaner to make correct price.
         - [] Make function to detect specefic house area.
         - [x] Make function to produce avg house price. 
         - [] Make export price house, dollar, gold and coin to ui.
+        - [] Fix duplicated data when house_price.
+        - [] Make telegram bot for notify custome reports.
 
 
     - [] Make cache layer for topic modeling and topic vectorization instead of sql DB.
