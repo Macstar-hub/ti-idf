@@ -6,9 +6,10 @@ import (
 	"math"
 	"strconv"
 
+	b64 "encoding/base64"
+
 	ztable "github.com/gregscott94/z-table-golang"
 	"github.com/montanaflynn/stats"
-
 	"gonum.org/v1/plot"
 	"gonum.org/v1/plot/plotter"
 	"gonum.org/v1/plot/vg"
@@ -47,6 +48,7 @@ func main() {
 	lowerBound, upperBound := IQR(TableName)
 	fmt.Println("Lower Bound: ", lowerBound, "Upper Bound: ", upperBound)
 	fmt.Println("Fine tune average pice: ", averagePriceZscore(TableName))
+	repeatedHousePrice("house_price", "house_price_majidieh_1741164255")
 }
 
 func MakeConnectionToDB() *sql.DB {
@@ -131,10 +133,8 @@ func ZScore(tableName string) {
 
 	for i := 0; i < len(allPrice); i++ {
 		z := (float64(allPrice[i]) - float64(meanPoplutaion)) / deviationPopulation
-		// fmt.Printf("Price: %v, And Z-Score is: %v ,Z-Percentage: %v \n", allPrice[i], z, (zTable.FindPercentage(z) * 100))
 		mysqlconnector.UpdateHousePriceZscore(allPrice[i], (zTable.FindPercentage(z) * 100), TableName)
 	}
-	// fmt.Printf("deviationPopulation:  %v, meanPoplutaion: %v \n", deviationPopulation, meanPoplutaion)
 }
 
 func IQR(tableName string) (int, int) {
@@ -152,8 +152,6 @@ func IQR(tableName string) (int, int) {
 
 	lowerBound := Q1 - 1.5*IQR
 	UpperBound := Q3 + 1.5*IQR
-
-	// fmt.Printf("Q1: %v, Q3: %v, IQR: %v, lowerBound: %v, UpperBound: %v \n", Q1, Q3, IQR, int(lowerBound), int(UpperBound))
 
 	return int(lowerBound), int(UpperBound)
 }
@@ -232,4 +230,15 @@ func zScoreColumn() {
 	if err != nil {
 		fmt.Println("Cannot make zscore column with error: ", err)
 	}
+}
+
+func repeatedHousePrice(todayTable string, targetTable string) {
+	linkList := mysqlconnector.RepeatedHousePrice(todayTable, targetTable)
+
+	for i := 0; i < len(linkList); i++ {
+		link, _ := b64.StdEncoding.DecodeString(linkList[i])
+		fmt.Println(string(link))
+		fmt.Println()
+	}
+
 }

@@ -275,6 +275,34 @@ func SelectHousePrice() ([]int, []string, int) {
 	return id, links, len(linkList)
 }
 
+func RepeatedHousePrice(todayTable string, targetTable string) []string {
+	db := MakeConnectionToDB()
+	var linkList []string
+
+	// innerJoin := fmt.Sprintf("SELECT  %v.links, %v.per_squar, %v.per_squar  FROM %v INNER JOIN %v  ON %v.links= %v.links;", todayTable, todayTable, targetTable, todayTable, targetTable, targetTable, todayTable)
+	innerJoin := fmt.Sprintf("SELECT  %v.links  FROM %v INNER JOIN %v  ON %v.links= %v.links   where (not house_price.per_squar = 0  and house_price.z_score  BETWEEN 35 AND 75);", todayTable, todayTable, targetTable, targetTable, todayTable)
+	innerJoinQuery, err := db.Query(innerJoin)
+	if err != nil {
+		fmt.Println("Cannot make inner join with error: ", err)
+	}
+
+	for innerJoinQuery.Next() {
+
+		var links string
+		// var persquar_source int
+		// var persqaur_target int
+
+		innerJoinQuery.Scan(&links)
+		innerJoinQuery.Scan(fmt.Sprintf("%v.per_squar", todayTable))
+		innerJoinQuery.Scan(fmt.Sprintf("%v.per_squar", targetTable))
+
+		linkList = append(linkList, links)
+	}
+
+	defer db.Close()
+	return linkList
+}
+
 func UpdateHousePrice(id int, per_squar int, total_squar int) {
 	tableName := "house_price"
 	db := MakeConnectionToDB()
