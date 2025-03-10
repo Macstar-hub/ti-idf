@@ -47,9 +47,12 @@
         - [x] Make outliner detection and cleaner to make correct price.
         - [] Make function to detect specefic house area.
         - [x] Make function to produce avg house price. 
+        - [] Make more descriptive error handling while expercing error in divar house price crawling.
         - [] Make export price house, dollar, gold and coin to ui.
         - [] Fix duplicated data when house_price.
         - [] Make telegram bot for notify custome reports.
+            - [x] Make send telegram best price house price.
+            - [] Make section based house price.
 
 
     - [] Make cache layer for topic modeling and topic vectorization instead of sql DB.

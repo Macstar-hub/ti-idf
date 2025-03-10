@@ -5,6 +5,7 @@ import (
 	b64 "encoding/base64"
 	"fmt"
 	"io/ioutil"
+	"log"
 	"net/http"
 	"os"
 	"os/signal"
@@ -30,8 +31,8 @@ type Price struct {
 func main() {
 	var totalSquarePrice int
 	var persquarPrice int
-	_, _, maskanURL := httpGet("https://divar.ir/s/tehran/buy-residential/ahang?size=65-80", "maskanurls")
-	// _, _, maskanURL := httpGet("https://divar.ir/s/tehran/buy-apartment/west-tehran-pars?size=60-70", "maskanurls")
+	// _, _, maskanURL := httpGet("https://divar.ir/s/tehran/buy-residential/ahang?size=65-80", "maskanurls")
+	_, _, maskanURL := httpGet("https://divar.ir/s/tehran/buy-apartment/west-tehran-pars?size=60-70", "maskanurls")
 	// _, _, maskanURL := httpGet("https://divar.ir/s/tehran/buy-residential/majid-abad?size=65-80", "maskanurls")
 	ids, links, allLinks := mysqlconnector.SelectHousePrice()
 
@@ -86,11 +87,17 @@ func httpGet(url string, priceType string) (int, []int, []string) {
 	var maskanURLS []string
 
 	netClient := customHttpClient()
-
-	responseByte, err := netClient.Get(url)
+	// Add request example:
+	req, err := http.NewRequest("GET", url, nil)
+	if err != nil {
+		log.Println(err)
+	}
+	req.Header.Set("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+	log.Println("URL: ", url)
+	// Add redponse section:
+	responseByte, err := netClient.Do(req)
 
 	httpErrorHandeler(err)
-
 	responeBody, err := ioutil.ReadAll(responseByte.Body)
 	byteReadErrorHandelete(err)
 
@@ -196,9 +203,10 @@ func maskanPriceURL(html string) []string {
 
 		for j := 0; j < len(step3); j++ {
 			step4 := strings.Replace(step3[j], "\"", "", -1)
-			stepAdd := strings.Replace(step4, "}.*", "", -1)
-			fmt.Println(stepAdd)
-			step5 = append(step5, fmt.Sprintf("%s", strings.Replace(stepAdd, "url:", "", -1)))
+			fmt.Println(step4)
+			stepBeracket := strings.Replace(step4, "}", "", -1)
+			fmt.Println(stepBeracket)
+			step5 = append(step5, fmt.Sprintf("%s", strings.Replace(stepBeracket, "url:", "", -1)))
 		}
 	}
 
