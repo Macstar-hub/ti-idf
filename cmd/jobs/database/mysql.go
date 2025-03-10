@@ -20,7 +20,7 @@ type SqlConfig struct {
 const (
 	DBName          = "words"
 	TableName       = "house_price"
-	targetTableName = "house_price_majidieh"
+	targetTableName = "house_price_tehran_parse_gharbi"
 )
 
 type CreateTime struct {

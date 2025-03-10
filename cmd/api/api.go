@@ -88,5 +88,4 @@ func Search(body *gin.Context) {
 	body.HTML(http.StatusOK, "allLinks.html", gin.H{
 		"Links": links,
 	})
-
 }

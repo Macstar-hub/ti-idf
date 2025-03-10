@@ -1,14 +1,20 @@
 package main
 
 import (
+	"bytes"
 	"database/sql"
 	"fmt"
+	"io/ioutil"
 	"math"
+	"net/http"
+
 	"strconv"
 
 	b64 "encoding/base64"
+	"encoding/json"
 
 	ztable "github.com/gregscott94/z-table-golang"
+	"github.com/labstack/gommon/log"
 	"github.com/montanaflynn/stats"
 	"gonum.org/v1/plot"
 	"gonum.org/v1/plot/plotter"
@@ -16,7 +22,6 @@ import (
 
 	mysqlconnector "tf-idf/cmd/mysql"
 
-	// "strconv"
 	_ "github.com/go-sql-driver/mysql"
 )
 
@@ -30,8 +35,11 @@ type SqlConfig struct {
 }
 
 const (
-	DBName    = "words"
-	TableName = "house_price"
+	DBName      = "words"
+	TableName   = "house_price"
+	TargetTable = "house_price_majidieh_1741417562"
+	botToken    = "7866790505:AAGWjmSDBQyKhVsxObscwCJ8U2AX7Mn1EB8"
+	chatId      = "114956415"
 )
 
 type TableInfo struct {
@@ -48,7 +56,7 @@ func main() {
 	lowerBound, upperBound := IQR(TableName)
 	fmt.Println("Lower Bound: ", lowerBound, "Upper Bound: ", upperBound)
 	fmt.Println("Fine tune average pice: ", averagePriceZscore(TableName))
-	repeatedHousePrice("house_price", "house_price_majidieh_1741164255")
+	repeatedHousePrice(TableName, TargetTable)
 }
 
 func MakeConnectionToDB() *sql.DB {
@@ -233,12 +241,51 @@ func zScoreColumn() {
 }
 
 func repeatedHousePrice(todayTable string, targetTable string) {
-	linkList := mysqlconnector.RepeatedHousePrice(todayTable, targetTable)
+	// linkList := mysqlconnector.RepeatedHousePrice(todayTable, targetTable)
+	linkList := mysqlconnector.TelegramHousePriceSend(todayTable)
+	sendMessageTelegram(botToken, "++++++++++++++++++++++++++  Good home ADS +++++++++++++++++++++ ", chatId)
 
 	for i := 0; i < len(linkList); i++ {
 		link, _ := b64.StdEncoding.DecodeString(linkList[i])
 		fmt.Println(string(link))
+		sendMessageTelegram(botToken, string(link), chatId)
 		fmt.Println()
 	}
 
+}
+
+func getURL(botToken string) string {
+	return fmt.Sprintf("https://api.telegram.org/bot%s", botToken)
+}
+
+func sendMessageTelegram(botToken string, text string, chatId string) {
+	// Define variable:
+	var response *http.Response
+	var err error
+
+	// Send messages:
+	url := fmt.Sprintf("%s/sendMessage", getURL(botToken))
+	body, _ := json.Marshal(map[string]string{
+		"chat_id": chatId,
+		"text":    text,
+	})
+	response, err = http.Post(
+		url,
+		"application/json",
+		bytes.NewBuffer(body))
+
+	if err != nil {
+		fmt.Println("Cannot send telegram message with: ", err)
+	}
+
+	// Close response body:
+	defer response.Body.Close()
+
+	// Make body:
+	body, err = ioutil.ReadAll(response.Body)
+	if err != nil {
+		fmt.Println("Cannot read response body with: ", err)
+	}
+	log.Infof("Message sent : %s", text)
+	log.Infof("Response: %s", string(body))
 }
