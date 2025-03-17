@@ -4,9 +4,10 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
-	"io/ioutil"
+	"log"
 	"net/http"
 	mysqlconnector "tf-idf/cmd/mysql"
+	"time"
 	// webcrawler "tf-idf/cmd/web_crawler" // tjgu crawler source.
 )
 
@@ -29,18 +30,10 @@ func GetURL() string {
 	return fmt.Sprintf("https://brsapi.ir/FreeTsetmcBourseApi/Api_Free_Gold_Currency_v2.json")
 }
 
-func loadFile(filePath string) string {
-	date, err := ioutil.ReadFile(filePath)
-	if err != nil {
-		fmt.Println("Cannot read file with error: ", err)
-	}
-
-	return string(date)
-}
-
 func GetCoinPrice() (string, []int) {
 	// For crawl with tjgu source plz uncomment below line.
 	// webcrawler.GetPrice() // tjgu source
+	startTime := time.Now
 	getAllMessage, err := http.Get(GetURL())
 	if err != nil {
 		fmt.Println("Cannot get update with: ", err)
@@ -70,5 +63,7 @@ func GetCoinPrice() (string, []int) {
 	priceSlice = append(priceSlice, gold.GoldPrice[2].Price)
 
 	mysqlconnector.UpdatePrice(priceSlice)
+
+	log.Println("Total latency: ", time.Since(startTime()))
 	return string(body), priceSlice
 }
