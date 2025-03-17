@@ -57,6 +57,10 @@
 
     - [] Make cache layer for topic modeling and topic vectorization instead of sql DB.
         - [] Make redis SET and GET command modules.
+
+    - [] Security:
+        - [] Make read all token and security config from database.
+        - [] Make all security cred with salt algo.
 ---
 # Issues : 
 - [] Find duplication values inserted in database.
