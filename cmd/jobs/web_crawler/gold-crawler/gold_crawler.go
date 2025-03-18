@@ -4,10 +4,12 @@ import (
 	"crypto/tls"
 	"fmt"
 	"io/ioutil"
+	"log"
 	"net/http"
 	"regexp"
 	"strconv"
 	"strings"
+	"time"
 	// "time"
 	// "github.com/mavihq/persian"
 )
@@ -23,6 +25,8 @@ type Price struct {
 }
 
 func main() {
+
+	startTime := time.Now()
 
 	var price Price
 
@@ -48,6 +52,8 @@ func main() {
 	price.GoldDast2 = GoldDast2
 
 	fmt.Println(price)
+
+	log.Println("Total latency: ", time.Since(startTime))
 
 }
 
