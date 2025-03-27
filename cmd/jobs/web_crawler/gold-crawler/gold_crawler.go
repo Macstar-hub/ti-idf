@@ -9,6 +9,8 @@ import (
 	"regexp"
 	"strconv"
 	"strings"
+
+	// "sync"
 	"time"
 	// "time"
 	// "github.com/mavihq/persian"
@@ -27,6 +29,9 @@ type Price struct {
 func main() {
 
 	startTime := time.Now()
+
+	// responseChannel := make(chan int, 1024)
+	// wg := *&sync.WaitGroup{}
 
 	var price Price
 
