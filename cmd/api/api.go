@@ -39,8 +39,17 @@ func CalcAsset(body *gin.Context) {
 
 	totalAsset := (assetGeram * goldPrice) + (newCoin * newCoinPrice) + (oldCoin * oldCoinPrice) + (semiCoin * semiCoinPrice)
 
+	// Debug:
+	fmt.Println("Just For debug: ", newCoin)
+
 	// Render all Gold asset
-	body.HTML(http.StatusOK, "assetCalc.html", gin.H{"totalAsset": totalAsset})
+	body.HTML(http.StatusOK, "assetCalc.html", gin.H{
+		"totalAsset":    totalAsset,
+		"goldPrice":     goldPrice,
+		"newCoin":       newCoinPrice,
+		"oldCoinPrice":  oldCoinPrice,
+		"semiCoinPrice": semiCoinPrice,
+	})
 }
 
 // Render all links in table.
