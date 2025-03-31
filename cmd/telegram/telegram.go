@@ -10,7 +10,8 @@ import (
 	"strconv"
 	"strings"
 	"sync"
-	mysqlconnector "tf-idf/cmd/mysql"
+
+	// mysqlconnector "tf-idf/cmd/mysql"
 	"time"
 )
 
@@ -23,6 +24,9 @@ type Price struct {
 	Gold18       int
 	GoldDast2    int
 }
+
+var FrontPriceChannel = make(chan Price, 1024)
+var DBPriceChannel = make(chan []int, 1024)
 
 func GetCoinPrice() *Price {
 
@@ -51,20 +55,20 @@ func GetCoinPrice() *Price {
 	}
 
 	p := new(Price)
-	responseChannel := make(chan Price, 1024)
+	ResponseChannel := make(chan Price, 1024)
 	wg := &sync.WaitGroup{}
 
 	for i, url := range UrlList {
 		wg.Add(1)
-		go p.getPrice(url, "priceGold", responseChannel, wg, Symbol[i])
+		go p.getPrice(url, "priceGold", ResponseChannel, wg, Symbol[i])
 	}
 
 	wg.Wait()
-	close(responseChannel)
+	close(ResponseChannel)
 
 	finalPrice := new(Price)
 
-	for responseChann := range responseChannel {
+	for responseChann := range ResponseChannel {
 		finalPrice.Dollar = responseChann.Dollar + finalPrice.Dollar
 		finalPrice.SekkeTamam = responseChann.SekkeTamam + finalPrice.SekkeTamam
 		finalPrice.SekketGhadim = responseChann.SekketGhadim + finalPrice.SekketGhadim
@@ -75,17 +79,33 @@ func GetCoinPrice() *Price {
 	}
 
 	log.Println("From channel is: ", finalPrice)
-	log.Println("Total latency: ", time.Since(startTime))
+	log.Println("Scrap price webpage: ", time.Since(startTime))
 
+	// Make send over new all finalPrice over a channle to make async ops.
+	go SendPriceChannelFront(finalPrice)
+
+	// Make slice for update mysql record.
 	priceSlice = append(priceSlice, finalPrice.Gold18)
 	priceSlice = append(priceSlice, finalPrice.SekkeTamam)
 	priceSlice = append(priceSlice, finalPrice.SekketGhadim)
 	priceSlice = append(priceSlice, finalPrice.SekkehNim)
 
-	mysqlconnector.UpdatePrice(priceSlice)
+	// Make send update to DB:
+	startDBTime := time.Now()
+	// mysqlconnector.UpdatePrice(priceSlice)
+	go SendPriceChannleDB(priceSlice)
+	fmt.Println("DB Update Latency: ", time.Since(startDBTime))
 
 	return finalPrice
 
+}
+
+func SendPriceChannelFront(price *Price) {
+	FrontPriceChannel <- *price
+}
+
+func SendPriceChannleDB(priceSlice []int) {
+	DBPriceChannel <- priceSlice
 }
 
 func (p Price) getPrice(url string, priceType string, responceChannel chan Price, wg *sync.WaitGroup, getPriceType string) {
