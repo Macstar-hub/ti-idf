@@ -52,15 +52,21 @@ func CalcAsset(body *gin.Context) {
 		newCoinPrice := receivePrice.SekkeTamam
 		oldCoinPrice := receivePrice.SekketGhadim
 		semiCoinPrice := receivePrice.SekkehNim
+		stockGoldPrice := receivePrice.GoldDast2
+		quarteCoinPrice := receivePrice.RobeSekke
+		usdDollar := receivePrice.Dollar
 		totalAsset := (assetGeram * goldPrice) + (newCoin * newCoinPrice) + (oldCoin * oldCoinPrice) + (semiCoin * semiCoinPrice)
 
 		// Render all Gold asset
 		body.HTML(http.StatusOK, "assetCalc.html", gin.H{
-			"totalAsset":    totalAsset,
-			"goldPrice":     goldPrice,
-			"newCoin":       newCoinPrice,
-			"oldCoinPrice":  oldCoinPrice,
-			"semiCoinPrice": semiCoinPrice,
+			"totalAsset":      totalAsset,
+			"goldPrice":       goldPrice,
+			"newCoin":         newCoinPrice,
+			"oldCoinPrice":    oldCoinPrice,
+			"semiCoinPrice":   semiCoinPrice,
+			"quarteCoinPrice": quarteCoinPrice,
+			"stockGoldPrice":  stockGoldPrice,
+			"usdDollar":       usdDollar,
 		})
 
 	case <-time.After(1 * time.Millisecond):
