@@ -138,6 +138,18 @@
                     <td>Semi Coin Price</td>
                     <td id="semiCoinPrice">$0.00</td>
                 </tr>
+                <tr>
+                    <td>Quarter Coin Price</td>
+                    <td id="quarterCoinPrice">$0.00</td>
+                </tr>
+                <tr>
+                    <td>Stock Gold Price</td>
+                    <td id="stockGoldPrice">$0.00</td>
+                </tr>
+                <tr>
+                    <td>USD Doller Price</td>
+                    <td id="usdDollar">$0.00</td>
+                </tr>
             </table>
             
             <a href="/" class="btn">Go to Home</a>
@@ -150,6 +162,9 @@
         document.getElementById('newCoin').textContent = '${{ .newCoin }}';
         document.getElementById('oldCoinPrice').textContent = '${{ .oldCoinPrice }}';
         document.getElementById('semiCoinPrice').textContent = '${{ .semiCoinPrice }}';
-    </script>
+        document.getElementById('quarterCoinPrice').textContent = '${{ .quarteCoinPrice }}';
+        document.getElementById('stockGoldPrice').textContent = '${{ .stockGoldPrice }}';
+        document.getElementById('usdDollar').textContent = '${{ .usdDollar }}';
+ </script>
 </body>
 </html>

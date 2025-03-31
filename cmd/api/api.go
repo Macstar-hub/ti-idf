@@ -40,18 +40,6 @@ func CalcAsset(body *gin.Context) {
 	// Get price from mysql
 	telegram.GetCoinPrice()
 	mysqlconnector.UpdatePrice()
-	goldPrice, newCoinPrice, oldCoinPrice, semiCoinPrice := mysqlconnector.SelectPriceGold()
-
-	totalAsset := (assetGeram * goldPrice) + (newCoin * newCoinPrice) + (oldCoin * oldCoinPrice) + (semiCoin * semiCoinPrice)
-
-	// Render all Gold asset
-	body.HTML(http.StatusOK, "assetCalc.html", gin.H{
-		"totalAsset":    totalAsset,
-		"goldPrice":     goldPrice,
-		"newCoin":       newCoinPrice,
-		"oldCoinPrice":  oldCoinPrice,
-		"semiCoinPrice": semiCoinPrice,
-	})
 
 	// Just for debug:
 	fmt.Println("Just Before Received channel:")
@@ -60,6 +48,27 @@ func CalcAsset(body *gin.Context) {
 	select {
 	case receivePrice := <-telegram.FrontPriceChannel:
 		fmt.Println("From channel: ", receivePrice)
+		goldPrice := receivePrice.Gold18
+		newCoinPrice := receivePrice.SekkeTamam
+		oldCoinPrice := receivePrice.SekketGhadim
+		semiCoinPrice := receivePrice.SekkehNim
+		stockGoldPrice := receivePrice.GoldDast2
+		quarteCoinPrice := receivePrice.RobeSekke
+		usdDollar := receivePrice.Dollar
+		totalAsset := (assetGeram * goldPrice) + (newCoin * newCoinPrice) + (oldCoin * oldCoinPrice) + (semiCoin * semiCoinPrice)
+
+		// Render all Gold asset
+		body.HTML(http.StatusOK, "assetCalc.html", gin.H{
+			"totalAsset":      totalAsset,
+			"goldPrice":       goldPrice,
+			"newCoin":         newCoinPrice,
+			"oldCoinPrice":    oldCoinPrice,
+			"semiCoinPrice":   semiCoinPrice,
+			"quarteCoinPrice": quarteCoinPrice,
+			"stockGoldPrice":  stockGoldPrice,
+			"usdDollar":       usdDollar,
+		})
+
 	case <-time.After(1 * time.Millisecond):
 		log.Println("Timeout meet.")
 		close(telegram.FrontPriceChannel)
