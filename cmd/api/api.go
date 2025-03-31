@@ -2,7 +2,9 @@ package httppost
 
 import (
 	"fmt"
+	"log"
 	"net/http"
+	"time"
 
 	strconv "strconv"
 	mysqlconnector "tf-idf/cmd/mysql"
@@ -28,6 +30,8 @@ func PostLabels(body *gin.Context) {
 
 func CalcAsset(body *gin.Context) {
 
+	startTime := time.Now
+
 	assetGeram, _ := strconv.Atoi(body.PostForm("assetGeram"))
 	newCoin, _ := strconv.Atoi(body.PostForm("newCoin"))
 	oldCoin, _ := strconv.Atoi(body.PostForm("oldCoin"))
@@ -35,12 +39,10 @@ func CalcAsset(body *gin.Context) {
 
 	// Get price from mysql
 	telegram.GetCoinPrice()
+	mysqlconnector.UpdatePrice()
 	goldPrice, newCoinPrice, oldCoinPrice, semiCoinPrice := mysqlconnector.SelectPriceGold()
 
 	totalAsset := (assetGeram * goldPrice) + (newCoin * newCoinPrice) + (oldCoin * oldCoinPrice) + (semiCoin * semiCoinPrice)
-
-	// Debug:
-	fmt.Println("Just For debug: ", newCoin)
 
 	// Render all Gold asset
 	body.HTML(http.StatusOK, "assetCalc.html", gin.H{
@@ -50,6 +52,20 @@ func CalcAsset(body *gin.Context) {
 		"oldCoinPrice":  oldCoinPrice,
 		"semiCoinPrice": semiCoinPrice,
 	})
+
+	// Just for debug:
+	fmt.Println("Just Before Received channel:")
+
+	// Make a channel to receive all data
+	select {
+	case receivePrice := <-telegram.FrontPriceChannel:
+		fmt.Println("From channel: ", receivePrice)
+	case <-time.After(1 * time.Millisecond):
+		log.Println("Timeout meet.")
+		close(telegram.FrontPriceChannel)
+	}
+
+	fmt.Println("Total Price Latency Is: ", time.Since(startTime()))
 }
 
 // Render all links in table.

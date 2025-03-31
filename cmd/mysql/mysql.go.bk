@@ -136,29 +136,31 @@ func Update(word string, idf float64) {
 
 }
 
-func UpdatePrice() {
+func UpdatePrice(goldPrice []int) {
+	tableInfo := Tabelinfo{
+		TableName: "price",
+	}
+	db := MakeConnectionToDB()
+	defer db.Close()
+	var updateQuery = fmt.Sprintf("update %v set goldprice = %v, newcoinprice = %v, oldcoinprice = %v, semicoinprice = %v ", tableInfo.TableName, goldPrice[0], goldPrice[1], goldPrice[2], goldPrice[3])
+	update, err := db.Query(updateQuery)
+	if err != nil {
+		panic(err.Error())
+
+	}
+
 	// Define DB Channel:
 
 	select {
 	case receivePriceSlice := <-telegram.DBPriceChannel:
 		log.Println("Debug: Recieved DB slices: ", receivePriceSlice)
-		goldPrice := receivePriceSlice
-		tableInfo := Tabelinfo{
-			TableName: "price",
-		}
-		db := MakeConnectionToDB()
-		defer db.Close()
-		var updateQuery = fmt.Sprintf("update %v set goldprice = %v, newcoinprice = %v, oldcoinprice = %v, semicoinprice = %v ", tableInfo.TableName, goldPrice[0], goldPrice[1], goldPrice[2], goldPrice[3])
-		update, err := db.Query(updateQuery)
-		if err != nil {
-			panic(err.Error())
-
-		}
-		defer update.Close()
+		// goldPrice := receivePriceSlice
 	case <-time.After(1 * time.Millisecond):
 		log.Println("Timeout meet.")
 		close(telegram.DBPriceChannel)
 	}
+
+	defer update.Close()
 
 }
 
