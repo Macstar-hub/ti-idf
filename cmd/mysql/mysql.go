@@ -152,14 +152,14 @@ func UpdatePrice() {
 		update, err := db.Query(updateQuery)
 		if err != nil {
 			panic(err.Error())
-
 		}
+
 		defer update.Close()
+
 	case <-time.After(1 * time.Millisecond):
 		log.Println("Timeout meet.")
 		close(telegram.DBPriceChannel)
 	}
-
 }
 
 // func SelectQury() UsersInfoTable {

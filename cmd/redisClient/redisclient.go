@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 	"log"
+	"strconv"
 	"time"
 
 	"github.com/redis/go-redis/v9"
@@ -43,14 +44,13 @@ func RedisSetOPS(key string, value int) {
 	}
 }
 
-func RedisGetOPS(client *redis.Client, key string) string {
+func RedisGetOPS(key string) int {
 	startTime := time.Now()
 	value, err := client.Get(ctx, key).Result()
 	if err != nil {
 		log.Printf("Canntot Find Value Of Key: %s", key, err)
-	} else {
-		fmt.Println(time.Since(startTime))
-		return value
 	}
-	return ""
+	fmt.Println(time.Since(startTime))
+	intValue, _ := strconv.Atoi(value)
+	return intValue
 }

@@ -100,8 +100,6 @@ func GetCoinPrice() *Price {
 	key := reflect.ValueOf(*finalPrice)
 	for i := 0; i < key.NumField(); i++ {
 		SetPriceRedis(string(key.Type().Field(i).Name), int(key.Field(i).Int()))
-		fmt.Println(key.Type().Field(i).Name)
-		fmt.Println("\t", key.Field(i))
 	}
 
 	return finalPrice
