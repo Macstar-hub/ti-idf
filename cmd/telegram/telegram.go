@@ -6,12 +6,12 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
+	"reflect"
 	"regexp"
 	"strconv"
 	"strings"
 	"sync"
-
-	// mysqlconnector "tf-idf/cmd/mysql"
+	redisclient "tf-idf/cmd/redisClient"
 	"time"
 )
 
@@ -96,8 +96,18 @@ func GetCoinPrice() *Price {
 	go SendPriceChannleDB(priceSlice)
 	fmt.Println("DB Update Latency: ", time.Since(startDBTime))
 
+	// Make iterate over finalPrice struct.
+	key := reflect.ValueOf(*finalPrice)
+	for i := 0; i < key.NumField(); i++ {
+		SetPriceRedis(string(key.Type().Field(i).Name), int(key.Field(i).Int()))
+	}
+
 	return finalPrice
 
+}
+
+func SetPriceRedis(key string, value int) {
+	redisclient.RedisSetOPS(key, value)
 }
 
 func SendPriceChannelFront(price *Price) {

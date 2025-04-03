@@ -2,13 +2,15 @@ package httppost
 
 import (
 	"fmt"
-	"log"
+	// "log"
 	"net/http"
-	"time"
-
 	strconv "strconv"
 	mysqlconnector "tf-idf/cmd/mysql"
+	redisclient "tf-idf/cmd/redisClient"
 	"tf-idf/cmd/telegram"
+
+	// "tf-idf/cmd/telegram"
+	"time"
 
 	"github.com/gin-gonic/gin"
 )
@@ -43,36 +45,56 @@ func CalcAsset(body *gin.Context) {
 
 	// Just for debug:
 	fmt.Println("Just Before Received channel:")
+	goldPrice := redisclient.RedisGetOPS("Gold18")          //receivePrice.Gold18
+	newCoinPrice := redisclient.RedisGetOPS("SekkeTamam")   //receivePrice.SekkeTamam
+	oldCoinPrice := redisclient.RedisGetOPS("SekketGhadim") //receivePrice.SekketGhadim
+	semiCoinPrice := redisclient.RedisGetOPS("SekkehNim")   //receivePrice.SekkehNim
+	stockGoldPrice := redisclient.RedisGetOPS("GoldDast2")  //receivePrice.GoldDast2
+	quarteCoinPrice := redisclient.RedisGetOPS("RobeSekke") //receivePrice.RobeSekke
+	usdDollar := redisclient.RedisGetOPS("Dollar")          //receivePrice.Dollar
+	totalAsset := (assetGeram * goldPrice) + (newCoin * newCoinPrice) + (oldCoin * oldCoinPrice) + (semiCoin * semiCoinPrice)
+
+	// Render all Gold asset
+	body.HTML(http.StatusOK, "assetCalc.html", gin.H{
+		"totalAsset":      totalAsset,
+		"goldPrice":       goldPrice,
+		"newCoin":         newCoinPrice,
+		"oldCoinPrice":    oldCoinPrice,
+		"semiCoinPrice":   semiCoinPrice,
+		"quarteCoinPrice": quarteCoinPrice,
+		"stockGoldPrice":  stockGoldPrice,
+		"usdDollar":       usdDollar,
+	})
 
 	// Make a channel to receive all data
-	select {
-	case receivePrice := <-telegram.FrontPriceChannel:
-		fmt.Println("From channel: ", receivePrice)
-		goldPrice := receivePrice.Gold18
-		newCoinPrice := receivePrice.SekkeTamam
-		oldCoinPrice := receivePrice.SekketGhadim
-		semiCoinPrice := receivePrice.SekkehNim
-		stockGoldPrice := receivePrice.GoldDast2
-		quarteCoinPrice := receivePrice.RobeSekke
-		usdDollar := receivePrice.Dollar
-		totalAsset := (assetGeram * goldPrice) + (newCoin * newCoinPrice) + (oldCoin * oldCoinPrice) + (semiCoin * semiCoinPrice)
+	// select {
+	// case receivePrice := <-telegram.FrontPriceChannel:
+	// 	fmt.Println("From channel: ", receivePrice)
+	// 	goldPrice := redisclient.RedisGetOPS("Gold18")          //receivePrice.Gold18
+	// 	newCoinPrice := redisclient.RedisGetOPS("SekkeTamam")   //receivePrice.SekkeTamam
+	// 	oldCoinPrice := redisclient.RedisGetOPS("SekketGhadim") //receivePrice.SekketGhadim
+	// 	semiCoinPrice := redisclient.RedisGetOPS("SekkehNim")   //receivePrice.SekkehNim
+	// 	stockGoldPrice := redisclient.RedisGetOPS("GoldDast2")  //receivePrice.GoldDast2
+	// 	quarteCoinPrice := redisclient.RedisGetOPS("RobeSekke") //receivePrice.RobeSekke
+	// 	usdDollar := redisclient.RedisGetOPS("Dollar")          //receivePrice.Dollar
+	// 	totalAsset := (assetGeram * goldPrice) + (newCoin * newCoinPrice) + (oldCoin * oldCoinPrice) + (semiCoin * semiCoinPrice)
 
-		// Render all Gold asset
-		body.HTML(http.StatusOK, "assetCalc.html", gin.H{
-			"totalAsset":      totalAsset,
-			"goldPrice":       goldPrice,
-			"newCoin":         newCoinPrice,
-			"oldCoinPrice":    oldCoinPrice,
-			"semiCoinPrice":   semiCoinPrice,
-			"quarteCoinPrice": quarteCoinPrice,
-			"stockGoldPrice":  stockGoldPrice,
-			"usdDollar":       usdDollar,
-		})
+	// 	// Render all Gold asset
+	// 	body.HTML(http.StatusOK, "assetCalc.html", gin.H{
+	// 		"totalAsset":      totalAsset,
+	// 		"goldPrice":       goldPrice,
+	// 		"newCoin":         newCoinPrice,
+	// 		"oldCoinPrice":    oldCoinPrice,
+	// 		"semiCoinPrice":   semiCoinPrice,
+	// 		"quarteCoinPrice": quarteCoinPrice,
+	// 		"stockGoldPrice":  stockGoldPrice,
+	// 		"usdDollar":       usdDollar,
+	// 	})
 
-	case <-time.After(1 * time.Millisecond):
-		log.Println("Timeout meet.")
-		close(telegram.FrontPriceChannel)
-	}
+	// case <-time.After(1 * time.Millisecond):
+	// 	log.Println("Timeout meet.")
+	// 	close(telegram.FrontPriceChannel)
+	// }
 
 	fmt.Println("Total Price Latency Is: ", time.Since(startTime()))
 }
