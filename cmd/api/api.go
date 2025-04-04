@@ -7,7 +7,6 @@ import (
 	strconv "strconv"
 	mysqlconnector "tf-idf/cmd/mysql"
 	redisclient "tf-idf/cmd/redisClient"
-	"tf-idf/cmd/telegram"
 
 	// "tf-idf/cmd/telegram"
 	"time"
@@ -40,8 +39,8 @@ func CalcAsset(body *gin.Context) {
 	semiCoin, _ := strconv.Atoi(body.PostForm("semiCoin"))
 
 	// Get price from mysql
-	telegram.GetCoinPrice()
-	mysqlconnector.UpdatePrice()
+	// telegram.GetCoinPrice()
+	// mysqlconnector.UpdatePrice()
 
 	// Just for debug:
 	fmt.Println("Just Before Received channel:")
