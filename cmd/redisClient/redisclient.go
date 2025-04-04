@@ -50,7 +50,7 @@ func RedisGetOPS(key string) int {
 	if err != nil {
 		log.Printf("Canntot Find Value Of Key: %s", key, err)
 	}
-	fmt.Println(time.Since(startTime))
 	intValue, _ := strconv.Atoi(value)
+	fmt.Printf("Latency to make get key: '%s' in redis client function: ", key, time.Since(startTime))
 	return intValue
 }

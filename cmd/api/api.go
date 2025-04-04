@@ -2,18 +2,48 @@ package httppost
 
 import (
 	"fmt"
+	"reflect"
+	"sync"
+
 	// "log"
 	"net/http"
 	strconv "strconv"
 	mysqlconnector "tf-idf/cmd/mysql"
 	redisclient "tf-idf/cmd/redisClient"
-	"tf-idf/cmd/telegram"
 
 	// "tf-idf/cmd/telegram"
 	"time"
 
 	"github.com/gin-gonic/gin"
 )
+
+// var Symbol = []string{
+// 	"Gold18",
+// 	"SekkeTamam",
+// 	"SekketGhadim",
+// 	"SekkehNim",
+// 	"GoldDast2",
+// 	"RobeSekke",
+// 	"Dollar",
+// }
+
+type Symbol struct {
+	Gold18       int
+	SekkeTamam   int
+	SekketGhadim int
+	SekkehNim    int
+	GoldDast2    int
+	RobeSekke    int
+	Dollar       int
+}
+
+var goldPrice = 0
+var newCoinPrice = 0
+var oldCoinPrice = 0
+var semiCoinPrice = 0
+var stockGoldPrice = 0
+var quarteCoinPrice = 0
+var usdDollar = 0
 
 func PostLabels(body *gin.Context) {
 
@@ -39,19 +69,30 @@ func CalcAsset(body *gin.Context) {
 	oldCoin, _ := strconv.Atoi(body.PostForm("oldCoin"))
 	semiCoin, _ := strconv.Atoi(body.PostForm("semiCoin"))
 
-	// Get price from mysql
-	telegram.GetCoinPrice()
-	mysqlconnector.UpdatePrice()
+	newSymbol := new(Symbol)
 
-	// Just for debug:
-	fmt.Println("Just Before Received channel:")
-	goldPrice := redisclient.RedisGetOPS("Gold18")          //receivePrice.Gold18
-	newCoinPrice := redisclient.RedisGetOPS("SekkeTamam")   //receivePrice.SekkeTamam
-	oldCoinPrice := redisclient.RedisGetOPS("SekketGhadim") //receivePrice.SekketGhadim
-	semiCoinPrice := redisclient.RedisGetOPS("SekkehNim")   //receivePrice.SekkehNim
-	stockGoldPrice := redisclient.RedisGetOPS("GoldDast2")  //receivePrice.GoldDast2
-	quarteCoinPrice := redisclient.RedisGetOPS("RobeSekke") //receivePrice.RobeSekke
-	usdDollar := redisclient.RedisGetOPS("Dollar")          //receivePrice.Dollar
+	redisPriceChannel := make(chan Symbol, 1024)
+	wg := &sync.WaitGroup{}
+
+	key := reflect.ValueOf(*newSymbol)
+	for i := 0; i < key.NumField(); i++ {
+		wg.Add(1)
+		go newSymbol.getPriceFromRedis(wg, redisPriceChannel, string(key.Type().Field(i).Name), int(key.Field(i).Int()))
+		fmt.Println(string(key.Type().Field(i).Name), int(key.Field(i).Int()))
+	}
+	wg.Wait()
+	close(redisPriceChannel)
+
+	for price := range redisPriceChannel {
+		goldPrice = price.Gold18
+		newCoinPrice = price.SekkeTamam
+		oldCoinPrice = price.SekketGhadim
+		semiCoinPrice = price.SekkehNim
+		stockGoldPrice = price.SekketGhadim
+		quarteCoinPrice = price.RobeSekke
+		usdDollar = price.Dollar
+	}
+
 	totalAsset := (assetGeram * goldPrice) + (newCoin * newCoinPrice) + (oldCoin * oldCoinPrice) + (semiCoin * semiCoinPrice)
 
 	// Render all Gold asset
@@ -66,43 +107,25 @@ func CalcAsset(body *gin.Context) {
 		"usdDollar":       usdDollar,
 	})
 
-	// Make a channel to receive all data
-	// select {
-	// case receivePrice := <-telegram.FrontPriceChannel:
-	// 	fmt.Println("From channel: ", receivePrice)
-	// 	goldPrice := redisclient.RedisGetOPS("Gold18")          //receivePrice.Gold18
-	// 	newCoinPrice := redisclient.RedisGetOPS("SekkeTamam")   //receivePrice.SekkeTamam
-	// 	oldCoinPrice := redisclient.RedisGetOPS("SekketGhadim") //receivePrice.SekketGhadim
-	// 	semiCoinPrice := redisclient.RedisGetOPS("SekkehNim")   //receivePrice.SekkehNim
-	// 	stockGoldPrice := redisclient.RedisGetOPS("GoldDast2")  //receivePrice.GoldDast2
-	// 	quarteCoinPrice := redisclient.RedisGetOPS("RobeSekke") //receivePrice.RobeSekke
-	// 	usdDollar := redisclient.RedisGetOPS("Dollar")          //receivePrice.Dollar
-	// 	totalAsset := (assetGeram * goldPrice) + (newCoin * newCoinPrice) + (oldCoin * oldCoinPrice) + (semiCoin * semiCoinPrice)
+	fmt.Println("Total price calculation latency: ", time.Since(startTime()))
+}
 
-	// 	// Render all Gold asset
-	// 	body.HTML(http.StatusOK, "assetCalc.html", gin.H{
-	// 		"totalAsset":      totalAsset,
-	// 		"goldPrice":       goldPrice,
-	// 		"newCoin":         newCoinPrice,
-	// 		"oldCoinPrice":    oldCoinPrice,
-	// 		"semiCoinPrice":   semiCoinPrice,
-	// 		"quarteCoinPrice": quarteCoinPrice,
-	// 		"stockGoldPrice":  stockGoldPrice,
-	// 		"usdDollar":       usdDollar,
-	// 	})
+func (s *Symbol) getPriceFromRedis(wg *sync.WaitGroup, redisPriceChannel chan Symbol, symbol string, structValue int) {
+	startTime := time.Now
+	defer wg.Done()
+	structValue = redisclient.RedisGetOPS(symbol)
 
-	// case <-time.After(1 * time.Millisecond):
-	// 	log.Println("Timeout meet.")
-	// 	close(telegram.FrontPriceChannel)
-	// }
+	// Make set value to struct:
+	reflect.ValueOf(s).Elem().FieldByName(symbol).SetInt(int64(structValue))
+	redisPriceChannel <- *s
 
-	fmt.Println("Total Price Latency Is: ", time.Since(startTime()))
+	fmt.Println("Latency in make redis get ops to update price: ", time.Since(startTime()))
 }
 
 // Render all links in table.
 func ShowLinks(body *gin.Context) {
 
-	// // Get price from mysql
+	// Get price from mysql
 	showLinksStruct := mysqlconnector.ShowLinks()
 	allRecords := len(showLinksStruct.Link)
 	var links []gin.H
