@@ -53,6 +53,15 @@
         - [] Make telegram bot for notify custome reports.
             - [x] Make send telegram best price house price.
             - [] Make section based house price.
+        - Make below correction on scheduler package: 
+            - [x] Renew package to handle with main thread.
+            - [x] Cleanup cronjob in linux. 
+            - [] Add logger for check state logs.
+            - [] Add status to job execution.
+            - [] Add concurrency state for run all task in background.
+            - [] Add context to apply cancelation propagtions.
+            - [] Seprate telegram and db update into multiple function,
+            - [] Error handeling for "cronjob" function.
 
 
     - [] Make cache layer for topic modeling and topic vectorization instead of sql DB.
