@@ -12,27 +12,26 @@ func main() {
 
 	wg := &sync.WaitGroup{}
 	wg.Add(1)
-	go cronjob(15, APIPriceUpdateTask, wg)
+	go cronjob(1, APIPriceUpdateTask, wg)
 	wg.Wait()
 }
 
 func cronjob(schedule int, functionName func(), wg *sync.WaitGroup) {
 	for {
-		functionName()
+		go functionName()
 		time.Sleep(time.Duration(schedule) * time.Minute)
 		// wg.Done()
 	}
 }
 
 func APIPriceUpdateTask() {
-	log.Println("Update cache and database is running .")
+	log.Println("Update api calls from tjgu and cache.")
 	telegram.GetCoinPrice()
 	mysqlconnector.UpdatePrice()
 
 }
 
-// func DBPriceUpdateTask() {
-// 	log.Println("Hello from cronjob2.")
-// 	mysqlconnector.UpdatePrice()
-
-// }
+func DBPriceUpdateTask() {
+	log.Println("Update DB's records.")
+	mysqlconnector.UpdatePrice()
+}
