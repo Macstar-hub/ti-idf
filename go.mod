@@ -10,6 +10,7 @@ require (
 	github.com/mavihq/persian v0.0.0-20231020110200-3e779b10be51
 	github.com/montanaflynn/stats v0.7.1
 	github.com/redis/go-redis/v9 v9.7.3
+	github.com/robfig/cron v1.2.0
 	gonum.org/v1/plot v0.14.0
 )
 
