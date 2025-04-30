@@ -1,8 +1,13 @@
 #!/bin/bash 
+
+run_db_archive () { 
+    go run /Users/Shared/codes.dir/go.dir/git.dir/ti-idf/cmd/jobs/database/mysql.go
+}
+
 run_house_crawler () {
     while true
     do  
-        go run web_crawler/house_crawler/house_crawler.go
+        go run /Users/Shared/codes.dir/go.dir/git.dir/ti-idf/cmd/jobs/web_crawler/house_crawler/house_crawler.go
         if [ $? -eq 1 ]; then
             echo "Stopping script as condition met."
             break
@@ -33,7 +38,7 @@ run_price_hist () {
         exit 1
     fi
 }
-
+run_db_archive
 run_house_crawler
 run_price_analyse
 run_price_hist
