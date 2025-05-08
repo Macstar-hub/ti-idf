@@ -1,6 +1,6 @@
 # This Todo list for solving problem 
 * Next Steps: 
-    - [] Make login mechanism with token.
+    - [] Make login mechanism with token.   
     - [] Develop auto labeling based on TF-IDF
         - [x] develop TF function.
             - [x] make pre procceing function for cleaning stopwords and make lowercase.

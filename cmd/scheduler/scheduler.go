@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"log"
 	"os/exec"
 	"sync"
@@ -39,5 +38,5 @@ func HousePriceAnalyze(wg *sync.WaitGroup) {
 	if err != nil {
 		log.Println("Cannot make house price with error: ", err)
 	}
-	fmt.Printf("output is %s\n", output)
+	log.Printf("output is %s\n", output)
 }
