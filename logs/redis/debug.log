@@ -1,0 +1,83 @@
+2025/05/09 13:57:59 set Dollar 830600: OK
+2025/05/09 13:57:59 Cannot set key SekkeTamam and value %!s(int=749950000) with error: 
+%!(EXTRA *redis.StatusCmd=set SekkeTamam 749950000: OK)
+2025/05/09 13:57:59 set SekkeTamam 749950000: OK
+2025/05/09 13:57:59 Cannot set key SekketGhadim and value %!s(int=705950000) with error: 
+%!(EXTRA *redis.StatusCmd=set SekketGhadim 705950000: OK)
+2025/05/09 13:57:59 set SekketGhadim 705950000: OK
+2025/05/09 13:57:59 Cannot set key SekkehNim and value %!s(int=460000000) with error: 
+%!(EXTRA *redis.StatusCmd=set SekkehNim 460000000: OK)
+2025/05/09 13:57:59 set SekkehNim 460000000: OK
+2025/05/09 13:57:59 Cannot set key RobeSekke and value %!s(int=263000000) with error: 
+%!(EXTRA *redis.StatusCmd=set RobeSekke 263000000: OK)
+2025/05/09 13:57:59 set RobeSekke 263000000: OK
+2025/05/09 13:57:59 Cannot set key Gold18 and value %!s(int=66958000) with error: 
+%!(EXTRA *redis.StatusCmd=set Gold18 66958000: OK)
+2025/05/09 13:57:59 set Gold18 66958000: OK
+2025/05/09 13:57:59 Cannot set key GoldDast2 and value %!s(int=66065250) with error: 
+%!(EXTRA *redis.StatusCmd=set GoldDast2 66065250: OK)
+2025/05/09 13:57:59 set GoldDast2 66065250: OK
+2025/05/09 13:57:59 Debug: Recieved DB slices:  [66958000 749950000 705950000 460000000]
+2025/05/09 13:59:43 set Dollar 830600: OK
+2025/05/09 13:59:43 Cannot set key SekkeTamam and value %!s(int=749950000) with status: 
+%!(EXTRA *redis.StatusCmd=set SekkeTamam 749950000: OK)
+2025/05/09 13:59:43 set SekkeTamam 749950000: OK
+2025/05/09 13:59:43 Cannot set key SekketGhadim and value %!s(int=705950000) with status: 
+%!(EXTRA *redis.StatusCmd=set SekketGhadim 705950000: OK)
+2025/05/09 13:59:43 set SekketGhadim 705950000: OK
+2025/05/09 13:59:43 Cannot set key SekkehNim and value %!s(int=460000000) with status: 
+%!(EXTRA *redis.StatusCmd=set SekkehNim 460000000: OK)
+2025/05/09 13:59:43 set SekkehNim 460000000: OK
+2025/05/09 13:59:43 Cannot set key RobeSekke and value %!s(int=263000000) with status: 
+%!(EXTRA *redis.StatusCmd=set RobeSekke 263000000: OK)
+2025/05/09 13:59:43 set RobeSekke 263000000: OK
+2025/05/09 13:59:43 Cannot set key Gold18 and value %!s(int=66958000) with status: 
+%!(EXTRA *redis.StatusCmd=set Gold18 66958000: OK)
+2025/05/09 13:59:43 set Gold18 66958000: OK
+2025/05/09 13:59:43 Cannot set key GoldDast2 and value %!s(int=66065250) with status: 
+%!(EXTRA *redis.StatusCmd=set GoldDast2 66065250: OK)
+2025/05/09 13:59:43 set GoldDast2 66065250: OK
+2025/05/09 13:59:43 Debug: Recieved DB slices:  [66958000 749950000 705950000 460000000]
+
+
+
+2025/05/09 14:00:54 set Dollar 830600: OK
+2025/05/09 14:00:54 Cannot set key SekkeTamam and value %!s(int=749950000) with status: 
+%!(EXTRA *redis.StatusCmd=set SekkeTamam 749950000: OK)
+2025/05/09 14:00:54 set SekkeTamam 749950000: OK
+2025/05/09 14:00:54 Cannot set key SekketGhadim and value %!s(int=705950000) with status: 
+%!(EXTRA *redis.StatusCmd=set SekketGhadim 705950000: OK)
+2025/05/09 14:00:54 set SekketGhadim 705950000: OK
+2025/05/09 14:00:54 Cannot set key SekkehNim and value %!s(int=460000000) with status: 
+%!(EXTRA *redis.StatusCmd=set SekkehNim 460000000: OK)
+2025/05/09 14:00:54 set SekkehNim 460000000: OK
+2025/05/09 14:00:54 Cannot set key RobeSekke and value %!s(int=263000000) with status: 
+%!(EXTRA *redis.StatusCmd=set RobeSekke 263000000: OK)
+2025/05/09 14:00:54 set RobeSekke 263000000: OK
+2025/05/09 14:00:54 Cannot set key Gold18 and value %!s(int=66958000) with status: 
+%!(EXTRA *redis.StatusCmd=set Gold18 66958000: OK)
+2025/05/09 14:00:54 set Gold18 66958000: OK
+2025/05/09 14:00:54 Cannot set key GoldDast2 and value %!s(int=66065250) with status: 
+%!(EXTRA *redis.StatusCmd=set GoldDast2 66065250: OK)
+2025/05/09 14:00:54 set GoldDast2 66065250: OK
+2025/05/09 14:00:54 Debug: Recieved DB slices:  [66958000 749950000 705950000 460000000]
+2025/05/09 14:04:22 set Dollar 830600: OK
+2025/05/09 14:04:22 Cannot set key SekkeTamam and value %!s(int=749950000) with status: 
+%!(EXTRA *redis.StatusCmd=set SekkeTamam 749950000: OK)
+2025/05/09 14:04:22 set SekkeTamam 749950000: OK
+2025/05/09 14:04:22 Cannot set key SekketGhadim and value %!s(int=705950000) with status: 
+%!(EXTRA *redis.StatusCmd=set SekketGhadim 705950000: OK)
+2025/05/09 14:04:22 set SekketGhadim 705950000: OK
+2025/05/09 14:04:22 Cannot set key SekkehNim and value %!s(int=460000000) with status: 
+%!(EXTRA *redis.StatusCmd=set SekkehNim 460000000: OK)
+2025/05/09 14:04:22 set SekkehNim 460000000: OK
+2025/05/09 14:04:22 Cannot set key RobeSekke and value %!s(int=263000000) with status: 
+%!(EXTRA *redis.StatusCmd=set RobeSekke 263000000: OK)
+2025/05/09 14:04:22 set RobeSekke 263000000: OK
+2025/05/09 14:04:22 Cannot set key Gold18 and value %!s(int=66958000) with status: 
+%!(EXTRA *redis.StatusCmd=set Gold18 66958000: OK)
+2025/05/09 14:04:22 set Gold18 66958000: OK
+2025/05/09 14:04:22 Cannot set key GoldDast2 and value %!s(int=66065250) with status: 
+%!(EXTRA *redis.StatusCmd=set GoldDast2 66065250: OK)
+2025/05/09 14:04:22 set GoldDast2 66065250: OK
+2025/05/09 14:04:22 Debug: Recieved DB slices:  [66958000 749950000 705950000 460000000]

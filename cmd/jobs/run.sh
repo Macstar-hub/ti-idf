@@ -40,7 +40,7 @@ run_price_hist () {
 }
 run_db_archive
 run_house_crawler
-run_price_analyse
+# run_price_analyse
 run_price_hist
 
 

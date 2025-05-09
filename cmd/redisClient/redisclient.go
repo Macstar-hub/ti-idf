@@ -5,9 +5,15 @@ import (
 	"fmt"
 	"log"
 	"strconv"
+	logger "tf-idf/cmd/logger"
 	"time"
 
 	"github.com/redis/go-redis/v9"
+)
+
+const (
+	logFilePath = "../../logs/redis/"
+	logPrefix   = ".log"
 )
 
 var ctx = context.Background()
@@ -35,22 +41,25 @@ func RedisChecker() bool {
 }
 
 func RedisSetOPS(key string, value int) {
-	err := client.Set(ctx, key, value, 0)
+	status := client.Set(ctx, key, value, 0)
 
-	if err != nil {
-		log.Printf("Cannot set key %s and value %s with error: \n", key, value, err)
+	if status != nil {
+		log.Printf("Cannot set key %s and value %s with status: \n", key, value, status)
 	} else {
 		return
 	}
+	logger.Logger(logFilePath, logPrefix, fmt.Sprintf("%s", status), "debug")
 }
 
 func RedisGetOPS(key string) int {
 	startTime := time.Now()
-	value, err := client.Get(ctx, key).Result()
-	if err != nil {
-		log.Printf("Canntot Find Value Of Key: %s", key, err)
+	value, status := client.Get(ctx, key).Result()
+	if status != nil {
+		log.Printf("Canntot Find Value Of Key: %s", key, status)
+		logger.Logger(logFilePath, logPrefix, fmt.Sprintf("%s", status), "error")
 	}
 	intValue, _ := strconv.Atoi(value)
 	fmt.Printf("Latency to make get key: '%s' in redis client function: ", key, time.Since(startTime))
+	logger.Logger(logFilePath, logPrefix, fmt.Sprintf("Latency to make get key: '%s' in redis client function: ", key, time.Since(startTime)), "debug")
 	return intValue
 }

@@ -2,11 +2,18 @@ package main
 
 import (
 	"log"
+
 	"os/exec"
 	"sync"
+	logger "tf-idf/cmd/logger"
 	mysqlconnector "tf-idf/cmd/mysql"
 	"tf-idf/cmd/telegram"
 	"time"
+)
+
+const (
+	logFilePath = "../../logs/scheduler/"
+	logPrefix   = ".log"
 )
 
 func main() {
@@ -14,7 +21,7 @@ func main() {
 	wg := &sync.WaitGroup{}
 	wg.Add(1)
 	go cronjob(15, APIPriceUpdateTask, wg, time.Minute)
-	go cronjob(23, HousePriceAnalyze, wg, time.Hour)
+	// go cronjob(23, HousePriceAnalyze, wg, time.Hour)
 	wg.Wait()
 }
 
@@ -39,4 +46,5 @@ func HousePriceAnalyze(wg *sync.WaitGroup) {
 		log.Println("Cannot make house price with error: ", err)
 	}
 	log.Printf("output is %s\n", output)
+	logger.Logger(logFilePath, logPrefix, string(output), "debug")
 }

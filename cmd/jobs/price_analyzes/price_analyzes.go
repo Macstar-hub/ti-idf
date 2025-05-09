@@ -37,7 +37,7 @@ type SqlConfig struct {
 const (
 	DBName      = "words"
 	TableName   = "house_price"
-	TargetTable = "house_price_majidieh_1741417562"
+	TargetTable = "house_price"
 	botToken    = "7866790505:AAGWjmSDBQyKhVsxObscwCJ8U2AX7Mn1EB8"
 	chatId      = "114956415"
 )
