@@ -1,1 +1,9 @@
 2025/05/09 13:49:55 hello from there !
+2025/05/09 16:00:46 Gold API Update Completed.
+2025/05/09 16:02:04 Gold API Update Completed.
+2025/05/09 16:17:02 Update api calls from tjgu and cache.
+2025/05/09 16:17:03 From channel is:  &{830600 749950000 705950000 460000000 263000000 66958000 66065250}
+2025/05/09 16:17:03 Scrap price webpage:  951.722708ms
+2025/05/09 16:17:03 Cannot set key Dollar and value %!s(int=830600) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 830600: OK)
+2025/05/09 16:17:03 Gold API Update Completed.

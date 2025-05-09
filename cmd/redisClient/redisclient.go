@@ -12,7 +12,7 @@ import (
 )
 
 const (
-	logFilePath = "../../logs/redis/"
+	logFilePath = "/Users/Shared/codes.dir/go.dir/git.dir/ti-idf/logs/redis/"
 	logPrefix   = ".log"
 )
 

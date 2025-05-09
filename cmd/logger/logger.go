@@ -10,7 +10,8 @@ import (
 In function design plz add below in inputs function:
 - log level
 - log module name
-- log content.
+- log content
+- make log retaintion by size and time creation.
 */
 
 func Logger(logFilePath string, logPrefix string, logContents string, logLevel string) {

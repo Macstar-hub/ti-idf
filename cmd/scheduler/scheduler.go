@@ -21,7 +21,7 @@ func main() {
 	wg := &sync.WaitGroup{}
 	wg.Add(1)
 	go cronjob(15, APIPriceUpdateTask, wg, time.Minute)
-	// go cronjob(23, HousePriceAnalyze, wg, time.Hour)
+	go cronjob(23, HousePriceAnalyze, wg, time.Hour)
 	wg.Wait()
 }
 
@@ -36,7 +36,7 @@ func APIPriceUpdateTask(wg *sync.WaitGroup) {
 	log.Println("Update api calls from tjgu and cache.")
 	telegram.GetCoinPrice()
 	mysqlconnector.UpdatePrice()
-
+	logger.Logger(logFilePath, logPrefix, "Gold API Update Completed.", "debug")
 }
 
 func HousePriceAnalyze(wg *sync.WaitGroup) {

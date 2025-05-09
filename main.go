@@ -22,9 +22,9 @@ const dockPath string = "./test/sampleFile-2.txt"
 const stopWordFilePath string = "./configs/stopWords.txt"
 
 func main() {
-	fmt.Println("Hello from TF-IDF project.")
-	DocReader(dockPath)
-	DocCleanUp(stopWordFilePath)
+	// fmt.Println("Hello from TF-IDF project.")
+	// DocReader(dockPath)
+	// DocCleanUp(stopWordFilePath)
 	LandigPage()
 }
 
