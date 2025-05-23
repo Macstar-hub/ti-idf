@@ -434,7 +434,6 @@ func ShowLinks() ShowLinksStructList {
 	fmt.Println("++++++++++++++++", showLinksStruct.Link, showLinksStruct.Name, showLinksStruct.Label, showLinksStruct.Label1, showLinksStruct.Label2)
 
 	// -----------------------------> Just searchQuery debug.
-	// SearchRecord("test") // Just for debug.
 
 	showLinksStructList := ShowLinksStructList{
 		Link:   Link,
@@ -462,7 +461,7 @@ func SearchRecord(searchWord string) (ShowLinksStructList, int) {
 	by labels, name OR even links regex.
 	*/
 
-	query := fmt.Sprintf("select * from links where name = '%s'", searchWord)
+	query := fmt.Sprintf("select * from links where name regexp '%s.*'", searchWord)
 
 	db := MakeConnectionToDB()
 	searchQuery, err := db.Query(query)

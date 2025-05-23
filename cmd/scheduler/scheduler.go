@@ -16,11 +16,15 @@ const (
 	logPrefix   = ".log"
 )
 
+/*
+- Handle if a job got error and make it continue ...
+*/
+
 func main() {
 
 	wg := &sync.WaitGroup{}
 	wg.Add(1)
-	go cronjob(15, APIPriceUpdateTask, wg, time.Minute)
+	// go cronjob(15, APIPriceUpdateTask, wg, time.Minute)
 	go cronjob(23, HousePriceAnalyze, wg, time.Hour)
 	wg.Wait()
 }

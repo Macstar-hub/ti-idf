@@ -168,3 +168,7 @@ func Search(body *gin.Context) {
 		"Links": links,
 	})
 }
+
+func AdvancedSearch(body *gin.Context) {
+	return
+}
