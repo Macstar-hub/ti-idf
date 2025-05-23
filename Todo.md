@@ -23,7 +23,7 @@
         - [x] Make udpate function asset price from telegram.
         - [x] Make asset resault page.
         - [] Make daily note section.
-        - [] Add advanced search mode.
+        - [x] Add advanced search mode.
 
     - [] Make API docs: 
         - [x] Make landing page.
@@ -57,9 +57,9 @@
         - Make below correction on scheduler package: 
             - [x] Renew package to handle with main thread.
             - [x] Cleanup cronjob in linux. 
-            - [] Add logger for check state logs.
+            - [x] Add logger for check state logs.
             - [] Add status to job execution.
-            - [] Add concurrency state for run all task in background.
+            - [x] Add concurrency state for run all task in background.
             - [] Add context to apply cancelation propagtions.
             - [] Seprate telegram and db update into multiple function,
             - [] Error handeling for "cronjob" function.
