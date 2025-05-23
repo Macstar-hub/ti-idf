@@ -171,6 +171,5 @@ func LandigPage() {
 	server.POST("/api/v1/assetcalc", httppost.CalcAsset)
 	server.GET("/api/v1/linkslist", httppost.ShowLinks)
 	server.POST("/api/v1/search", httppost.Search)
-	server.POST("/api/v1/advancedSearch", httppost.AdvancedSearch)
 	server.Run(":9080")
 }

@@ -448,7 +448,7 @@ func ShowLinks() ShowLinksStructList {
 }
 
 // Make search function:
-func SearchRecord(searchWord string) (ShowLinksStructList, int) {
+func SearchRecord(searchWord string, label string, label1 string, label2 string) (ShowLinksStructList, int) {
 
 	var showLinksStruct ShowLinksStruct
 	var Link []string
@@ -461,7 +461,7 @@ func SearchRecord(searchWord string) (ShowLinksStructList, int) {
 	by labels, name OR even links regex.
 	*/
 
-	query := fmt.Sprintf("select * from links where name regexp '%s.*'", searchWord)
+	query := fmt.Sprintf("select * from links where name regexp '%s.*' and lable regexp '%s.*' and lable1 regexp '%s.*' and lable2 regexp '%s.*'", searchWord, label, label1, label2)
 
 	db := MakeConnectionToDB()
 	searchQuery, err := db.Query(query)
