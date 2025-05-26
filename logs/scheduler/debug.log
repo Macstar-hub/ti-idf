@@ -1,0 +1,26 @@
+2025/05/23 19:46:23 Update api calls from tjgu and cache.
+2025/05/23 19:46:25 From channel is:  &{827100 740050000 688800000 427000000 249000000 65317000 64445680}
+2025/05/23 19:46:25 Scrap price webpage:  2.043815333s
+2025/05/23 19:46:25 Cannot set key Dollar and value %!s(int=827100) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 827100: OK)
+2025/05/23 19:46:25 Gold API Update Completed.
+2025/05/24 20:15:01 Update api calls from tjgu and cache.
+2025/05/24 20:15:13 From channel is:  &{829450 740600000 688850000 424000000 244000000 66152000 64812410}
+2025/05/24 20:15:13 Scrap price webpage:  12.259719458s
+2025/05/24 20:15:13 Cannot set key Dollar and value %!s(int=829450) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 829450: OK)
+2025/05/24 20:15:13 Gold API Update Completed.
+2025/05/24 20:30:01 Update api calls from tjgu and cache.
+2025/05/24 20:30:17 From channel is:  &{829450 740600000 688850000 424000000 244000000 66152000 64812410}
+2025/05/24 20:30:17 Scrap price webpage:  16.272631459s
+2025/05/24 20:30:17 Cannot set key Dollar and value %!s(int=829450) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 829450: OK)
+2025/05/24 20:30:17 Gold API Update Completed.
+2025/05/26 20:48:30 Gold API Update Completed.
+2025/05/26 21:03:18 Update api calls from tjgu and cache.
+2025/05/26 21:03:24 From channel is:  &{822350 730050000 676900000 420000000 241000000 64721000 63857980}
+2025/05/26 21:03:24 Scrap price webpage:  5.766575208s
+2025/05/26 21:03:24 Cannot set key Dollar and value %!s(int=822350) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 822350: OK)
+2025/05/26 21:03:24 Gold API Update Completed.
+2025/05/26 21:18:18 Update api calls from tjgu and cache.

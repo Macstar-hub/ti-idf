@@ -447,7 +447,7 @@ func ShowLinks() ShowLinksStructList {
 	return showLinksStructList
 }
 
-// Make search function:
+// Make advanced search function:
 func SearchRecord(searchWord string, label string, label1 string, label2 string) (ShowLinksStructList, int) {
 
 	var showLinksStruct ShowLinksStruct
@@ -493,7 +493,55 @@ func SearchRecord(searchWord string, label string, label1 string, label2 string)
 	return showLinksStructList, element
 }
 
-// Make edit function:
-// func EditRecord() {
-// 	query := fmt.Sprintf("select * from links where name = '%s'", searchWord)
-// }
+// Make simple search function:
+func SimpleSearchRecord(searchWord string) (ShowLinksStructList, int) {
+
+	var showLinksStruct ShowLinksStruct
+	var Link []string
+	var Name []string
+	var Label []string
+	var Label1 []string
+	var Label2 []string
+	var element int
+	var showLinksStructList ShowLinksStructList
+
+	labelSlices := []string{"name", "lable", "lable1", "lable2"}
+
+	for _, labelName := range labelSlices {
+
+		query := fmt.Sprintf("select * from links where %s regexp '%s.*'", labelName, searchWord)
+
+		db := MakeConnectionToDB()
+		searchQuery, err := db.Query(query)
+		if err != nil {
+			panic(err.Error())
+		}
+
+		for searchQuery.Next() {
+			err = searchQuery.Scan(&showLinksStruct.Link, &showLinksStruct.Name, &showLinksStruct.Label, &showLinksStruct.Label1, &showLinksStruct.Label2)
+			Link = append(Link, showLinksStruct.Link)
+			Name = append(Name, showLinksStruct.Name)
+			Label = append(Label, showLinksStruct.Label)
+			Label1 = append(Label1, showLinksStruct.Label1)
+			Label2 = append(Label2, showLinksStruct.Label2)
+			if err != nil {
+				panic(err.Error())
+			}
+		}
+
+		showLinksStructList = ShowLinksStructList{
+			Link:   Link,
+			Name:   Name,
+			Label:  Label,
+			Label1: Label1,
+			Label2: Label2,
+		}
+
+		element = len(showLinksStructList.Name)
+		fmt.Println("Debug from searhQuery function: ", showLinksStructList)
+		defer db.Close()
+	}
+
+	return showLinksStructList, element
+
+}
