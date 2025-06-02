@@ -1,0 +1,2856 @@
+2025/05/23 19:46:23 Update api calls from tjgu and cache.
+2025/05/23 19:46:25 From channel is:  &{827100 740050000 688800000 427000000 249000000 65317000 64445680}
+2025/05/23 19:46:25 Scrap price webpage:  2.043815333s
+2025/05/23 19:46:25 Cannot set key Dollar and value %!s(int=827100) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 827100: OK)
+2025/05/23 19:46:25 Gold API Update Completed.
+2025/05/24 20:15:01 Update api calls from tjgu and cache.
+2025/05/24 20:15:13 From channel is:  &{829450 740600000 688850000 424000000 244000000 66152000 64812410}
+2025/05/24 20:15:13 Scrap price webpage:  12.259719458s
+2025/05/24 20:15:13 Cannot set key Dollar and value %!s(int=829450) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 829450: OK)
+2025/05/24 20:15:13 Gold API Update Completed.
+2025/05/24 20:30:01 Update api calls from tjgu and cache.
+2025/05/24 20:30:17 From channel is:  &{829450 740600000 688850000 424000000 244000000 66152000 64812410}
+2025/05/24 20:30:17 Scrap price webpage:  16.272631459s
+2025/05/24 20:30:17 Cannot set key Dollar and value %!s(int=829450) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 829450: OK)
+2025/05/24 20:30:17 Gold API Update Completed.
+2025/05/26 20:48:30 Gold API Update Completed.
+2025/05/26 21:03:18 Update api calls from tjgu and cache.
+2025/05/26 21:03:24 From channel is:  &{822350 730050000 676900000 420000000 241000000 64721000 63857980}
+2025/05/26 21:03:24 Scrap price webpage:  5.766575208s
+2025/05/26 21:03:24 Cannot set key Dollar and value %!s(int=822350) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 822350: OK)
+2025/05/26 21:03:24 Gold API Update Completed.
+2025/05/26 21:18:18 Update api calls from tjgu and cache.
+2025/05/28 11:59:30 Gold API Update Completed.
+2025/05/28 11:59:38 Gold API Update Completed.
+2025/05/28 12:29:02 Update api calls from tjgu and cache.
+2025/05/28 12:29:05 From channel is:  &{828300 730100000 678000000 421000000 242000000 64603000 63741810}
+2025/05/28 12:29:05 Scrap price webpage:  2.342059166s
+2025/05/28 12:29:05 Cannot set key Dollar and value %!s(int=828300) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 828300: OK)
+2025/05/28 12:29:05 Gold API Update Completed.
+2025/05/28 12:44:02 Update api calls from tjgu and cache.
+2025/05/28 12:44:05 From channel is:  &{828450 732450000 678050000 421000000 242000000 64915000 64049330}
+2025/05/28 12:44:05 Scrap price webpage:  2.969480375s
+2025/05/28 12:44:05 Cannot set key Dollar and value %!s(int=828450) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 828450: OK)
+2025/05/28 12:44:05 Gold API Update Completed.
+2025/05/28 12:59:02 Update api calls from tjgu and cache.
+2025/05/28 12:59:06 From channel is:  &{828450 732450000 678050000 421000000 242000000 64915000 64049330}
+2025/05/28 12:59:06 Scrap price webpage:  3.517507916s
+2025/05/28 12:59:06 Cannot set key Dollar and value %!s(int=828450) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 828450: OK)
+2025/05/28 12:59:06 Gold API Update Completed.
+2025/05/28 13:03:43 output is All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM}
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1}
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+URL:  https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+URL:  https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+URL:  https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+URL:  https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+URL:  https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+URL:  https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+URL:  https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+URL:  https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+URL:  https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+URL:  https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+URL:  https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+URL:  https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+URL:  https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+URL:  https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+URL:  https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+URL:  https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+URL:  https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+URL:  https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+URL:  https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+URL:  https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+URL:  https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+URL:  https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+URL:  https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr}
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+6100000000 91044000
+[6100000000 91044000]
+8000000000 101265000
+[8000000000 101265000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow}
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab}
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+6800000000 91891000
+[6800000000 91891000]
+7700000000 110000000
+[7700000000 110000000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow}
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV}
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i}
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q}]</script>
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q]</script>
+5700000000 87692000
+[5700000000 87692000]
+5900000000 77631000
+[5900000000 77631000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y}
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ}
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap}
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot}
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76}
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+4800000000 64000000
+[4800000000 64000000]
+7800000000 97500000
+[7800000000 97500000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-}
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg}
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+1800000000 12000000
+[1800000000 12000000]
+6490000000 85394000
+[6490000000 85394000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot}
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1}
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+6800000000 86075000
+[6800000000 86075000]
+5000 0
+[5000 0]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK}
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM}
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+5000 0
+[5000 0]
+8000000000 103896000
+[8000000000 103896000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab}
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK}
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+5000 0
+[5000 0]
+6000000000 78947000
+[6000000000 78947000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV}
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i}
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab}
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+5000 0
+[5000 0]
+6800000000 97142000
+[6800000000 97142000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND}
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76}
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+5000 0
+[5000 0]
+8200000000 102500000
+[8200000000 102500000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv}
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK}
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+5000 0
+[5000 0]
+6850000000 87820000
+[6850000000 87820000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+5000 0
+[5000 0]
+6000000000 88235000
+[6000000000 88235000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg}
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+5000 0
+[5000 0]
+6650000000 88666000
+[6650000000 88666000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg}
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+5000 0
+[5000 0]
+5700000000 76000000
+[5700000000 76000000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y}
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-}
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i}
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+5000 0
+[5000 0]
+11000000000 137500000
+[11000000000 137500000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y}
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow}
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1}
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q}]</script>
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q]</script>
+5000 0
+[5000 0]
+6000000000 88235000
+[6000000000 88235000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow}
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+5000 0
+[5000 0]
+5200000000 80000000
+[5200000000 80000000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq}
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i}
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND}
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1}
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt}
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+5000 0
+[5000 0]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv}
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+5000 0
+[5000 0]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i}
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot}
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+5000 0
+[5000 0]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg}
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow}
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+5000 0
+[5000 0]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow}
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i}
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+5000 0
+[5000 0]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i}
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q}]</script>
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q]</script>
+5000 0
+[5000 0]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+All links scraped and Done !
+Stopping script as condition met.
+
+2025/05/28 13:03:43 All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM}
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1}
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+URL:  https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+URL:  https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+URL:  https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+URL:  https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+URL:  https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+URL:  https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+URL:  https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+URL:  https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+URL:  https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+URL:  https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+URL:  https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+URL:  https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+URL:  https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+URL:  https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+URL:  https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+URL:  https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+URL:  https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+URL:  https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+URL:  https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+URL:  https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+URL:  https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+URL:  https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+URL:  https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr}
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+6100000000 91044000
+[6100000000 91044000]
+8000000000 101265000
+[8000000000 101265000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow}
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab}
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+6800000000 91891000
+[6800000000 91891000]
+7700000000 110000000
+[7700000000 110000000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow}
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV}
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i}
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q}]</script>
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q]</script>
+5700000000 87692000
+[5700000000 87692000]
+5900000000 77631000
+[5900000000 77631000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y}
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ}
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap}
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot}
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76}
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+4800000000 64000000
+[4800000000 64000000]
+7800000000 97500000
+[7800000000 97500000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-}
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg}
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+1800000000 12000000
+[1800000000 12000000]
+6490000000 85394000
+[6490000000 85394000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot}
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1}
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+6800000000 86075000
+[6800000000 86075000]
+5000 0
+[5000 0]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK}
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM}
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+5000 0
+[5000 0]
+8000000000 103896000
+[8000000000 103896000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab}
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK}
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+5000 0
+[5000 0]
+6000000000 78947000
+[6000000000 78947000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV}
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i}
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab}
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+5000 0
+[5000 0]
+6800000000 97142000
+[6800000000 97142000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND}
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76}
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+5000 0
+[5000 0]
+8200000000 102500000
+[8200000000 102500000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv}
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK}
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+5000 0
+[5000 0]
+6850000000 87820000
+[6850000000 87820000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+5000 0
+[5000 0]
+6000000000 88235000
+[6000000000 88235000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg}
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+5000 0
+[5000 0]
+6650000000 88666000
+[6650000000 88666000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg}
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+5000 0
+[5000 0]
+5700000000 76000000
+[5700000000 76000000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y}
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-}
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i}
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+5000 0
+[5000 0]
+11000000000 137500000
+[11000000000 137500000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y}
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow}
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1}
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q}]</script>
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q]</script>
+5000 0
+[5000 0]
+6000000000 88235000
+[6000000000 88235000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow}
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+5000 0
+[5000 0]
+5200000000 80000000
+[5200000000 80000000]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq}
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i}
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND}
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1}
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt}
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+5000 0
+[5000 0]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv}
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+5000 0
+[5000 0]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i}
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot}
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+5000 0
+[5000 0]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg}
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow}
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+5000 0
+[5000 0]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow}
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i}
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+5000 0
+[5000 0]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i}
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q}]</script>
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q]</script>
+5000 0
+[5000 0]
+All houses founded:  23
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/فروش-آپارتمان-۶۷-متری-۲-خوابه-در-بوستان-۱۱/Aa0oJCgg
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/تهرانپارس-مجد-آباد-متراژ۷۹-متر/Aa0gCj5y
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۴-متری-۲-خوابه-همکف-در-مجیدآباد/AazsO4Kq
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/فروش-آپارتمان-۷۰-متری-۲-خوابه-در-مجیدآباد/AaN0Nrow
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۶۵-متر-آپارتمان-فول-امکانات-بازسازی-شده/AaxMa1A-
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلس-فول/AaxsIhsZ
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۲-خوابه-بوستان-های-استخر/AafY_akg
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/۸۰-متر-دو-خواب-بهترین-بوستان-غربی/Aaw431Pv
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/همکف-با-نورگیر-عالی-مازندران-داخل-شهرک/AawoE-Ap
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/آپارتمان-۷۶-متری-۱-خوابه/AaskiJlV
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-در-مجیدآباد/Aavciu2i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/آپارتمان-۷۵-متری-دو-خواب/AalsIF3i
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/فروش-آپارتمان-77-متری-تهرانپارس/Aat4fOtZ
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/۷۶-متر-شهرک-فرهنگیان-پارک-پلیس-فول-امکانات/Aap0O4Ab
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/آپارتمان-70-متر-۲-خواب-تهرانپارس-غربی-مجیدآباد/Aaq0CCot
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/AapA8SND
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/فروش-آپارتمان-۷۸-متری-۲-خوابه-فول/Aapg4NUK
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۶۸-متر-۳ساله-فول-امکانات/Aakolv76
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/۷۵متر-۲خواب-فول-امکانات-تکواحدی/AahIrSMr
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۷۵-متری-۱-خوابه-شهرک-فرهنگیان/wZ_P3KDM
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/فروش-آپارتمان-۸۰-متری-۲-خوابه-در-مجیدآباد/Aag88cN1
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-۶۸-متری-نوساز-تهرانپارس/AaXER0jt
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+url:https://divar.ir/v/اپارتمان-65متری-یک-خوابه-جنوبی/AaTMeV8q
+All links scraped and Done !
+Stopping script as condition met.
+
+2025/05/28 13:14:02 Update api calls from tjgu and cache.
+2025/05/28 13:14:04 From channel is:  &{828450 730100000 678050000 421000000 242000000 64915000 64049330}
+2025/05/28 13:14:04 Scrap price webpage:  1.489544083s
+2025/05/28 13:14:04 Cannot set key Dollar and value %!s(int=828450) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 828450: OK)
+2025/05/28 13:14:04 Gold API Update Completed.
+2025/05/28 13:29:02 Update api calls from tjgu and cache.
+2025/05/28 13:29:06 From channel is:  &{828450 730100000 678050000 421000000 242000000 64915000 64049330}
+2025/05/28 13:29:06 Scrap price webpage:  3.528848958s
+2025/05/28 13:29:06 Cannot set key Dollar and value %!s(int=828450) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 828450: OK)
+2025/05/28 13:29:06 Gold API Update Completed.
+2025/05/28 14:03:59 Update api calls from tjgu and cache.
+2025/05/28 14:04:02 From channel is:  &{828450 732450000 678050000 421000000 242000000 64915000 64049330}
+2025/05/28 14:04:02 Scrap price webpage:  2.361112s
+2025/05/28 14:04:02 Cannot set key Dollar and value %!s(int=828450) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 828450: OK)
+2025/05/28 14:04:02 Gold API Update Completed.
+2025/05/28 14:18:59 Update api calls from tjgu and cache.
+2025/05/28 14:19:02 From channel is:  &{828450 730100000 678050000 421000000 242000000 64915000 64049330}
+2025/05/28 14:19:02 Scrap price webpage:  2.529321s
+2025/05/28 14:19:02 Cannot set key Dollar and value %!s(int=828450) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 828450: OK)
+2025/05/28 14:19:02 Gold API Update Completed.
+2025/05/28 15:33:54 Update api calls from tjgu and cache.
+2025/05/28 15:33:56 From channel is:  &{828450 731550000 678100000 421000000 242000000 64959000 64092610}
+2025/05/28 15:33:56 Scrap price webpage:  2.149613167s
+2025/05/28 15:33:56 Cannot set key Dollar and value %!s(int=828450) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 828450: OK)
+2025/05/28 15:33:56 Gold API Update Completed.
+2025/05/28 15:48:54 Update api calls from tjgu and cache.
+2025/05/28 15:49:07 From channel is:  &{827600 731550000 678100000 421000000 242000000 64959000 64092610}
+2025/05/28 15:49:07 Scrap price webpage:  13.435711917s
+2025/05/28 15:49:07 Cannot set key Dollar and value %!s(int=827600) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 827600: OK)
+2025/05/28 15:49:07 Gold API Update Completed.
+2025/05/28 16:03:54 Update api calls from tjgu and cache.
+2025/05/28 16:04:06 From channel is:  &{827600 732450000 678100000 421000000 242000000 64959000 64092610}
+2025/05/28 16:04:06 Scrap price webpage:  12.096005625s
+2025/05/28 16:04:06 Cannot set key Dollar and value %!s(int=827600) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 827600: OK)
+2025/05/28 16:04:06 Gold API Update Completed.
+2025/05/28 16:26:00 Update api calls from tjgu and cache.
+2025/05/28 16:26:05 From channel is:  &{827600 731550000 678100000 421000000 242000000 64915000 64092610}
+2025/05/28 16:26:05 Scrap price webpage:  5.238011166s
+2025/05/28 16:26:05 Cannot set key Dollar and value %!s(int=827600) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 827600: OK)
+2025/05/28 16:26:05 Gold API Update Completed.
+2025/05/28 16:41:00 Update api calls from tjgu and cache.
+2025/05/28 16:41:07 From channel is:  &{827600 731550000 678100000 421000000 242000000 64959000 64092610}
+2025/05/28 16:41:07 Scrap price webpage:  7.345996917s
+2025/05/28 16:41:07 Cannot set key Dollar and value %!s(int=827600) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 827600: OK)
+2025/05/28 16:41:07 Gold API Update Completed.
+2025/05/28 16:56:00 Update api calls from tjgu and cache.
+2025/05/28 16:56:05 From channel is:  &{828400 731550000 678150000 421000000 242000000 64806000 63942270}
+2025/05/28 16:56:05 Scrap price webpage:  5.068820791s
+2025/05/28 16:56:05 Cannot set key Dollar and value %!s(int=828400) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 828400: OK)
+2025/05/28 16:56:05 Gold API Update Completed.
+2025/05/28 17:11:00 Update api calls from tjgu and cache.
+2025/05/28 17:11:03 From channel is:  &{827600 732600000 678150000 421000000 242000000 64806000 63942270}
+2025/05/28 17:11:03 Scrap price webpage:  3.774010333s
+2025/05/28 17:11:03 Cannot set key Dollar and value %!s(int=827600) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 827600: OK)
+2025/05/28 17:11:03 Gold API Update Completed.
+2025/05/28 17:26:00 Update api calls from tjgu and cache.
+2025/05/28 17:26:03 From channel is:  &{828400 732600000 678150000 421000000 242000000 64806000 63942270}
+2025/05/28 17:26:03 Scrap price webpage:  3.828096625s
+2025/05/28 17:26:04 Cannot set key Dollar and value %!s(int=828400) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 828400: OK)
+2025/05/28 17:26:04 Gold API Update Completed.
+2025/05/28 17:41:00 Update api calls from tjgu and cache.
+2025/05/28 17:41:01 From channel is:  &{828400 732600000 678150000 421000000 242000000 64806000 63942270}
+2025/05/28 17:41:01 Scrap price webpage:  1.699043792s
+2025/05/28 17:41:01 Cannot set key Dollar and value %!s(int=828400) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 828400: OK)
+2025/05/28 17:41:01 Gold API Update Completed.
+2025/05/28 17:56:00 Update api calls from tjgu and cache.
+2025/05/28 17:56:05 From channel is:  &{828400 732600000 678150000 421000000 242000000 64806000 63942270}
+2025/05/28 17:56:05 Scrap price webpage:  5.504955458s
+2025/05/28 17:56:05 Cannot set key Dollar and value %!s(int=828400) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 828400: OK)
+2025/05/28 17:56:05 Gold API Update Completed.
+2025/05/28 18:11:00 Update api calls from tjgu and cache.
+2025/05/28 18:11:02 From channel is:  &{828400 732600000 678150000 421000000 242000000 64806000 63942270}
+2025/05/28 18:11:02 Scrap price webpage:  2.14286575s
+2025/05/28 18:11:02 Cannot set key Dollar and value %!s(int=828400) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 828400: OK)
+2025/05/28 18:11:02 Gold API Update Completed.
+2025/05/28 18:26:00 Update api calls from tjgu and cache.
+2025/05/28 18:26:06 From channel is:  &{828400 732600000 678150000 421000000 242000000 64806000 63942270}
+2025/05/28 18:26:06 Scrap price webpage:  6.785335667s
+2025/05/28 18:26:06 Cannot set key Dollar and value %!s(int=828400) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 828400: OK)
+2025/05/28 18:26:07 Gold API Update Completed.
+2025/05/28 18:41:00 Update api calls from tjgu and cache.
+2025/05/28 18:41:02 From channel is:  &{828400 732600000 678150000 421000000 242000000 64806000 63942270}
+2025/05/28 18:41:02 Scrap price webpage:  1.796824584s
+2025/05/28 18:41:02 Cannot set key Dollar and value %!s(int=828400) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 828400: OK)
+2025/05/28 18:41:02 Gold API Update Completed.
+2025/05/28 18:56:00 Update api calls from tjgu and cache.
+2025/05/28 18:56:01 From channel is:  &{827850 732050000 678050000 421000000 242000000 64806000 63812430}
+2025/05/28 18:56:01 Scrap price webpage:  1.607346542s
+2025/05/28 18:56:01 Cannot set key Dollar and value %!s(int=827850) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 827850: OK)
+2025/05/28 18:56:01 Gold API Update Completed.
+2025/05/28 19:11:00 Update api calls from tjgu and cache.
+2025/05/28 19:11:02 From channel is:  &{827850 732050000 678050000 421000000 242000000 64806000 63812430}
+2025/05/28 19:11:02 Scrap price webpage:  2.414781416s
+2025/05/28 19:11:02 Cannot set key Dollar and value %!s(int=827850) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 827850: OK)
+2025/05/28 19:11:02 Gold API Update Completed.
+2025/05/28 19:26:00 Update api calls from tjgu and cache.
+2025/05/28 19:26:02 From channel is:  &{827850 732050000 678050000 421000000 242000000 64806000 63812430}
+2025/05/28 19:26:02 Scrap price webpage:  2.244693166s
+2025/05/28 19:26:02 Cannot set key Dollar and value %!s(int=827850) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 827850: OK)
+2025/05/28 19:26:02 Gold API Update Completed.
+2025/05/28 19:41:00 Update api calls from tjgu and cache.
+2025/05/28 19:41:03 From channel is:  &{827850 732050000 678050000 421000000 242000000 64806000 63812430}
+2025/05/28 19:41:03 Scrap price webpage:  2.805792875s
+2025/05/28 19:41:03 Cannot set key Dollar and value %!s(int=827850) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 827850: OK)
+2025/05/28 19:41:03 Gold API Update Completed.
+2025/05/28 19:56:00 Update api calls from tjgu and cache.
+2025/05/28 19:56:01 From channel is:  &{827850 732050000 678050000 421000000 242000000 64806000 63812430}
+2025/05/28 19:56:01 Scrap price webpage:  1.099087583s
+2025/05/28 19:56:01 Cannot set key Dollar and value %!s(int=827850) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 827850: OK)
+2025/05/28 19:56:01 Gold API Update Completed.
+2025/05/28 20:11:00 Update api calls from tjgu and cache.
+2025/05/28 20:11:04 From channel is:  &{827850 732050000 678050000 421000000 242000000 64806000 63812430}
+2025/05/28 20:11:04 Scrap price webpage:  3.899549333s
+2025/05/28 20:11:04 Cannot set key Dollar and value %!s(int=827850) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 827850: OK)
+2025/05/28 20:11:04 Gold API Update Completed.
+2025/05/28 20:26:00 Update api calls from tjgu and cache.
+2025/05/28 20:26:11 From channel is:  &{827850 732050000 678050000 421000000 242000000 64806000 63812430}
+2025/05/28 20:26:11 Scrap price webpage:  11.407619833s
+2025/05/28 20:26:11 Cannot set key Dollar and value %!s(int=827850) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 827850: OK)
+2025/05/28 20:26:11 Gold API Update Completed.
+2025/05/28 20:41:00 Update api calls from tjgu and cache.
+2025/05/28 20:41:02 From channel is:  &{827850 732050000 678050000 421000000 242000000 64806000 63812430}
+2025/05/28 20:41:02 Scrap price webpage:  2.339300667s
+2025/05/28 20:41:02 Cannot set key Dollar and value %!s(int=827850) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 827850: OK)
+2025/05/28 20:41:02 Gold API Update Completed.
+2025/05/28 20:56:00 Update api calls from tjgu and cache.
+2025/05/28 20:56:01 From channel is:  &{826850 730600000 677850000 422000000 241000000 64675000 63564140}
+2025/05/28 20:56:01 Scrap price webpage:  895.01275ms
+2025/05/28 20:56:01 Cannot set key Dollar and value %!s(int=826850) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 826850: OK)
+2025/05/28 20:56:01 Gold API Update Completed.
+2025/05/28 21:11:00 Update api calls from tjgu and cache.
+2025/05/28 21:11:06 From channel is:  &{826850 730600000 677850000 422000000 241000000 64675000 63564140}
+2025/05/28 21:11:06 Scrap price webpage:  6.390804958s
+2025/05/28 21:11:06 Cannot set key Dollar and value %!s(int=826850) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 826850: OK)
+2025/05/28 21:11:06 Gold API Update Completed.
+2025/05/28 21:26:00 Update api calls from tjgu and cache.
+2025/05/28 21:26:07 From channel is:  &{826850 730600000 677850000 422000000 241000000 64675000 63564140}
+2025/05/28 21:26:07 Scrap price webpage:  7.101063708s
+2025/05/28 21:26:07 Cannot set key Dollar and value %!s(int=826850) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 826850: OK)
+2025/05/28 21:26:07 Gold API Update Completed.
+2025/05/28 21:41:00 Update api calls from tjgu and cache.
+2025/05/28 21:41:04 From channel is:  &{826850 730600000 677850000 422000000 241000000 64675000 63564140}
+2025/05/28 21:41:04 Scrap price webpage:  3.851124625s
+2025/05/28 21:41:04 Cannot set key Dollar and value %!s(int=826850) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 826850: OK)
+2025/05/28 21:41:04 Gold API Update Completed.
+2025/05/28 21:56:00 Update api calls from tjgu and cache.
+2025/05/28 21:56:04 From channel is:  &{826850 730600000 677850000 422000000 241000000 64675000 63564140}
+2025/05/28 21:56:04 Scrap price webpage:  4.012847583s
+2025/05/28 21:56:04 Cannot set key Dollar and value %!s(int=826850) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 826850: OK)
+2025/05/28 21:56:04 Gold API Update Completed.
+2025/05/28 22:11:00 Update api calls from tjgu and cache.
+2025/05/28 22:11:04 From channel is:  &{826850 730600000 677850000 422000000 241000000 64675000 63564140}
+2025/05/28 22:11:04 Scrap price webpage:  3.875319917s
+2025/05/28 22:11:04 Cannot set key Dollar and value %!s(int=826850) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 826850: OK)
+2025/05/28 22:11:04 Gold API Update Completed.
+2025/05/28 22:26:00 Update api calls from tjgu and cache.
+2025/05/28 22:26:02 From channel is:  &{826850 730600000 677850000 422000000 241000000 64675000 63564140}
+2025/05/28 22:26:02 Scrap price webpage:  2.354335958s
+2025/05/28 22:26:02 Cannot set key Dollar and value %!s(int=826850) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 826850: OK)
+2025/05/28 22:26:02 Gold API Update Completed.
+2025/05/28 22:41:00 Update api calls from tjgu and cache.
+2025/05/28 22:41:20 From channel is:  &{826850 730600000 677850000 422000000 241000000 64675000 63564140}
+2025/05/28 22:41:20 Scrap price webpage:  20.040209125s
+2025/05/28 22:41:20 Cannot set key Dollar and value %!s(int=826850) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 826850: OK)
+2025/05/28 22:41:20 Gold API Update Completed.
+2025/05/28 22:56:00 Update api calls from tjgu and cache.
+2025/05/28 22:56:47 From channel is:  &{826850 730600000 677850000 422000000 241000000 64423000 63564140}
+2025/05/28 22:56:47 Scrap price webpage:  47.419035333s
+2025/05/28 22:56:47 Cannot set key Dollar and value %!s(int=826850) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 826850: OK)
+2025/05/28 22:56:47 Gold API Update Completed.
+2025/05/28 23:11:00 Update api calls from tjgu and cache.
+2025/05/28 23:11:04 From channel is:  &{826850 730600000 677850000 422000000 241000000 64423000 63564140}
+2025/05/28 23:11:04 Scrap price webpage:  4.068403541s
+2025/05/28 23:11:04 Cannot set key Dollar and value %!s(int=826850) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 826850: OK)
+2025/05/28 23:11:04 Gold API Update Completed.
+2025/05/28 23:26:00 Update api calls from tjgu and cache.
+2025/05/28 23:26:07 From channel is:  &{826850 730600000 677850000 422000000 241000000 64423000 63564140}
+2025/05/28 23:26:07 Scrap price webpage:  7.1233835s
+2025/05/28 23:26:07 Cannot set key Dollar and value %!s(int=826850) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 826850: OK)
+2025/05/28 23:26:07 Gold API Update Completed.
+2025/05/28 23:41:00 Update api calls from tjgu and cache.
+2025/05/28 23:41:12 From channel is:  &{826850 730600000 677850000 422000000 241000000 64423000 63564140}
+2025/05/28 23:41:12 Scrap price webpage:  12.415683083s
+2025/05/28 23:41:12 Cannot set key Dollar and value %!s(int=826850) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 826850: OK)
+2025/05/28 23:41:12 Gold API Update Completed.
+2025/05/28 23:56:00 Update api calls from tjgu and cache.
+2025/05/28 23:56:07 From channel is:  &{826850 730600000 677850000 422000000 241000000 64423000 63564140}
+2025/05/28 23:56:07 Scrap price webpage:  7.176023s
+2025/05/28 23:56:07 Cannot set key Dollar and value %!s(int=826850) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 826850: OK)
+2025/05/28 23:56:07 Gold API Update Completed.
+2025/06/02 13:04:25 Gold API Update Completed.
+2025/06/02 13:19:22 Update api calls from tjgu and cache.
+2025/06/02 13:19:23 From channel is:  &{817000 714050000 662000000 412000000 232000000 64160000 63304460}
+2025/06/02 13:19:23 Scrap price webpage:  838.956667ms
+2025/06/02 13:19:23 Cannot set key Dollar and value %!s(int=817000) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 817000: OK)
+2025/06/02 13:19:23 Gold API Update Completed.
+2025/06/02 13:34:22 Update api calls from tjgu and cache.
+2025/06/02 13:34:25 From channel is:  &{817000 716950000 662100000 412000000 232000000 64732000 63869370}
+2025/06/02 13:34:25 Scrap price webpage:  3.419302208s
+2025/06/02 13:34:25 Cannot set key Dollar and value %!s(int=817000) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 817000: OK)
+2025/06/02 13:34:25 Gold API Update Completed.
+2025/06/02 23:41:21 Gold API Update Completed.
+2025/06/02 23:56:19 Update api calls from tjgu and cache.
+2025/06/02 23:56:20 From channel is:  &{823650 730100000 674800000 415000000 239000000 66053000 65172320}
+2025/06/02 23:56:20 Scrap price webpage:  1.179733625s
+2025/06/02 23:56:20 Cannot set key Dollar and value %!s(int=823650) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 823650: OK)
+2025/06/02 23:56:20 Gold API Update Completed.

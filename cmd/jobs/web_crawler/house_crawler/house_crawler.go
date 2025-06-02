@@ -32,8 +32,8 @@ func main() {
 	var totalSquarePrice int
 	var persquarPrice int
 	// _, _, maskanURL := httpGet("https://divar.ir/s/tehran/buy-residential/ahang?size=65-80", "maskanurls")
-	_, _, maskanURL := httpGet("https://divar.ir/s/tehran/buy-apartment/west-tehran-pars?size=60-70", "maskanurls")
-	// _, _, maskanURL := httpGet("https://divar.ir/s/tehran/buy-residential/majid-abad?size=65-80", "maskanurls")
+	// _, _, maskanURL := httpGet("https://divar.ir/s/tehran/buy-apartment/west-tehran-pars?size=60-70", "maskanurls")
+	_, _, maskanURL := httpGet("https://divar.ir/s/tehran/buy-residential/majid-abad?size=65-80", "maskanurls")
 	ids, links, allLinks := mysqlconnector.SelectHousePrice()
 
 	if len(ids) < 2 && allLinks == 0 {

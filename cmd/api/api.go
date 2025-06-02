@@ -151,7 +151,6 @@ func Search(body *gin.Context) {
 	// Search based on label and name strings.
 	searchWord := body.PostForm("search")
 	showLinksStruct, allRecords := mysqlconnector.SearchRecord(searchWord)
-	fmt.Println("______________________________", allRecords)
 	var links []gin.H
 	for i := 0; i < allRecords; i++ {
 

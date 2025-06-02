@@ -11,6 +11,7 @@ password="test@test",
 database="words"
 )
 
+# tableName = "house_price_majidieh_1739590786"
 tableName = "house_price"
 
 def historyBarPlot ():
@@ -23,12 +24,11 @@ def historyBarPlot ():
     ax.bar_label(bar_container, fmt='{:,.0f}')
 
     plt.savefig('./test.png')
-    # plt.show() 
+    plt.show() 
 
 
 
 def housePriceQuery(tableName): 
-    test = [1, 4, 10]
     price = []
     z_score_percent = []
     mycursor = mydb.cursor()

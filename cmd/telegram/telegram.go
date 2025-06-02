@@ -11,8 +11,14 @@ import (
 	"strconv"
 	"strings"
 	"sync"
+	logger "tf-idf/cmd/logger"
 	redisclient "tf-idf/cmd/redisClient"
 	"time"
+)
+
+const (
+	logFilePath = "../../logs/telegram/"
+	logPrefix   = ".log"
 )
 
 type Price struct {
@@ -183,6 +189,7 @@ func customHttpClient() http.Client {
 func httpErrorHandeler(err error) error {
 	if err != nil {
 		fmt.Println("Cannot http call with error: ", err)
+		logger.Logger(logFilePath, logPrefix, fmt.Sprintf("%s", err), "error")
 	}
 	return err
 }
@@ -190,6 +197,7 @@ func httpErrorHandeler(err error) error {
 func byteReadErrorHandelete(err error) error {
 	if err != nil {
 		fmt.Println("Cannot read as byte: ", err)
+		logger.Logger(logFilePath, logPrefix, fmt.Sprintf("%s", err), "error")
 	}
 	return err
 }

@@ -50,6 +50,36 @@
         .search-bar button:hover {
             background-color: #003f8a;
         }
+        .searchAdvanced-bar {
+            margin: 10px auto;
+            max-width: 1200px;
+            padding: 10px 20px;
+        }
+        .searchAdvanced-bar form {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .searchAdvanced-bar input[type="text"] {
+            padding: 8px 12px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            flex: 1 1 200px;
+        }
+        .searchAdvanced-bar button {
+            padding: 8px 12px;
+            font-size: 14px;
+            border: none;
+            border-radius: 4px;
+            background-color: #0056b3;
+            color: #fff;
+            cursor: pointer;
+        }
+        .searchAdvanced-bar button:hover {
+            background-color: #003f8a;
+        }
         .container {
             margin: 20px auto;
             max-width: 1200px;
@@ -123,6 +153,17 @@
             </form>
         </div>
     </header>
+
+    <!-- Advanced Search Bar -->
+    <div class="searchAdvanced-bar">
+        <form action="/api/v1/search" method="POST">
+            <!-- <input type="text" name="search" placeholder="Search by Name"> -->
+            <input type="text" name="label1" placeholder="Search by Label-1">
+            <input type="text" name="label2" placeholder="Search by Label-2">
+            <input type="text" name="label3" placeholder="Search by Label-3">
+            <button type="submit">Search</button>
+        </form>
+    </div>
 
     <!-- Main Content -->
     <div class="container">
