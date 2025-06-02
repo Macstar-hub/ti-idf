@@ -11,7 +11,8 @@ password="test@test",
 database="words"
 )
 
-tableName = "house_price_majidieh_1739590786"
+# tableName = "house_price_majidieh_1739590786"
+tableName = "house_price"
 
 def historyBarPlot ():
     prices, z_score = housePriceQuery(tableName)
