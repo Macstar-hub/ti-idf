@@ -2854,3 +2854,16 @@ Stopping script as condition met.
 2025/06/02 23:56:20 Cannot set key Dollar and value %!s(int=823650) with status: 
 %!(EXTRA *redis.StatusCmd=set Dollar 823650: OK)
 2025/06/02 23:56:20 Gold API Update Completed.
+2025/06/03 00:11:19 Update api calls from tjgu and cache.
+2025/06/03 00:11:25 From channel is:  &{823650 730100000 674800000 415000000 239000000 66053000 65172320}
+2025/06/03 00:11:25 Scrap price webpage:  5.457984042s
+2025/06/03 00:11:25 Cannot set key Dollar and value %!s(int=823650) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 823650: OK)
+2025/06/03 00:11:25 Gold API Update Completed.
+2025/06/03 00:26:19 Update api calls from tjgu and cache.
+2025/06/03 00:26:20 From channel is:  &{823650 730100000 674800000 415000000 239000000 66053000 65172320}
+2025/06/03 00:26:20 Scrap price webpage:  1.086035083s
+2025/06/03 00:26:20 Cannot set key Dollar and value %!s(int=823650) with status: 
+%!(EXTRA *redis.StatusCmd=set Dollar 823650: OK)
+2025/06/03 00:26:20 Gold API Update Completed.
+2025/06/03 06:15:54 Update api calls from tjgu and cache.

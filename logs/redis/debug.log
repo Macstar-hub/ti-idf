@@ -1121,3 +1121,50 @@
 %!(EXTRA *redis.StatusCmd=set GoldDast2 65172320: OK)
 2025/06/02 23:56:20 set GoldDast2 65172320: OK
 2025/06/02 23:56:20 Debug: Recieved DB slices:  [66053000 730100000 674800000 415000000]
+2025/06/03 00:11:25 set Dollar 823650: OK
+2025/06/03 00:11:25 Cannot set key SekkeTamam and value %!s(int=730100000) with status: 
+%!(EXTRA *redis.StatusCmd=set SekkeTamam 730100000: OK)
+2025/06/03 00:11:25 set SekkeTamam 730100000: OK
+2025/06/03 00:11:25 Cannot set key SekketGhadim and value %!s(int=674800000) with status: 
+%!(EXTRA *redis.StatusCmd=set SekketGhadim 674800000: OK)
+2025/06/03 00:11:25 set SekketGhadim 674800000: OK
+2025/06/03 00:11:25 Cannot set key SekkehNim and value %!s(int=415000000) with status: 
+%!(EXTRA *redis.StatusCmd=set SekkehNim 415000000: OK)
+2025/06/03 00:11:25 set SekkehNim 415000000: OK
+2025/06/03 00:11:25 Cannot set key RobeSekke and value %!s(int=239000000) with status: 
+%!(EXTRA *redis.StatusCmd=set RobeSekke 239000000: OK)
+2025/06/03 00:11:25 set RobeSekke 239000000: OK
+2025/06/03 00:11:25 Cannot set key Gold18 and value %!s(int=66053000) with status: 
+%!(EXTRA *redis.StatusCmd=set Gold18 66053000: OK)
+2025/06/03 00:11:25 set Gold18 66053000: OK
+2025/06/03 00:11:25 Cannot set key GoldDast2 and value %!s(int=65172320) with status: 
+%!(EXTRA *redis.StatusCmd=set GoldDast2 65172320: OK)
+2025/06/03 00:11:25 set GoldDast2 65172320: OK
+2025/06/03 00:11:25 Debug: Recieved DB slices:  [66053000 730100000 674800000 415000000]
+2025/06/03 00:26:20 set Dollar 823650: OK
+2025/06/03 00:26:20 Cannot set key SekkeTamam and value %!s(int=730100000) with status: 
+%!(EXTRA *redis.StatusCmd=set SekkeTamam 730100000: OK)
+2025/06/03 00:26:20 set SekkeTamam 730100000: OK
+2025/06/03 00:26:20 Cannot set key SekketGhadim and value %!s(int=674800000) with status: 
+%!(EXTRA *redis.StatusCmd=set SekketGhadim 674800000: OK)
+2025/06/03 00:26:20 set SekketGhadim 674800000: OK
+2025/06/03 00:26:20 Cannot set key SekkehNim and value %!s(int=415000000) with status: 
+%!(EXTRA *redis.StatusCmd=set SekkehNim 415000000: OK)
+2025/06/03 00:26:20 set SekkehNim 415000000: OK
+2025/06/03 00:26:20 Cannot set key RobeSekke and value %!s(int=239000000) with status: 
+%!(EXTRA *redis.StatusCmd=set RobeSekke 239000000: OK)
+2025/06/03 00:26:20 set RobeSekke 239000000: OK
+2025/06/03 00:26:20 Cannot set key Gold18 and value %!s(int=66053000) with status: 
+%!(EXTRA *redis.StatusCmd=set Gold18 66053000: OK)
+2025/06/03 00:26:20 set Gold18 66053000: OK
+2025/06/03 00:26:20 Cannot set key GoldDast2 and value %!s(int=65172320) with status: 
+%!(EXTRA *redis.StatusCmd=set GoldDast2 65172320: OK)
+2025/06/03 00:26:20 set GoldDast2 65172320: OK
+2025/06/03 00:26:20 Debug: Recieved DB slices:  [66053000 730100000 674800000 415000000]
+2025/06/05 22:21:21 Latency to make get key: 'Gold18' in redis client function: %!(EXTRA time.Duration=14.61775ms)
+2025/06/05 22:21:21 Latency to make get key: 'SekkehNim' in redis client function: %!(EXTRA time.Duration=14.797291ms)
+2025/06/05 22:21:21 Latency to make get key: 'RobeSekke' in redis client function: %!(EXTRA time.Duration=14.791334ms)
+2025/06/05 22:21:21 Latency to make get key: 'Dollar' in redis client function: %!(EXTRA time.Duration=14.586584ms)
+2025/06/05 22:21:21 Latency to make get key: 'GoldDast2' in redis client function: %!(EXTRA time.Duration=14.498208ms)
+2025/06/05 22:21:21 Latency to make get key: 'SekkeTamam' in redis client function: %!(EXTRA time.Duration=14.842917ms)
+2025/06/05 22:21:21 Latency to make get key: 'SekketGhadim' in redis client function: %!(EXTRA time.Duration=14.921084ms)
