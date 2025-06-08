@@ -1,205 +1,286 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All links list</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        header {
-            background-color: #007BFF;
-            color: #fff;
-            padding: 20px 10px;
-            text-align: center;
-            position: relative;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 24px;
-        }
-        .search-bar {
-            position: absolute;
-            top: 50%;
-            right: 20px;
-            transform: translateY(-50%);
-            display: flex;
-            align-items: center;
-        }
-        .search-bar input[type="text"] {
-            padding: 8px 12px;
-            font-size: 14px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-        .search-bar button {
-            margin-left: 8px;
-            padding: 8px 12px;
-            font-size: 14px;
-            border: none;
-            border-radius: 4px;
-            background-color: #0056b3;
-            color: #fff;
-            cursor: pointer;
-        }
-        .search-bar button:hover {
-            background-color: #003f8a;
-        }
-        .searchAdvanced-bar {
-            margin: 10px auto;
-            max-width: 1200px;
-            padding: 10px 20px;
-        }
-        .searchAdvanced-bar form {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            justify-content: center;
-        }
-        .searchAdvanced-bar input[type="text"] {
-            padding: 8px 12px;
-            font-size: 14px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            flex: 1 1 200px;
-        }
-        .searchAdvanced-bar button {
-            padding: 8px 12px;
-            font-size: 14px;
-            border: none;
-            border-radius: 4px;
-            background-color: #0056b3;
-            color: #fff;
-            cursor: pointer;
-        }
-        .searchAdvanced-bar button:hover {
-            background-color: #003f8a;
-        }
-        .container {
-            margin: 20px auto;
-            max-width: 1200px;
-            background: #fff;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            overflow: hidden;
-            padding: 20px;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-        table, th, td {
-            border: 1px solid #ddd;
-        }
-        th, td {
-            padding: 12px;
-            text-align: left;
-        }
-        th {
-            background-color: #007BFF;
-            color: #fff;
-        }
-        tbody tr:nth-child(odd) {
-            background-color: #f9f9f9;
-        }
-        tbody tr:hover {
-            background-color: #f1f1f1;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        footer p {
-            margin: 0;
-            font-size: 14px;
-        }
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #007BFF;
-            color: #fff;
-            text-decoration: none;
-            font-size: 16px;
-            font-weight: bold;
-            border-radius: 5px;
-            cursor: pointer;
-            border: none;
-        }
-        .btn:hover {
-            background-color: #0056b3;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>All Links List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #007BFF;
+      color: #fff;
+      padding: 20px 10px;
+      text-align: center;
+      position: relative;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .search-bar {
+      position: absolute;
+      top: 50%;
+      right: 20px;
+      transform: translateY(-50%);
+      display: flex;
+      align-items: center;
+    }
+
+    .search-bar form {
+      display: flex;
+      align-items: center;
+    }
+
+    .search-bar input[type="text"] {
+      padding: 8px 12px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .search-bar button {
+      margin-left: 8px;
+      padding: 8px 12px;
+      font-size: 14px;
+      border: none;
+      border-radius: 4px;
+      background-color: #0056b3;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .search-bar button:hover {
+      background-color: #003f8a;
+    }
+
+    .searchAdvanced-bar {
+      margin: 10px auto;
+      max-width: 1200px;
+      padding: 10px 20px;
+    }
+
+    .searchAdvanced-bar form {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .searchAdvanced-bar input[type="text"] {
+      padding: 8px 12px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      flex: 1 1 200px;
+    }
+
+    .searchAdvanced-bar button {
+      padding: 8px 12px;
+      font-size: 14px;
+      border: none;
+      border-radius: 4px;
+      background-color: #0056b3;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .searchAdvanced-bar button:hover {
+      background-color: #003f8a;
+    }
+
+    .container {
+      margin: 20px auto;
+      max-width: 1200px;
+      background: #fff;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+      padding: 20px;
+    }
+
+    .button-container {
+      margin: 20px 0;
+      text-align: right;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+      border: none;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #007BFF;
+      color: #fff;
+    }
+
+    tbody tr:nth-child(odd) {
+      background-color: #f9f9f9;
+    }
+
+    tbody tr:hover {
+      background-color: #f1f1f1;
+    }
+
+    .table-wrapper {
+      overflow-x: auto;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 14px;
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      header {
+        padding-bottom: 70px;
+      }
+
+      .search-bar {
+        position: static;
+        transform: none;
+        margin-top: 10px;
+        justify-content: center;
+      }
+
+      .search-bar form {
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+      }
+
+      .search-bar input,
+      .search-bar button {
+        width: 100%;
+        margin: 5px 0;
+      }
+
+      .searchAdvanced-bar form {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .searchAdvanced-bar input,
+      .searchAdvanced-bar button {
+        width: 100%;
+        margin: 5px 0;
+      }
+
+      .button-container {
+        text-align: center;
+      }
+
+      table, thead, tbody, th, td, tr {
+        font-size: 14px;
+      }
+
+      footer {
+        position: static;
+        padding: 15px;
+      }
+    }
+  </style>
 </head>
 <body>
-    <!-- Banner Section -->
-    <header>
-        <h1>Links Lists</h1>
-        <!-- Search Bar -->
-        <div class="search-bar">
-            <form action="/api/v1/search" method="POST">
-                <input type="text" name="search" placeholder="Search..." required>
-                <button type="submit">search</button>
-            </form>
-        </div>
-    </header>
+  <header>
+    <h1>Links Lists</h1>
+    <div class="search-bar">
+      <form action="/api/v1/search" method="POST">
+        <input type="text" name="search" placeholder="Search..." required />
+        <button type="submit">Search</button>
+      </form>
+    </div>
+  </header>
 
-    <!-- Advanced Search Bar -->
-    <div class="searchAdvanced-bar">
-        <form action="/api/v1/search" method="POST">
-            <!-- <input type="text" name="search" placeholder="Search by Name"> -->
-            <input type="text" name="label1" placeholder="Search by Label-1">
-            <input type="text" name="label2" placeholder="Search by Label-2">
-            <input type="text" name="label3" placeholder="Search by Label-3">
-            <button type="submit">Search</button>
-        </form>
+  <div class="searchAdvanced-bar">
+    <form action="/api/v1/search" method="POST">
+      <input type="text" name="label1" placeholder="Search by Label-1" />
+      <input type="text" name="label2" placeholder="Search by Label-2" />
+      <input type="text" name="label3" placeholder="Search by Label-3" />
+      <button type="submit">Search</button>
+    </form>
+  </div>
+
+  <div class="container">
+    <h1>User Booking Information</h1>
+    <div class="button-container">
+      <a href="/" class="btn">Links Registration Page</a>
     </div>
 
-    <!-- Main Content -->
-    <div class="container">
-        <h1>User Booking Information</h1>
-
-        <!-- Registration Page Button -->
-        <div class="button-container">
-            <a href="/" class="btn">Links Registration Page</a>
-        </div>
-        <table>
-            <thead>
-                <tr>
-                    <th>Link</th>
-                    <th>Name</th>
-                    <th>Label-1</th>
-                    <th>Label-2</th>
-                    <th>Label-3</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    {{ range .Links }}
-                        <td contenteditable="true">{{ .Links }}</td>
-                        <td contenteditable="true">{{ .Name }}</td>
-                        <td contenteditable="true">{{ .Label }}</td>
-                        <td contenteditable="true">{{ .Label1 }}</td>
-                        <td contenteditable="true">{{ .Label2 }}</td>
-                    </tr>
-                    {{ end }}
-            </tbody>
-        </table>
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Link</th>
+            <th>Name</th>
+            <th>Label-1</th>
+            <th>Label-2</th>
+            <th>Label-3</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{ range .Links }}
+          <tr>
+            <td contenteditable="true">{{ .Links }}</td>
+            <td contenteditable="true">{{ .Name }}</td>
+            <td contenteditable="true">{{ .Label }}</td>
+            <td contenteditable="true">{{ .Label1 }}</td>
+            <td contenteditable="true">{{ .Label2 }}</td>
+          </tr>
+          {{ end }}
+        </tbody>
+      </table>
     </div>
+  </div>
 
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2025 Links List. All rights reserved.</p>
-    </footer>
+  <footer>
+    <p>&copy; 2025 Links List. All rights reserved.</p>
+  </footer>
 </body>
 </html>
