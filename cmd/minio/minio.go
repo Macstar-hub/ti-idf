@@ -1,7 +1,8 @@
-package main
+package minio
 
 import (
 	"context"
+	"io"
 	"log"
 	"os"
 	"time"
@@ -11,13 +12,26 @@ import (
 	"github.com/minio/minio-go/v7/pkg/credentials"
 )
 
-func main() {
-	endpoints := "localhost:9000"
-	accessKey := "minioadmin"
-	secretKey := "minioadmin"
-	useSSL := false
-	ctx := context.Background()
+const (
+	endpoints  = "localhost:9000"
+	accessKey  = "minioadmin"
+	secretKey  = "minioadmin"
+	useSSL     = false
+	bucketName = "tutorial"
+	location   = "us-east-1"
+	debug      = false
+)
 
+// func main() {
+
+// 	// createBucket(minioClient, ctx, bucketName, location, false)
+// 	// objectName := "OBS-Studio-31.0.1-macOS-Apple.dmg"
+// 	// filePath := "/Users/mehranmoradi/Downloads/OBS-Studio-31.0.1-macOS-Apple.dmg"
+// 	// FPutObject(minioClient, ctx, bucketName, objectName, filePath, false)
+// 	// PutObject(minioClient, ctx, bucketName, filePath, objectName, false)
+// }
+
+func makeMinioClient() (minioClient *minio.Client) {
 	minioClient, err := minio.New(endpoints, &minio.Options{
 		Creds:  credentials.NewStaticV4(accessKey, secretKey, ""),
 		Secure: useSSL,
@@ -26,19 +40,14 @@ func main() {
 	if err != nil {
 		log.Println("Cannot make client with error: ", err)
 	}
-
-	// Define bucket name:
-	bucketName := "tutorial"
-	location := "us-east-1"
-
-	createBucket(minioClient, ctx, bucketName, location, false)
-	objectName := "OBS-Studio-31.0.1-macOS-Apple.dmg"
-	filePath := "/Users/mehranmoradi/Downloads/OBS-Studio-31.0.1-macOS-Apple.dmg"
-	FPutObject(minioClient, ctx, bucketName, objectName, filePath, false)
-	// PutObject(minioClient, ctx, bucketName, filePath, objectName, false)
+	return minioClient
 }
 
-func createBucket(minioClient *minio.Client, ctx context.Context, bucketName string, location string, debug bool) {
+func createBucket(bucketName string, location string, debug bool) {
+
+	minioClient := makeMinioClient()
+	ctx := context.Background()
+
 	if debug {
 		minioClient.TraceOn(os.Stdout)
 	}
@@ -58,7 +67,11 @@ func createBucket(minioClient *minio.Client, ctx context.Context, bucketName str
 	}
 }
 
-func FPutObject(minioClient *minio.Client, ctx context.Context, bucketName string, objectName string, filePath string, debug bool) {
+func FPutObject(bucketName string, objectName string, filePath string, debug bool) {
+
+	minioClient := makeMinioClient()
+	ctx := context.Background()
+
 	const contentType = "application/octet-stream"
 
 	if debug {
@@ -66,7 +79,7 @@ func FPutObject(minioClient *minio.Client, ctx context.Context, bucketName strin
 	}
 
 	// Check object already exists:
-	exist := objectExist(minioClient, ctx, bucketName, objectName, false)
+	exist := objectExist(bucketName, objectName, false)
 	if exist {
 		log.Printf("Already object %s exist.\n", objectName)
 
@@ -94,7 +107,11 @@ func FPutObject(minioClient *minio.Client, ctx context.Context, bucketName strin
 	}
 }
 
-func PutObject(minioClient *minio.Client, ctx context.Context, bucketName string, filePath string, objectName string, debug bool) {
+func PutObject(bucketName string, filePath string, objectName string, debug bool) {
+
+	minioClient := makeMinioClient()
+	ctx := context.Background()
+
 	const contentType = "application/octet-stream"
 
 	if debug {
@@ -102,7 +119,7 @@ func PutObject(minioClient *minio.Client, ctx context.Context, bucketName string
 	}
 
 	// Check object already exists:
-	exist := objectExist(minioClient, ctx, bucketName, objectName, false)
+	exist := objectExist(bucketName, objectName, false)
 
 	if exist {
 		log.Printf("Already object %s exist.\n", objectName)
@@ -140,7 +157,47 @@ func PutObject(minioClient *minio.Client, ctx context.Context, bucketName string
 
 }
 
-func objectExist(minioClient *minio.Client, ctx context.Context, bucketName string, objectName string, debug bool) (exist bool) {
+func PutObjectApi(reader io.Reader, objectName string, fileSize int) (err error) {
+
+	minioClient := makeMinioClient()
+	ctx := context.Background()
+
+	const contentType = "application/octet-stream"
+
+	if debug {
+		minioClient.TraceOn(os.Stdout)
+	}
+
+	// Check object already exists:
+	exist := objectExist(bucketName, objectName, false)
+
+	if exist {
+		log.Printf("Already object %s exist.\n", objectName)
+
+	} else {
+		// Make progress bar:
+		progress := pb.New64(int64(fileSize))
+		progress.SetRefreshRate(50 * time.Microsecond)
+		progress.Start()
+
+		// Make upload a file:
+		fileUploadInfo, err := minioClient.PutObject(ctx, bucketName, objectName, reader, int64(fileSize), minio.PutObjectOptions{
+			ContentType: contentType,
+			Progress:    progress,
+		})
+		if err != nil {
+			log.Println("Cannot upload a file with error: ", err)
+			log.Printf("File %s uploaded succesfully: ", fileUploadInfo.Key)
+			return err
+		}
+	}
+	return
+}
+
+func objectExist(bucketName string, objectName string, debug bool) (exist bool) {
+
+	minioClient := makeMinioClient()
+	ctx := context.Background()
 	const contentType = "application/octet-stream"
 	var objectFind string
 
