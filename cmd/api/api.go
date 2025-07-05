@@ -17,16 +17,6 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-// var Symbol = []string{
-// 	"Gold18",
-// 	"SekkeTamam",
-// 	"SekketGhadim",
-// 	"SekkehNim",
-// 	"GoldDast2",
-// 	"RobeSekke",
-// 	"Dollar",
-// }
-
 type Symbol struct {
 	Gold18       int
 	SekkeTamam   int
@@ -167,3 +157,5 @@ func Search(body *gin.Context) {
 		"Links": links,
 	})
 }
+
+// Post file throw minio:
