@@ -2,12 +2,14 @@ package httppost
 
 import (
 	"fmt"
+	"log"
 	"reflect"
 	"sync"
 
 	// "log"
 	"net/http"
 	strconv "strconv"
+	"tf-idf/cmd/minio"
 	mysqlconnector "tf-idf/cmd/mysql"
 	redisclient "tf-idf/cmd/redisClient"
 
@@ -16,16 +18,6 @@ import (
 
 	"github.com/gin-gonic/gin"
 )
-
-// var Symbol = []string{
-// 	"Gold18",
-// 	"SekkeTamam",
-// 	"SekketGhadim",
-// 	"SekkehNim",
-// 	"GoldDast2",
-// 	"RobeSekke",
-// 	"Dollar",
-// }
 
 type Symbol struct {
 	Gold18       int
@@ -166,4 +158,22 @@ func Search(body *gin.Context) {
 	body.HTML(http.StatusOK, "allLinks.html", gin.H{
 		"Links": links,
 	})
+}
+
+// Post file throw minio:
+func UploadFile(body *gin.Context) {
+	file, _ := body.FormFile("file")
+	log.Println("File name: ", file.Filename)
+	reader, err := file.Open()
+	if err != nil {
+		log.Println("Cannot open file with error: ", err)
+	} else {
+		err := minio.PutObjectApi(reader, file.Filename, int(file.Size))
+		if err != nil {
+			log.Println("Cannot succesfully update with error: ", err)
+			body.String(http.StatusInternalServerError, fmt.Sprintf("'%s' Uploaded with error\n", file.Filename))
+		} else {
+			body.String(http.StatusOK, fmt.Sprintf("'%s' Uploaded\n", file.Filename))
+		}
+	}
 }

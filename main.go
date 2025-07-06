@@ -167,9 +167,11 @@ func LandigPage() {
 	server.LoadHTMLGlob("./web/**/*")
 	server.StaticFile("/", "./web/landingPages/linkSubmit.html")
 	server.StaticFile("/assetcalc", "./web/landingPages/assetCalc.html")
+	server.StaticFile("/uploadfile", "./web/landingPages/upload.html")
 	server.POST("/api/v1/postLinks", httppost.PostLabels)
 	server.POST("/api/v1/assetcalc", httppost.CalcAsset)
 	server.GET("/api/v1/linkslist", httppost.ShowLinks)
 	server.POST("/api/v1/search", httppost.Search)
+	server.POST("/api/v1/uploadfile", httppost.UploadFile)
 	server.Run(":9080")
 }
