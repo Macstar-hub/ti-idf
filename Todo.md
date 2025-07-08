@@ -82,4 +82,4 @@
         - [] Find reason of un succesfull bag of word clean up in archive.dir.
 - [x] Fix too many connection to databases error.
 - [] How to reuse old tcp connction to db in new operation.
-- [] Disable stdout for links all served by service.
+- [x] Disable stdout for links all served by service.
