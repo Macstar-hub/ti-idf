@@ -19,6 +19,7 @@
     - [x] Make links manager page:
         - [x] Make home page.
         - [x] Make asset calcuation.
+        - [] Make Showing last update price date.
         - [x] Make asset DB Qurty function. 
         - [x] Make udpate function asset price from telegram.
         - [x] Make asset resault page.
