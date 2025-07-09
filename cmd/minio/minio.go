@@ -13,7 +13,8 @@ import (
 )
 
 const (
-	endpoints  = "localhost:9000"
+	// endpoints  = "localhost:9000"
+	endpoints  = "185.81.97.192:9000"
 	accessKey  = "minioadmin"
 	secretKey  = "minioadmin"
 	useSSL     = false
@@ -157,7 +158,7 @@ func PutObject(bucketName string, filePath string, objectName string, debug bool
 
 }
 
-func PutObjectApi(reader io.Reader, objectName string, fileSize int) (err error) {
+func PutObjectApi(reader io.Reader, objectName string, fileSize int, progress *pb.ProgressBar) (err error) {
 
 	minioClient := makeMinioClient()
 	ctx := context.Background()
@@ -175,16 +176,13 @@ func PutObjectApi(reader io.Reader, objectName string, fileSize int) (err error)
 		log.Printf("Already object %s exist.\n", objectName)
 
 	} else {
-		// Make progress bar:
-		progress := pb.New64(int64(fileSize))
-		progress.SetRefreshRate(50 * time.Microsecond)
-		progress.Start()
 
 		// Make upload a file:
 		fileUploadInfo, err := minioClient.PutObject(ctx, bucketName, objectName, reader, int64(fileSize), minio.PutObjectOptions{
 			ContentType: contentType,
 			Progress:    progress,
 		})
+
 		if err != nil {
 			log.Println("Cannot upload a file with error: ", err)
 			log.Printf("File %s uploaded succesfully: ", fileUploadInfo.Key)

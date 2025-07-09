@@ -12,10 +12,9 @@ import (
 	"tf-idf/cmd/minio"
 	mysqlconnector "tf-idf/cmd/mysql"
 	redisclient "tf-idf/cmd/redisClient"
-
-	// "tf-idf/cmd/telegram"
 	"time"
 
+	"github.com/cheggaaa/pb"
 	"github.com/gin-gonic/gin"
 )
 
@@ -168,7 +167,18 @@ func UploadFile(body *gin.Context) {
 	if err != nil {
 		log.Println("Cannot open file with error: ", err)
 	} else {
-		err := minio.PutObjectApi(reader, file.Filename, int(file.Size))
+
+		// Make progress bar:
+		progress := pb.New64(int64(file.Size))
+		progress.SetRefreshRate(300 * time.Microsecond)
+		progress.Start().ShowTimeLeft = false
+		progress.Start().Increment()
+		progress.Start().ShowBar = false
+		progress.Start().ShowCounters = false
+		progress.Start()
+
+		// Minio Upload Api Call:
+		err := minio.PutObjectApi(reader, file.Filename, int(file.Size), progress)
 		if err != nil {
 			log.Println("Cannot succesfully update with error: ", err)
 			body.String(http.StatusInternalServerError, fmt.Sprintf("'%s' Uploaded with error\n", file.Filename))
