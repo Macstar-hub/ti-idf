@@ -8,6 +8,7 @@ import (
 	"strings"
 	"sync"
 	"sync/atomic"
+	redisclient "tf-idf/cmd/redisClient"
 	"time"
 	"unicode/utf8"
 )
@@ -299,6 +300,7 @@ func (pb *ProgressBar) write(total, current int64) {
 		var percent float64
 		if total > 0 {
 			percent = float64(current) / (float64(total) / float64(100))
+			redisclient.RedisSetOPS("UploadProgress", int(percent))
 		} else {
 			percent = float64(current) / float64(100)
 		}
@@ -432,7 +434,6 @@ func (pb *ProgressBar) write(total, current int64) {
 	case !pb.NotPrint:
 		fmt.Print("\r" + out + end) // Flag as Debug, This secrion printing output
 	}
-
 }
 
 // GetTerminalWidth - returns terminal width for all platforms.

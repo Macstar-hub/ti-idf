@@ -6,9 +6,9 @@ import (
 	"log"
 	"os"
 	pb "tf-idf/cmd/pb"
+	redisclient "tf-idf/cmd/redisClient"
 	"time"
 
-	// "github.com/cheggaaa/pb"
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"
 )
@@ -177,6 +177,8 @@ func PutObjectApi(reader io.Reader, objectName string, fileSize int, progress *p
 		log.Printf("Already object %s exist.\n", objectName)
 
 	} else {
+		// Show Upload Status
+		// go getUploadStatus()
 
 		// Make upload a file:
 		fileUploadInfo, err := minioClient.PutObject(ctx, bucketName, objectName, reader, int64(fileSize), minio.PutObjectOptions{
@@ -221,4 +223,15 @@ func objectExist(bucketName string, objectName string, debug bool) (exist bool) 
 	}
 
 	return
+}
+
+func getUploadStatus() {
+	for {
+		value := redisclient.RedisGetOPS("UploadProgress")
+		log.Println("Upload Status: ", value)
+		if value == 100 {
+			value = 0
+			break
+		}
+	}
 }

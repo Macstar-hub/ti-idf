@@ -75,6 +75,9 @@
 
     - [] Upload: 
         - [x] Make minio upload fuction, api and ui. 
+        - [] Make progress bar and minimal status such as upload speed and ETA time.
+            - [] Correct channel from pb class to make channel
+            - [] Remove redis 
         - [] Make minio list uploaded objected function, api and ui. 
 ---
 # Issues : 
