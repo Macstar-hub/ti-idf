@@ -5,9 +5,10 @@ import (
 	"io"
 	"log"
 	"os"
+	pb "tf-idf/cmd/pb"
 	"time"
 
-	"github.com/cheggaaa/pb"
+	// "github.com/cheggaaa/pb"
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"
 )

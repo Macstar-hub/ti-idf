@@ -3,18 +3,17 @@ package httppost
 import (
 	"fmt"
 	"log"
-	"reflect"
-	"sync"
-
-	// "log"
 	"net/http"
+	"reflect"
 	strconv "strconv"
+	"sync"
 	"tf-idf/cmd/minio"
 	mysqlconnector "tf-idf/cmd/mysql"
+	pb "tf-idf/cmd/pb"
 	redisclient "tf-idf/cmd/redisClient"
 	"time"
 
-	"github.com/cheggaaa/pb"
+	// "github.com/cheggaaa/pb"
 	"github.com/gin-gonic/gin"
 )
 
@@ -175,6 +174,7 @@ func UploadFile(body *gin.Context) {
 		progress.Start().Increment()
 		progress.Start().ShowBar = false
 		progress.Start().ShowCounters = false
+		progress.Start().ShowPercent = true
 		progress.Start()
 
 		// Minio Upload Api Call:
@@ -182,6 +182,7 @@ func UploadFile(body *gin.Context) {
 		if err != nil {
 			log.Println("Cannot succesfully update with error: ", err)
 			body.String(http.StatusInternalServerError, fmt.Sprintf("'%s' Uploaded with error\n", file.Filename))
+			log.Println(progress)
 		} else {
 			body.String(http.StatusOK, fmt.Sprintf("'%s' Uploaded\n", file.Filename))
 		}
