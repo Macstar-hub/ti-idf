@@ -2,9 +2,11 @@ package minio
 
 import (
 	"context"
+	"fmt"
 	"io"
 	"log"
 	"os"
+	"sync"
 	pb "tf-idf/cmd/pb"
 	redisclient "tf-idf/cmd/redisClient"
 	"time"
@@ -160,7 +162,6 @@ func PutObject(bucketName string, filePath string, objectName string, debug bool
 }
 
 func PutObjectApi(reader io.Reader, objectName string, fileSize int, progress *pb.ProgressBar) (err error) {
-
 	minioClient := makeMinioClient()
 	ctx := context.Background()
 
@@ -178,7 +179,7 @@ func PutObjectApi(reader io.Reader, objectName string, fileSize int, progress *p
 
 	} else {
 		// Show Upload Status
-		// go getUploadStatus()
+		go getUploadStatus()
 
 		// Make upload a file:
 		fileUploadInfo, err := minioClient.PutObject(ctx, bucketName, objectName, reader, int64(fileSize), minio.PutObjectOptions{
@@ -226,12 +227,29 @@ func objectExist(bucketName string, objectName string, debug bool) (exist bool) 
 }
 
 func getUploadStatus() {
+	wg := &sync.WaitGroup{}
+	var value int
+	wg.Add(1)
+	redisChannel := make(chan int, 1024)
 	for {
-		value := redisclient.RedisGetOPS("UploadProgress")
-		log.Println("Upload Status: ", value)
+		time.Sleep(10 * time.Microsecond)
+		value = redisclient.RedisGetOPS("UploadProgress")
+		redisChannel <- value
+		go showStatus(redisChannel, wg)
 		if value == 100 {
-			value = 0
 			break
+		}
+	}
+	wg.Wait()
+}
+
+func showStatus(redisChannle chan int, wg *sync.WaitGroup) {
+	for status := range redisChannle {
+		time.Sleep(10 * time.Microsecond)
+		fmt.Fprintf(os.Stdout, "\rFrom Channel: %d%%", status)
+		if status == 100 {
+			wg.Done()
+			close(redisChannle)
 		}
 	}
 }

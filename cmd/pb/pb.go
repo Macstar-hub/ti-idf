@@ -304,7 +304,7 @@ func (pb *ProgressBar) write(total, current int64) {
 		} else {
 			percent = float64(current) / float64(100)
 		}
-		percentBox = fmt.Sprintf(" %6.02f%%", percent)
+		// percentBox = fmt.Sprintf(" %6.02f%%", percent)
 	}
 
 	// counters
