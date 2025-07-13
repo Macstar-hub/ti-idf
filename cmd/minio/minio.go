@@ -231,11 +231,11 @@ func getUploadStatus() {
 	var value int
 	wg.Add(1)
 	redisChannel := make(chan int, 1024)
+	go showStatus(redisChannel, wg)
 	for {
 		time.Sleep(10 * time.Microsecond)
 		value = redisclient.RedisGetOPS("UploadProgress")
 		redisChannel <- value
-		go showStatus(redisChannel, wg)
 		if value == 100 {
 			break
 		}
@@ -246,7 +246,7 @@ func getUploadStatus() {
 func showStatus(redisChannle chan int, wg *sync.WaitGroup) {
 	for status := range redisChannle {
 		time.Sleep(10 * time.Microsecond)
-		fmt.Fprintf(os.Stdout, "\rFrom Channel: %d%%", status)
+		fmt.Printf("\rPercent: %d%%", status)
 		if status == 100 {
 			wg.Done()
 			close(redisChannle)
