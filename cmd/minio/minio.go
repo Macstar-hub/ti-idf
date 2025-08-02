@@ -8,7 +8,6 @@ import (
 
 	"os"
 	"sync"
-	httppost "tf-idf/cmd/api"
 	pb "tf-idf/cmd/pb"
 	redisclient "tf-idf/cmd/redisClient"
 	"time"
