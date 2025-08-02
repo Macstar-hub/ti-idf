@@ -9,6 +9,7 @@ require (
 	github.com/go-sql-driver/mysql v1.8.1
 	github.com/gorilla/websocket v1.5.3
 	github.com/gregscott94/z-table-golang v1.0.0
+	github.com/howeyc/fsnotify v0.9.0
 	github.com/labstack/gommon v0.4.2
 	github.com/mattn/go-colorable v0.1.14
 	github.com/mattn/go-runewidth v0.0.16

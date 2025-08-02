@@ -6,14 +6,13 @@ import (
 	"io"
 	"log"
 
-	// "net/http"
 	"os"
 	"sync"
+	httppost "tf-idf/cmd/api"
 	pb "tf-idf/cmd/pb"
 	redisclient "tf-idf/cmd/redisClient"
 	"time"
 
-	// "github.com/gin-gonic/gin"
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"
 )
@@ -235,6 +234,7 @@ func getUploadStatus() {
 	wg.Add(1)
 	redisChannel := make(chan int, 1024)
 	go showStatus(redisChannel, wg)
+	go httppost.Producer(redisChannel, wg)
 	for {
 		time.Sleep(100 * time.Microsecond)
 		value = redisclient.RedisGetOPS("UploadProgress")
