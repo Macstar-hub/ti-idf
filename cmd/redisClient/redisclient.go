@@ -3,14 +3,12 @@ package redisclient
 import (
 	"context"
 	// "fmt"
-	// "tf-idf/cmd/logger"
-	// "time"
 
-	// "fmt"
+	// "tf-idf/cmd/logger"
+
 	"log"
 	"strconv"
 
-	// "tf-idf/cmd/logger"
 	// "time"
 
 	"github.com/redis/go-redis/v9"
@@ -49,7 +47,7 @@ func RedisSetOPS(key string, value int) {
 	status := client.Set(ctx, key, value, 0)
 
 	if status != nil {
-		// log.Printf("%s\n", key, value, status)
+		log.Printf("%s\n", key, value, status)
 	} else {
 		return
 	}

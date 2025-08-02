@@ -5,12 +5,15 @@ import (
 	"fmt"
 	"io"
 	"log"
+
+	// "net/http"
 	"os"
 	"sync"
 	pb "tf-idf/cmd/pb"
 	redisclient "tf-idf/cmd/redisClient"
 	"time"
 
+	// "github.com/gin-gonic/gin"
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"
 )
@@ -244,8 +247,12 @@ func getUploadStatus() {
 }
 
 func showStatus(redisChannle chan int, wg *sync.WaitGroup) {
+	// var body *gin.Context
 	for status := range redisChannle {
 		time.Sleep(100 * time.Microsecond)
+		// body.HTML(http.StatusOK, "../../web/landingPages/upload.html", gin.H{
+		// 	"Progress": status,
+		// })
 		fmt.Printf("\rPercent: %d%%", status)
 		if status == 100 {
 			wg.Done()

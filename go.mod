@@ -4,14 +4,19 @@ go 1.23.3
 
 require (
 	github.com/cheggaaa/pb v1.0.29
+	github.com/fatih/color v1.18.0
 	github.com/gin-gonic/gin v1.10.0
 	github.com/go-sql-driver/mysql v1.8.1
+	github.com/gorilla/websocket v1.5.3
 	github.com/gregscott94/z-table-golang v1.0.0
 	github.com/labstack/gommon v0.4.2
+	github.com/mattn/go-colorable v0.1.14
+	github.com/mattn/go-runewidth v0.0.16
 	github.com/mavihq/persian v0.0.0-20231020110200-3e779b10be51
 	github.com/minio/minio-go/v7 v7.0.94
 	github.com/montanaflynn/stats v0.7.1
 	github.com/redis/go-redis/v9 v9.7.3
+	golang.org/x/sys v0.31.0
 	gonum.org/v1/plot v0.14.0
 )
 
@@ -27,7 +32,6 @@ require (
 	github.com/cloudwego/iasm v0.2.0 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
-	github.com/fatih/color v1.18.0 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.3 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/go-fonts/liberation v0.3.2 // indirect
@@ -44,9 +48,7 @@ require (
 	github.com/klauspost/compress v1.18.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.10 // indirect
 	github.com/leodido/go-urn v1.4.0 // indirect
-	github.com/mattn/go-colorable v0.1.14 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
-	github.com/mattn/go-runewidth v0.0.16 // indirect
 	github.com/minio/crc64nvme v1.0.1 // indirect
 	github.com/minio/md5-simd v1.1.2 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
@@ -65,7 +67,6 @@ require (
 	golang.org/x/crypto v0.36.0 // indirect
 	golang.org/x/image v0.14.0 // indirect
 	golang.org/x/net v0.38.0 // indirect
-	golang.org/x/sys v0.31.0 // indirect
 	golang.org/x/text v0.23.0 // indirect
 	gonum.org/v1/gonum v0.15.1 // indirect
 	google.golang.org/protobuf v1.34.1 // indirect

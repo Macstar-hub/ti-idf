@@ -13,7 +13,6 @@ import (
 	redisclient "tf-idf/cmd/redisClient"
 	"time"
 
-	// "github.com/cheggaaa/pb"
 	"github.com/gin-gonic/gin"
 )
 
@@ -151,8 +150,8 @@ func Search(body *gin.Context) {
 			"Label1": showLinksStruct.Label1[i],
 			"Label2": showLinksStruct.Label2[i],
 		})
-		// fmt.Println("+++++++++++++++", showLinksStruct)
 	}
+
 	body.HTML(http.StatusOK, "allLinks.html", gin.H{
 		"Links": links,
 	})

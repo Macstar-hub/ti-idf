@@ -1,17 +1,1 @@
 
-2025/07/12 17:11:09 set UploadProgress 0: OK
-2025/07/12 17:11:09 UploadProgress
-%!(EXTRA int=0, *redis.StatusCmd=set UploadProgress 0: OK)
-2025/07/12 17:11:09 set UploadProgress 0: OK
-2025/07/12 17:11:09 UploadProgress
-%!(EXTRA int=0, *redis.StatusCmd=set UploadProgress 0: OK)
-2025/07/12 17:11:09 set UploadProgress 0: OK
-2025/07/12 17:11:09 UploadProgress
-%!(EXTRA int=0, *redis.StatusCmd=set UploadProgress 0: OK)
-2025/07/12 17:11:09 set UploadProgress 0: OK
-2025/07/12 17:11:09 UploadProgress
-%!(EXTRA int=0, *redis.StatusCmd=set UploadProgress 0: OK)
-2025/07/12 17:11:09 set UploadProgress 0: OK
-2025/07/12 17:11:09 UploadProgress
-%!(EXTRA int=0, *redis.StatusCmd=set UploadProgress 0: OK)
-2025/07/12 17:11:09 set UploadProgress 0: OK
