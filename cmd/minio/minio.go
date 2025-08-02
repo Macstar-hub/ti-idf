@@ -233,7 +233,7 @@ func getUploadStatus() {
 	wg.Add(1)
 	redisChannel := make(chan int, 1024)
 	go showStatus(redisChannel, wg)
-	go httppost.Producer(redisChannel, wg)
+	// go httppost.Producer(redisChannel, wg)
 	for {
 		time.Sleep(100 * time.Microsecond)
 		value = redisclient.RedisGetOPS("UploadProgress")
